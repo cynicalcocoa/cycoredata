@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSManagedObject+CYCoreData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSManagedObject(CYCoreData)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</TokenIdentifier>
+			<Abstract type="html">Sets the keys and type of the unique indexer forNSManagedObjects. This key is used to fetch uniqueEntityin the database.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureModelUniqueIdentifier:(NSString *)uniquePropertyKey ofDataType:(UniqueObjectValueType)uniqueObjectValueType withJSONSearchString:(NSString *)jsonSearchPropertyKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>uniquePropertyKey</Name>
+					<Abstract type="html">NSStringfor the unique property key if the NSManagedObject; example @&quot;uid&quot;</Abstract>
+				</Parameter><Parameter>
+					<Name>uniqueObjectValueType</Name>
+					<Abstract type="html">UniqueObjectValueType type of value the uniquePropertyKey is</Abstract>
+				</Parameter><Parameter>
+					<Name>jsonSearchPropertyKey</Name>
+					<Abstract type="html">NSStringthe key the unique property will have on a JSON of for that object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/configureUniqueIdentifier:</TokenIdentifier>
+			<Abstract type="html">Utility method for configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureUniqueIdentifier:(UniqueIdentiferStruct)uniqueIdentiferStruct</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>`UniqueIdentiferStruct`</Name>
+					<Abstract type="html">Predefined struct of the values passesd to configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configureUniqueIdentifier:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/entityName</TokenIdentifier>
+			<Abstract type="html">Returns a NSString value of to identitify the class of the NSManagedObject</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)entityName</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSStringto identify class name</Abstract></ReturnValue>
+			<Anchor>//api/name/entityName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/newObjectInContext:</TokenIdentifier>
+			<Abstract type="html">Creates and returns an NSManagedObject subclass from the subclass that calls it from the NSManagedObjectContext passed.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)newObjectInContext:(NSManagedObjectContext *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContextthe context the NSManagedObject subclass will be inserted from</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">instancetype NSManagedObject subclass from the subclass that calls it.</Abstract></ReturnValue>
+			<Anchor>//api/name/newObjectInContext:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/updateOrCreateObjectInContext:withDictionary:</TokenIdentifier>
+			<Abstract type="html">Creates and returns an NSManagedObject subclass from the subclass that calls it from the NSManagedObjectContext passed. The NSDictionary passed will be parsed and key value mapped to the new created NSManagedObject subclass.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)updateOrCreateObjectInContext:(NSManagedObjectContext *)context withDictionary:(NSDictionary *)dictionary</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>context`NSManagedObjectContext`the</Name>
+					<Abstract type="html">context the NSManagedObject subclass will be inserted from</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">instancetype NSManagedObject subclass from the subclass that calls it.</Abstract></ReturnValue>
+			<Anchor>//api/name/updateOrCreateObjectInContext:withDictionary:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/deleteAllObjectsInContext:</TokenIdentifier>
+			<Abstract type="html">Deletes allNSEntityDescriptionof NSManagedObject subclass that calls it from the NSManagedObjectContext passed.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)deleteAllObjectsInContext:(NSManagedObjectContext *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContextto delete the NSManagedObject subclass from</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteAllObjectsInContext:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/deleteObjectsInContext:sortedBy:withPredicate:</TokenIdentifier>
+			<Abstract type="html">Deletes specifically fetchedNSEntityDescriptionof NSManagedObject with NSSortDescriptors and NSPredicate of subclass that calls it from the NSManagedObjectContext passed.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)deleteObjectsInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContextto delete the NSManagedObject subclass from</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteObjectsInContext:sortedBy:withPredicate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/updateWithDictionary:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary passed will be parsed and key value mapped to NSManagedObject subclass.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)updateWithDictionary:(NSDictionary *)dictionary</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateWithDictionary:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setBoolValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSStringkeys in NSArray. If found, BOOL values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setBoolValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for BOOLs in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setBoolValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setIntValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, int values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setIntValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for ints in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIntValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setIntegerValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, NSInteger values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setIntegerValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for NSIntegers in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setIntegerValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setFloatValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, float values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setFloatValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for floats in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setFloatValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setDoubleValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, double values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setDoubleValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for doubles in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDoubleValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setDateValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, timestamp string values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setDateValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for Timestamps in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDateValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setUnixDateValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, int string values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setUnixDateValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for Unix Timestamps in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setUnixDateValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setMicrosecondDateValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, doubleValue string values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setMicrosecondDateValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for Timestamps in microseconds in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setMicrosecondDateValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setStringValuesInDictionary:forKeys:</TokenIdentifier>
+			<Abstract type="html">The NSDictionary will be searched by NSString keys in NSArray. If found, NSString values will be applied to NSManagedObject subclass that called it.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setStringValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ...</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary that will be parsed and key value mapped to the new created NSManagedObject subclass</Abstract>
+				</Parameter><Parameter>
+					<Name>keys</Name>
+					<Abstract type="html">NSArray of NSString keys for NSStrings in the the NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setStringValuesInDictionary:forKeys:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchObjectsInContext:sortedBy:withPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns specifically fetchedNSEntityDescriptionof NSManagedObject with sortDescriptors and predicate of subclass that calls it from the NSManagedObjectContext passed.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)fetchObjectsInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContext to fetch the NSManagedObject subclass from</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSArray of NSManagedObject subclasses that satisfy the NSSortDescriptors and NSPredicate</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectsInContext:sortedBy:withPredicate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchCountInContext:withPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns an NSUInteger identitifying the number of NSManagedObject subclasses in the NSManagedObjectContext passed with predicate.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSUInteger)fetchCountInContext:(NSManagedObjectContext *)context withPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContext to fetch from</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSUInteger identitifying the number of NSManagedObject subclasses in the NSManagedObjectContext passed with NSPredicate</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchCountInContext:withPredicate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchFirstObjectInContext:sortedBy:withPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns first NSManagedObject subclasses with NSSortDescriptors and NSPredicate of subclass that calls it from the NSManagedObjectContext passed.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)fetchFirstObjectInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContext to fetch from</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">instancetype NSManagedObject subclass returned from an NSFetchRequest with NSSortDescriptors and NSPredicate from the NSManagedObjectContext passed</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchFirstObjectInContext:sortedBy:withPredicate:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchAllInContext:</TokenIdentifier>
+			<Abstract type="html">Returns all NSManagedObject subclass from the NSManagedObjectContext passed.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)fetchAllInContext:(NSManagedObjectContext *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContext the context to fetch from</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSArray of NSManagedObject subclasses from the NSManagedObjectContext passed.</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchAllInContext:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchObjectsInContext:byPageNumber:withObjectsPerPage:withSortDescriptors:</TokenIdentifier>
+			<Abstract type="html">FetchesNSEntityDescriptionof NSManagedObject subclasses with NSSortDescriptors of subclass that calls it from the NSManagedObjectContext passed. The resulting array is paginated by the perPage and the give page pageNumber is returned</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)fetchObjectsInContext:(NSManagedObjectContext *)context byPageNumber:(NSInteger)pageNumber withObjectsPerPage:(NSInteger)perPage withSortDescriptors:(NSArray *)sortDescriptors</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContext to fetch from</Abstract>
+				</Parameter><Parameter>
+					<Name>pageNumber</Name>
+					<Abstract type="html">NSInteger the page number to return</Abstract>
+				</Parameter><Parameter>
+					<Name>perPage</Name>
+					<Abstract type="html">NSInteger the amount of NSManagedObject subclasses per page</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSArray of NSManagedObject subclasses from the NSManagedObjectContext passed, queried by sortDescriptors of pageNumber when paginated by perPage</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectsInContext:byPageNumber:withObjectsPerPage:withSortDescriptors:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchObjectsInContext:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:</TokenIdentifier>
+			<Abstract type="html">FetchesNSEntityDescriptionof NSManagedObject subclasses with NSSortDescriptors and NSPredicate of subclass that calls it from the NSManagedObjectContext passed. The resulting array is paginated by the perPage and the give page pageNumber is returned</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)fetchObjectsInContext:(NSManagedObjectContext *)context byPageNumber:(NSInteger)pageNumber withObjectsPerPage:(NSInteger)perPage andPredicate:(NSPredicate *)predicate withSortDescriptors:(NSArray *)sortDescriptors</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">NSManagedObjectContext to fetch from</Abstract>
+				</Parameter><Parameter>
+					<Name>pageNumber</Name>
+					<Abstract type="html">NSInteger the page number to return</Abstract>
+				</Parameter><Parameter>
+					<Name>perPage</Name>
+					<Abstract type="html">NSInteger the amount of NSManagedObject subclasses per page</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSArray of NSManagedObject subclasses from the NSManagedObjectContext passed, queried by NSSortDescriptors and NSPredicate of pageNumber when paginated by perPage</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectsInContext:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

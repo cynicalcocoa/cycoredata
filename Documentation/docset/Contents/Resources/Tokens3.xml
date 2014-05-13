@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSManagedObjectContext+CYCoreData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSManagedObjectContext(CYCoreData)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/saveSynchronously</TokenIdentifier>
+			<Abstract type="html">Calls a sychronous(blocking) action to the top parent NSManagedObjectContext to write the changes to disk. Changes written to a temporaryWriteContext are immediately avaible through the readContext.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)saveSynchronously</Declaration>
+			
+			
+			<Anchor>//api/name/saveSynchronously</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/saveAsynchronously</TokenIdentifier>
+			<Abstract type="html">Calls a asychronous(nonblocking) action to the top parent NSManagedObjectContext to write the changes to disk. Changes written to a temporaryWriteContext are immediately avaible through the readContext.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)saveAsynchronously</Declaration>
+			
+			
+			<Anchor>//api/name/saveAsynchronously</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/insertNewObjectWithEntityName:</TokenIdentifier>
+			<Abstract type="html">Returns a new NSEntityDescription of entityName in its own context.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (id)insertNewObjectWithEntityName:(NSString *)entityName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSEntityDescription who&apos;s managedObjectContext is context that insertNewObjectWithEntityName was called upon</Abstract></ReturnValue>
+			<Anchor>//api/name/insertNewObjectWithEntityName:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/deleteAllObjectsWithEntityName:</TokenIdentifier>
+			<Abstract type="html">Deletes all NSEntityDescription of entityName from its own context.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteAllObjectsWithEntityName:(NSString *)entityName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteAllObjectsWithEntityName:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/deleteObjectsWithEntityName:sortDescriptors:andPredicate:</TokenIdentifier>
+			<Abstract type="html">Deletes specific NSEntityDescriptions of entityName returned from a NSFetchRequest with NSSortDescriptors and NSPredicate from its own NSManagedObjectContext.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteObjectsWithEntityName:(NSString *)entityName sortDescriptors:(NSArray *)sortDescriptors andPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteObjectsWithEntityName:sortDescriptors:andPredicate:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchRequestForEntity:</TokenIdentifier>
+			<Abstract type="html">Returns an NSFetchRequest for an NSEntityDescription</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSFetchRequest *)fetchRequestForEntity:(NSEntityDescription *)entity</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entity</Name>
+					<Abstract type="html">NSEntityDescription to fetch</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSFetchRequest for an NSEntityDescription</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchRequestForEntity:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchRequestForEntityName:</TokenIdentifier>
+			<Abstract type="html">Returns an NSFetchRequest for an NSEntityDescription of type entityName</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSFetchRequest *)fetchRequestForEntityName:(NSString *)entityName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSFetchRequest for an NSEntityDescription of type entityName</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchRequestForEntityName:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchRequestForEntityName:sortDescriptors:andPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns an NSFetchRequest with entityName, NSSortDescriptors and NSPredicate from its own NSManagedObjectContext.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSFetchRequest *)fetchRequestForEntityName:(NSString *)entityName sortDescriptors:(NSArray *)sortDescriptors andPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An NSFetchRequest for an NSEntityDescription of type entityName with NSSortDescriptors and NSPredicate</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchRequestForEntityName:sortDescriptors:andPredicate:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchCountWithRequest:</TokenIdentifier>
+			<Abstract type="html">Returns an NSUInteger identitifying the number of NSEntityDescriptions returned by NSFetchRequest</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)fetchCountWithRequest:(NSFetchRequest *)fetchRequest</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>fetchRequest</Name>
+					<Abstract type="html">NSFetchRequest request to execute</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSUInteger identitifying the number of NSEntityDescriptions returned by NSFetchRequest</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchCountWithRequest:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchObjectsWithEntityName:sortedBy:withPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns specific NSEntityDescriptions returned from a NSFetchRequest with entityName, NSSortDescriptors and NSPredicate from its own NSManagedObjectContext.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)fetchObjectsWithEntityName:(NSString *)entityName sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSArray of NSEntityDescriptions returned from a NSFetchRequest with NSSortDescriptors and predicate from its own NSManagedObjectContext.</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectsWithEntityName:sortedBy:withPredicate:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchFirstObjectWithEntityName:sortedBy:withPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns first NSEntityDescription returned from a NSFetchRequest with entityName, NSSortDescriptors and NSPredicate from its own NSManagedObjectContext.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (id)fetchFirstObjectWithEntityName:(NSString *)entityName sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">First NSEntityDescription in NSArray returned from a NSFetchRequest with NSSortDescriptors and NSPredicate from its own NSManagedObjectContext.</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchFirstObjectWithEntityName:sortedBy:withPredicate:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchCountWithEntityName:andPredicate:</TokenIdentifier>
+			<Abstract type="html">Returns an NSUInteger identitifying the number of NSEntityDescriptions returned by NSFetchRequest with entityName and NSPredicate</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)fetchCountWithEntityName:(NSString *)entityName andPredicate:(NSPredicate *)predicate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSUInteger identitifying the number of NSEntityDescriptions returned by NSFetchRequest</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchCountWithEntityName:andPredicate:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/fetchObjectsWithEntityName:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:</TokenIdentifier>
+			<Abstract type="html">Paginates NSEntityDescriptions returned from a NSFetchRequest with entityName, NSSortDescriptors and NSPredicate by perPage. Returns perPage of NSEntityDescriptions at pageNumber.</Abstract>
+			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)fetchObjectsWithEntityName:(NSString *)entityName byPageNumber:(NSInteger)pageNumber withObjectsPerPage:(NSInteger)perPage andPredicate:(NSPredicate *)predicate withSortDescriptors:(NSArray *)sortDescriptors</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>entityName</Name>
+					<Abstract type="html">NSString of the entity name</Abstract>
+				</Parameter><Parameter>
+					<Name>pageNumber</Name>
+					<Abstract type="html">NSInteger of requested page</Abstract>
+				</Parameter><Parameter>
+					<Name>perPage</Name>
+					<Abstract type="html">NSInteger to divide total number NSEntityDescriptions by</Abstract>
+				</Parameter><Parameter>
+					<Name>predicate</Name>
+					<Abstract type="html">NSPredicate to search against</Abstract>
+				</Parameter><Parameter>
+					<Name>sortDescriptors</Name>
+					<Abstract type="html">NSArray of NSSortDescriptors to order against</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSArray of NSEntityDescriptions returned from a NSFetchRequest with NSSortDescriptors and NSPredicate from its own NSManagedObjectContext. Count limited by pageNumber and offset by perPage * (pageNumber - 1)</Abstract></ReturnValue>
+			<Anchor>//api/name/fetchObjectsWithEntityName:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

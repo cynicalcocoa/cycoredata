@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CYCoreData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CYCoreData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/configureSqliteFileName:withModelFileName:inBundleName:</TokenIdentifier>
+			<Abstract type="html">Configures the file name for the .sqlite saved in the NSCachesDirectory. Tells CYCoreData the name of the *.xcdatamodeld to use and what bundle to search for it in</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName inBundleName:(NSString *)bundleName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataBaseFileName</Name>
+					<Abstract type="html">NSString of the database file name that will get saved in the cache directory</Abstract>
+				</Parameter><Parameter>
+					<Name>bundleName</Name>
+					<Abstract type="html">NSString of the bundle name that contains the modelfile</Abstract>
+				</Parameter><Parameter>
+					<Name>withModelFileName</Name>
+					<Abstract type="html">NSString of the .xcdatamodeld in the bundle</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configureSqliteFileName:withModelFileName:inBundleName:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/configureSqliteFileName:withModelFileName:</TokenIdentifier>
+			<Abstract type="html">Configures file name for the .sqlite saved in the NSCachesDirectory. Tells CYCoreData the name of the *.xcdatamodeld to use and assumes it is located in the main bundle</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dataBaseFileName</Name>
+					<Abstract type="html">NSString of the database file name that will get saved in the cache directory</Abstract>
+				</Parameter><Parameter>
+					<Name>withModelFileName</Name>
+					<Abstract type="html">NSString of the .xcdatamodeld in the bundle</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configureSqliteFileName:withModelFileName:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</TokenIdentifier>
+			<Abstract type="html">Sets the keys and type of the unique indexer for NSManagedObjects. This key is used to fetch unique NSEntity in the database.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureModelUniqueIdentifier:(NSString *)uniquePropertyKey ofDataType:(UniqueObjectValueType)uniqueObjectValueType withJSONSearchString:(NSString *)jsonSearchPropertyKey</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>uniquePropertyKey</Name>
+					<Abstract type="html">NSString for the unique property key if the NSManagedObject; example @&quot;uid&quot;</Abstract>
+				</Parameter><Parameter>
+					<Name>uniqueObjectValueType</Name>
+					<Abstract type="html">UniqueObjectValueType type of value the uniquePropertyKey is</Abstract>
+				</Parameter><Parameter>
+					<Name>jsonSearchPropertyKey</Name>
+					<Abstract type="html">NSString the key the unique property will have on a JSON of for that object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/configureUniqueIdentifier:</TokenIdentifier>
+			<Abstract type="html">Utility method for configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)configureUniqueIdentifier:(UniqueIdentiferStruct)uniqueIdentiferStruct</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>`UniqueIdentiferStruct`</Name>
+					<Abstract type="html">Predefined struct of the values passesd to configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configureUniqueIdentifier:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/setTesting:</TokenIdentifier>
+			<Abstract type="html">If set to YES, CYCoreData uses an NSInMemoryStoreType and does not write data to sqlite file via NSSQLiteStoreType.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)setTesting:(BOOL)isTesting</Declaration>
+			
+			
+			<Anchor>//api/name/setTesting:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/liason</TokenIdentifier>
+			<Abstract type="html">Return singleton instance of CYCoreData</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)liason</Declaration>
+			
+			<ReturnValue><Abstract type="html">Return singleton instance of CYCoreData</Abstract></ReturnValue>
+			<Anchor>//api/name/liason</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/reset</TokenIdentifier>
+			<Abstract type="html">Empties database of all entities, destroys NSManagedObject model and NSPersistantStoreCoordinator.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/readContext</TokenIdentifier>
+			<Abstract type="html">Returns NSManagedObjectContext of [CYCoreData liason].readContext private property. The concurrencyType is NSMainQueueConcurrencyType which means all fetched entities will be on the main runloop and suitable for view display.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSManagedObjectContext *)readContext</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSManagedObjectContext of [CYCoreData liason].readContext</Abstract></ReturnValue>
+			<Anchor>//api/name/readContext</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/temporaryWriteContext</TokenIdentifier>
+			<Abstract type="html">Returns a brand NSManagedObjectContext of spawned off of the [CYCoreData readContext]. To update the database, fetch the NSEntityDescriptions from this context, create or modify as you see fit. When finished, immediately call either [temporaryWriteContext saveSynchronously] or [temporaryWriteContext saveAsynchronously]. This ensures that the changes will be pushed up to the readContext, then written to disk.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (NSManagedObjectContext *)temporaryWriteContext</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSManagedObjectContext of [CYCoreData liason]</Abstract></ReturnValue>
+			<Anchor>//api/name/temporaryWriteContext</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/saveSynchronously</TokenIdentifier>
+			<Abstract type="html">Calls a sychronous(blocking) action to the top NSManagedObjectContext to write the changes to disk.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)saveSynchronously</Declaration>
+			
+			
+			<Anchor>//api/name/saveSynchronously</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/saveAsynchronously</TokenIdentifier>
+			<Abstract type="html">Calls a Asychronous(nonblocking) action to the top NSManagedObjectContext to write the changes to disk.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)saveAsynchronously</Declaration>
+			
+			
+			<Anchor>//api/name/saveAsynchronously</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/saveContextAndWait:</TokenIdentifier>
+			<Abstract type="html">For readContext performBlockAndWait pass YES. For readContext performBlock pass NO.</Abstract>
+			<DeclaredIn>CYCoreData.h</DeclaredIn>
+			
+			<Declaration>+ (void)saveContextAndWait:(BOOL)andWait</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>andWait</Name>
+					<Abstract type="html">BOOL for identify call to context performBlock or performBlockAndWait</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveContextAndWait:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

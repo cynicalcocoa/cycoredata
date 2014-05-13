@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D2D5ED0F1922761B00D6C44C /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2D5ED101922761B00D6C44C /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				D2D5ED131922762F00D6C44C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BC0DDFB563624E2C880BF9E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F690727A584F411AAAD9EF99 /* libPods.a */; };
+		D2D5ECA41922558600D6C44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ECA31922558600D6C44C /* Foundation.framework */; };
+		D2D5ECA61922558600D6C44C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ECA51922558600D6C44C /* CoreGraphics.framework */; };
+		D2D5ECA81922558600D6C44C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ECA71922558600D6C44C /* UIKit.framework */; };
+		D2D5ECAE1922558600D6C44C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D5ECAC1922558600D6C44C /* InfoPlist.strings */; };
+		D2D5ECB01922558600D6C44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECAF1922558600D6C44C /* main.m */; };
+		D2D5ECB41922558600D6C44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECB31922558600D6C44C /* AppDelegate.m */; };
+		D2D5ECBC1922558600D6C44C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D5ECBB1922558600D6C44C /* Images.xcassets */; };
+		D2D5ECC31922558600D6C44C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ECC21922558600D6C44C /* XCTest.framework */; };
+		D2D5ECC41922558600D6C44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ECA31922558600D6C44C /* Foundation.framework */; };
+		D2D5ECC51922558600D6C44C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D5ECA71922558600D6C44C /* UIKit.framework */; };
+		D2D5ECCD1922558600D6C44C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D5ECCB1922558600D6C44C /* InfoPlist.strings */; };
+		D2D5ECDB192258B900D6C44C /* CYCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECD8192258B900D6C44C /* CYCoreDataTests.m */; };
+		D2D5ECDC192258B900D6C44C /* MockCYCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECDA192258B900D6C44C /* MockCYCoreData.m */; };
+		D2D5ECDE192258CD00D6C44C /* CYCoreDataNSManagedObjectContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECDD192258CD00D6C44C /* CYCoreDataNSManagedObjectContextTests.m */; };
+		D2D5ED02192258E800D6C44C /* RedditListingResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECE1192258E800D6C44C /* RedditListingResponseSerializer.m */; };
+		D2D5ED03192258E800D6C44C /* ExampleModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECE3192258E800D6C44C /* ExampleModel.xcdatamodeld */; };
+		D2D5ED04192258E800D6C44C /* Listing+API.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECE7192258E800D6C44C /* Listing+API.m */; };
+		D2D5ED05192258E800D6C44C /* Listing+Read.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECE9192258E800D6C44C /* Listing+Read.m */; };
+		D2D5ED06192258E800D6C44C /* Listing+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECEB192258E800D6C44C /* Listing+Util.m */; };
+		D2D5ED07192258E800D6C44C /* Listing+Write.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECED192258E800D6C44C /* Listing+Write.m */; };
+		D2D5ED08192258E800D6C44C /* Listing.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECEF192258E800D6C44C /* Listing.m */; };
+		D2D5ED09192258E800D6C44C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECF1192258E800D6C44C /* RootViewController.m */; };
+		D2D5ED0A192258E800D6C44C /* global_spinner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D5ECF4192258E800D6C44C /* global_spinner@2x.png */; };
+		D2D5ED0B192258E800D6C44C /* CYActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECF6192258E800D6C44C /* CYActivityIndicator.m */; };
+		D2D5ED0C192258E800D6C44C /* FetchAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECFB192258E800D6C44C /* FetchAllViewController.m */; };
+		D2D5ED0D192258E800D6C44C /* FetchWithPredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECFE192258E800D6C44C /* FetchWithPredicateViewController.m */; };
+		D2D5ED0E192258E800D6C44C /* OverloadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ED01192258E800D6C44C /* OverloadExampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D5ECC61922558600D6C44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D5EC981922558600D6C44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5EC9F1922558600D6C44C;
+			remoteInfo = CYCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143223A1B1844F7DB98AB983 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D2D5ECA01922558600D6C44C /* CYCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5ECA31922558600D6C44C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2D5ECA51922558600D6C44C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2D5ECA71922558600D6C44C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2D5ECAB1922558600D6C44C /* CYCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CYCoreData-Info.plist"; sourceTree = "<group>"; };
+		D2D5ECAD1922558600D6C44C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2D5ECAF1922558600D6C44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2D5ECB11922558600D6C44C /* CYCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CYCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		D2D5ECB21922558600D6C44C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2D5ECB31922558600D6C44C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2D5ECBB1922558600D6C44C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2D5ECC11922558600D6C44C /* CYCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5ECC21922558600D6C44C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D2D5ECCA1922558600D6C44C /* CYCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CYCoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		D2D5ECCC1922558600D6C44C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2D5ECD8192258B900D6C44C /* CYCoreDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCoreDataTests.m; sourceTree = "<group>"; };
+		D2D5ECD9192258B900D6C44C /* MockCYCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockCYCoreData.h; sourceTree = "<group>"; };
+		D2D5ECDA192258B900D6C44C /* MockCYCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockCYCoreData.m; sourceTree = "<group>"; };
+		D2D5ECDD192258CD00D6C44C /* CYCoreDataNSManagedObjectContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCoreDataNSManagedObjectContextTests.m; sourceTree = "<group>"; };
+		D2D5ECE0192258E800D6C44C /* RedditListingResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditListingResponseSerializer.h; sourceTree = "<group>"; };
+		D2D5ECE1192258E800D6C44C /* RedditListingResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditListingResponseSerializer.m; sourceTree = "<group>"; };
+		D2D5ECE4192258E800D6C44C /* ExampleModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleModel.xcdatamodel; sourceTree = "<group>"; };
+		D2D5ECE6192258E800D6C44C /* Listing+API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Listing+API.h"; sourceTree = "<group>"; };
+		D2D5ECE7192258E800D6C44C /* Listing+API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Listing+API.m"; sourceTree = "<group>"; };
+		D2D5ECE8192258E800D6C44C /* Listing+Read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Listing+Read.h"; sourceTree = "<group>"; };
+		D2D5ECE9192258E800D6C44C /* Listing+Read.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Listing+Read.m"; sourceTree = "<group>"; };
+		D2D5ECEA192258E800D6C44C /* Listing+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Listing+Util.h"; sourceTree = "<group>"; };
+		D2D5ECEB192258E800D6C44C /* Listing+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Listing+Util.m"; sourceTree = "<group>"; };
+		D2D5ECEC192258E800D6C44C /* Listing+Write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Listing+Write.h"; sourceTree = "<group>"; };
+		D2D5ECED192258E800D6C44C /* Listing+Write.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Listing+Write.m"; sourceTree = "<group>"; };
+		D2D5ECEE192258E800D6C44C /* Listing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listing.h; sourceTree = "<group>"; };
+		D2D5ECEF192258E800D6C44C /* Listing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Listing.m; sourceTree = "<group>"; };
+		D2D5ECF0192258E800D6C44C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D2D5ECF1192258E800D6C44C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D2D5ECF4192258E800D6C44C /* global_spinner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global_spinner@2x.png"; sourceTree = "<group>"; };
+		D2D5ECF5192258E800D6C44C /* CYActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYActivityIndicator.h; sourceTree = "<group>"; };
+		D2D5ECF6192258E800D6C44C /* CYActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYActivityIndicator.m; sourceTree = "<group>"; };
+		D2D5ECFA192258E800D6C44C /* FetchAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllViewController.h; sourceTree = "<group>"; };
+		D2D5ECFB192258E800D6C44C /* FetchAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllViewController.m; sourceTree = "<group>"; };
+		D2D5ECFD192258E800D6C44C /* FetchWithPredicateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchWithPredicateViewController.h; sourceTree = "<group>"; };
+		D2D5ECFE192258E800D6C44C /* FetchWithPredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchWithPredicateViewController.m; sourceTree = "<group>"; };
+		D2D5ED00192258E800D6C44C /* OverloadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverloadExampleViewController.h; sourceTree = "<group>"; };
+		D2D5ED01192258E800D6C44C /* OverloadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverloadExampleViewController.m; sourceTree = "<group>"; };
+		F690727A584F411AAAD9EF99 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D5EC9D1922558600D6C44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5ECA61922558600D6C44C /* CoreGraphics.framework in Frameworks */,
+				D2D5ECA81922558600D6C44C /* UIKit.framework in Frameworks */,
+				D2D5ECA41922558600D6C44C /* Foundation.framework in Frameworks */,
+				BC0DDFB563624E2C880BF9E8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5ECBE1922558600D6C44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5ECC31922558600D6C44C /* XCTest.framework in Frameworks */,
+				D2D5ECC51922558600D6C44C /* UIKit.framework in Frameworks */,
+				D2D5ECC41922558600D6C44C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D5EC971922558600D6C44C = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECA91922558600D6C44C /* CYCoreData */,
+				D2D5ECC81922558600D6C44C /* CYCoreDataTests */,
+				D2D5ECA21922558600D6C44C /* Frameworks */,
+				D2D5ECA11922558600D6C44C /* Products */,
+				143223A1B1844F7DB98AB983 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D5ECA11922558600D6C44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECA01922558600D6C44C /* CYCoreData.app */,
+				D2D5ECC11922558600D6C44C /* CYCoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D5ECA21922558600D6C44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECA31922558600D6C44C /* Foundation.framework */,
+				D2D5ECA51922558600D6C44C /* CoreGraphics.framework */,
+				D2D5ECA71922558600D6C44C /* UIKit.framework */,
+				D2D5ECC21922558600D6C44C /* XCTest.framework */,
+				F690727A584F411AAAD9EF99 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D5ECA91922558600D6C44C /* CYCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECF0192258E800D6C44C /* RootViewController.h */,
+				D2D5ECF1192258E800D6C44C /* RootViewController.m */,
+				D2D5ECDF192258E800D6C44C /* afnetworking */,
+				D2D5ECE2192258E800D6C44C /* coredata */,
+				D2D5ECF2192258E800D6C44C /* ui */,
+				D2D5ECF7192258E800D6C44C /* viewcontroller */,
+				D2D5ECAA1922558600D6C44C /* Supporting Files */,
+			);
+			path = CYCoreData;
+			sourceTree = "<group>";
+		};
+		D2D5ECAA1922558600D6C44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECB21922558600D6C44C /* AppDelegate.h */,
+				D2D5ECB31922558600D6C44C /* AppDelegate.m */,
+				D2D5ECBB1922558600D6C44C /* Images.xcassets */,
+				D2D5ECAB1922558600D6C44C /* CYCoreData-Info.plist */,
+				D2D5ECAC1922558600D6C44C /* InfoPlist.strings */,
+				D2D5ECAF1922558600D6C44C /* main.m */,
+				D2D5ECB11922558600D6C44C /* CYCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2D5ECC81922558600D6C44C /* CYCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECDD192258CD00D6C44C /* CYCoreDataNSManagedObjectContextTests.m */,
+				D2D5ECD8192258B900D6C44C /* CYCoreDataTests.m */,
+				D2D5ECD9192258B900D6C44C /* MockCYCoreData.h */,
+				D2D5ECDA192258B900D6C44C /* MockCYCoreData.m */,
+				D2D5ECC91922558600D6C44C /* Supporting Files */,
+			);
+			path = CYCoreDataTests;
+			sourceTree = "<group>";
+		};
+		D2D5ECC91922558600D6C44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECCA1922558600D6C44C /* CYCoreDataTests-Info.plist */,
+				D2D5ECCB1922558600D6C44C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2D5ECDF192258E800D6C44C /* afnetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECE0192258E800D6C44C /* RedditListingResponseSerializer.h */,
+				D2D5ECE1192258E800D6C44C /* RedditListingResponseSerializer.m */,
+			);
+			path = afnetworking;
+			sourceTree = "<group>";
+		};
+		D2D5ECE2192258E800D6C44C /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECE3192258E800D6C44C /* ExampleModel.xcdatamodeld */,
+				D2D5ECE5192258E800D6C44C /* listing */,
+			);
+			path = coredata;
+			sourceTree = "<group>";
+		};
+		D2D5ECE5192258E800D6C44C /* listing */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECE6192258E800D6C44C /* Listing+API.h */,
+				D2D5ECE7192258E800D6C44C /* Listing+API.m */,
+				D2D5ECE8192258E800D6C44C /* Listing+Read.h */,
+				D2D5ECE9192258E800D6C44C /* Listing+Read.m */,
+				D2D5ECEA192258E800D6C44C /* Listing+Util.h */,
+				D2D5ECEB192258E800D6C44C /* Listing+Util.m */,
+				D2D5ECEC192258E800D6C44C /* Listing+Write.h */,
+				D2D5ECED192258E800D6C44C /* Listing+Write.m */,
+				D2D5ECEE192258E800D6C44C /* Listing.h */,
+				D2D5ECEF192258E800D6C44C /* Listing.m */,
+			);
+			path = listing;
+			sourceTree = "<group>";
+		};
+		D2D5ECF2192258E800D6C44C /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECF3192258E800D6C44C /* activityindicator */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		D2D5ECF3192258E800D6C44C /* activityindicator */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECF4192258E800D6C44C /* global_spinner@2x.png */,
+				D2D5ECF5192258E800D6C44C /* CYActivityIndicator.h */,
+				D2D5ECF6192258E800D6C44C /* CYActivityIndicator.m */,
+			);
+			path = activityindicator;
+			sourceTree = "<group>";
+		};
+		D2D5ECF7192258E800D6C44C /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECF8192258E800D6C44C /* fetch */,
+				D2D5ECFF192258E800D6C44C /* write */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		D2D5ECF8192258E800D6C44C /* fetch */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECF9192258E800D6C44C /* all */,
+				D2D5ECFC192258E800D6C44C /* predicate */,
+			);
+			path = fetch;
+			sourceTree = "<group>";
+		};
+		D2D5ECF9192258E800D6C44C /* all */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECFA192258E800D6C44C /* FetchAllViewController.h */,
+				D2D5ECFB192258E800D6C44C /* FetchAllViewController.m */,
+			);
+			path = all;
+			sourceTree = "<group>";
+		};
+		D2D5ECFC192258E800D6C44C /* predicate */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECFD192258E800D6C44C /* FetchWithPredicateViewController.h */,
+				D2D5ECFE192258E800D6C44C /* FetchWithPredicateViewController.m */,
+			);
+			path = predicate;
+			sourceTree = "<group>";
+		};
+		D2D5ECFF192258E800D6C44C /* write */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ED00192258E800D6C44C /* OverloadExampleViewController.h */,
+				D2D5ED01192258E800D6C44C /* OverloadExampleViewController.m */,
+			);
+			path = write;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D5EC9F1922558600D6C44C /* CYCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5ECD21922558600D6C44C /* Build configuration list for PBXNativeTarget "CYCoreData" */;
+			buildPhases = (
+				E780C39505E646DC80129BAB /* Check Pods Manifest.lock */,
+				D2D5EC9C1922558600D6C44C /* Sources */,
+				D2D5EC9D1922558600D6C44C /* Frameworks */,
+				D2D5EC9E1922558600D6C44C /* Resources */,
+				1113DBAF97FA487294EA5F0E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYCoreData;
+			productName = CYCoreData;
+			productReference = D2D5ECA01922558600D6C44C /* CYCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D5ECC01922558600D6C44C /* CYCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5ECD51922558600D6C44C /* Build configuration list for PBXNativeTarget "CYCoreDataTests" */;
+			buildPhases = (
+				D2D5ECBD1922558600D6C44C /* Sources */,
+				D2D5ECBE1922558600D6C44C /* Frameworks */,
+				D2D5ECBF1922558600D6C44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D5ECC71922558600D6C44C /* PBXTargetDependency */,
+			);
+			name = CYCoreDataTests;
+			productName = CYCoreDataTests;
+			productReference = D2D5ECC11922558600D6C44C /* CYCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D5EC981922558600D6C44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cynicalcocoa;
+				TargetAttributes = {
+					D2D5ECC01922558600D6C44C = {
+						TestTargetID = D2D5EC9F1922558600D6C44C;
+					};
+				};
+			};
+			buildConfigurationList = D2D5EC9B1922558600D6C44C /* Build configuration list for PBXProject "CYCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D5EC971922558600D6C44C;
+			productRefGroup = D2D5ECA11922558600D6C44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D5EC9F1922558600D6C44C /* CYCoreData */,
+				D2D5ECC01922558600D6C44C /* CYCoreDataTests */,
+				D2D5ED0F1922761B00D6C44C /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D5EC9E1922558600D6C44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5ECBC1922558600D6C44C /* Images.xcassets in Resources */,
+				D2D5ED0A192258E800D6C44C /* global_spinner@2x.png in Resources */,
+				D2D5ECAE1922558600D6C44C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5ECBF1922558600D6C44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5ECCD1922558600D6C44C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1113DBAF97FA487294EA5F0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D5ED131922762F00D6C44C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"cynicalcocoa\";\ncompanyID=\"com.cynicalcocoa\";\ncompanyURL=\"https://github.com/cynicalcocoa/cycoredata\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"../${PRODUCT_NAME}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}/../Classes\"\n";
+		};
+		E780C39505E646DC80129BAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D5EC9C1922558600D6C44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5ED0D192258E800D6C44C /* FetchWithPredicateViewController.m in Sources */,
+				D2D5ED08192258E800D6C44C /* Listing.m in Sources */,
+				D2D5ED06192258E800D6C44C /* Listing+Util.m in Sources */,
+				D2D5ED05192258E800D6C44C /* Listing+Read.m in Sources */,
+				D2D5ED07192258E800D6C44C /* Listing+Write.m in Sources */,
+				D2D5ED09192258E800D6C44C /* RootViewController.m in Sources */,
+				D2D5ED0C192258E800D6C44C /* FetchAllViewController.m in Sources */,
+				D2D5ED04192258E800D6C44C /* Listing+API.m in Sources */,
+				D2D5ECB41922558600D6C44C /* AppDelegate.m in Sources */,
+				D2D5ECB01922558600D6C44C /* main.m in Sources */,
+				D2D5ED0B192258E800D6C44C /* CYActivityIndicator.m in Sources */,
+				D2D5ED03192258E800D6C44C /* ExampleModel.xcdatamodeld in Sources */,
+				D2D5ED02192258E800D6C44C /* RedditListingResponseSerializer.m in Sources */,
+				D2D5ED0E192258E800D6C44C /* OverloadExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5ECBD1922558600D6C44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5ECDE192258CD00D6C44C /* CYCoreDataNSManagedObjectContextTests.m in Sources */,
+				D2D5ECDC192258B900D6C44C /* MockCYCoreData.m in Sources */,
+				D2D5ECDB192258B900D6C44C /* CYCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D5ECC71922558600D6C44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D5EC9F1922558600D6C44C /* CYCoreData */;
+			targetProxy = D2D5ECC61922558600D6C44C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2D5ECAC1922558600D6C44C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5ECAD1922558600D6C44C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2D5ECCB1922558600D6C44C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5ECCC1922558600D6C44C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D5ECD01922558600D6C44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2D5ECD11922558600D6C44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D5ECD31922558600D6C44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143223A1B1844F7DB98AB983 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CYCoreData/CYCoreData-Prefix.pch";
+				INFOPLIST_FILE = "CYCoreData/CYCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2D5ECD41922558600D6C44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143223A1B1844F7DB98AB983 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CYCoreData/CYCoreData-Prefix.pch";
+				INFOPLIST_FILE = "CYCoreData/CYCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2D5ECD61922558600D6C44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143223A1B1844F7DB98AB983 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CYCoreData.app/CYCoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CYCoreData/CYCoreData-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CYCoreDataTests/CYCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D2D5ECD71922558600D6C44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143223A1B1844F7DB98AB983 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CYCoreData.app/CYCoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CYCoreData/CYCoreData-Prefix.pch";
+				INFOPLIST_FILE = "CYCoreDataTests/CYCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		D2D5ED111922761B00D6C44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2D5ED121922761B00D6C44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D5EC9B1922558600D6C44C /* Build configuration list for PBXProject "CYCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5ECD01922558600D6C44C /* Debug */,
+				D2D5ECD11922558600D6C44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5ECD21922558600D6C44C /* Build configuration list for PBXNativeTarget "CYCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5ECD31922558600D6C44C /* Debug */,
+				D2D5ECD41922558600D6C44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5ECD51922558600D6C44C /* Build configuration list for PBXNativeTarget "CYCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5ECD61922558600D6C44C /* Debug */,
+				D2D5ECD71922558600D6C44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5ED101922761B00D6C44C /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5ED111922761B00D6C44C /* Debug */,
+				D2D5ED121922761B00D6C44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2D5ECE3192258E800D6C44C /* ExampleModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2D5ECE4192258E800D6C44C /* ExampleModel.xcdatamodel */,
+			);
+			currentVersion = D2D5ECE4192258E800D6C44C /* ExampleModel.xcdatamodel */;
+			path = ExampleModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2D5EC981922558600D6C44C /* Project object */;
+}
