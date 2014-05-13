@@ -16,7 +16,7 @@ it simply add the following line to your Podfile:
     pod "CYCoreData", '~> 0.1.0'
 
 ## Documentation
-For more see [http://cynicalcocoa.github.io/CYCoreData/](http://cynicalcocoa.github.io/CYCoreData/)
+For more see [http://cynicalcocoa.github.io/cycoredata/](http://cynicalcocoa.github.io/cycoredata/)
 
 
 ## Architecture
