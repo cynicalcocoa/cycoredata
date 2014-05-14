@@ -49,7 +49,7 @@
 
 - (void)testConfigureWithSqliteFileNameForPersistantStoreURL {
     [CYCoreData configureSqliteFileName:@"example_database" withModelFileName:@"ExampleModel" ];
-   MockCYCoreData *mcycd2                      = [MockCYCoreData liason];
+    MockCYCoreData *mcycd2                      = [MockCYCoreData liason];
 
     NSURL *cachesDirectoryURL                   = [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
     NSURL *storeURL                             = [cachesDirectoryURL URLByAppendingPathComponent:@"example_database"];

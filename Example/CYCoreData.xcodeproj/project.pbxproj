@@ -134,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D212C3AD1922FCE300648907 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5ECD9192258B900D6C44C /* MockCYCoreData.h */,
+				D2D5ECDA192258B900D6C44C /* MockCYCoreData.m */,
+			);
+			name = mocks;
+			sourceTree = "<group>";
+		};
 		D2D5EC971922558600D6C44C = {
 			isa = PBXGroup;
 			children = (
@@ -197,10 +206,9 @@
 		D2D5ECC81922558600D6C44C /* CYCoreDataTests */ = {
 			isa = PBXGroup;
 			children = (
+				D212C3AD1922FCE300648907 /* mocks */,
 				D2D5ECDD192258CD00D6C44C /* CYCoreDataNSManagedObjectContextTests.m */,
 				D2D5ECD8192258B900D6C44C /* CYCoreDataTests.m */,
-				D2D5ECD9192258B900D6C44C /* MockCYCoreData.h */,
-				D2D5ECDA192258B900D6C44C /* MockCYCoreData.m */,
 				D2D5ECC91922558600D6C44C /* Supporting Files */,
 			);
 			path = CYCoreDataTests;
@@ -325,6 +333,7 @@
 				D2D5EC9D1922558600D6C44C /* Frameworks */,
 				D2D5EC9E1922558600D6C44C /* Resources */,
 				1113DBAF97FA487294EA5F0E /* Copy Pods Resources */,
+				D212C3AE1923AC5500648907 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -423,6 +432,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D212C3AE1923AC5500648907 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = XcodeCoverage/exportenv.sh;
 		};
 		D2D5ED131922762F00D6C44C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -592,6 +614,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CYCoreData/CYCoreData-Prefix.pch";
 				INFOPLIST_FILE = "CYCoreData/CYCoreData-Info.plist";
@@ -606,6 +630,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CYCoreData/CYCoreData-Prefix.pch";
 				INFOPLIST_FILE = "CYCoreData/CYCoreData-Info.plist";
@@ -707,6 +733,7 @@
 				D2D5ED121922761B00D6C44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -29,7 +29,7 @@
     NSMutableDictionary *textAttributes                     = [[NSMutableDictionary alloc] initWithDictionary:self.navigationController.navigationBar.titleTextAttributes];
     [textAttributes setValue:[UIColor colorWithWhite:.7f alpha:1.f] forKey:NSForegroundColorAttributeName];
     self.navigationController.navigationBar.titleTextAttributes = textAttributes;
-    self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBar.translucent     = NO;
 
     self.view.backgroundColor                               = [UIColor colorWithWhite:.2f alpha:1.f];
 
