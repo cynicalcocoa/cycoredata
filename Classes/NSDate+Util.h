@@ -13,7 +13,7 @@
 + (NSString*)timeAgoWithDate:(NSDate*)date;
 + (NSDate *)dateFromString:(NSString *)string;
 + (NSDate *)dateForUnixString:(NSString *)timestamp;
-+ (NSDate *)microSecondsStringToDate:(NSString *)timestamp;
++ (NSDate *)dateFromMicroSecondsString:(NSString *)timestamp;
 - (long double)inMicroSeconds;
 - (NSString *)inMicroSecondsString;
 

@@ -54,7 +54,7 @@
     return [NSDate dateWithTimeIntervalSince1970:[timestamp intValue]];
 }
 
-+ (NSDate *)microSecondsStringToDate:(NSString *)timestamp {
++ (NSDate *)dateFromMicroSecondsString:(NSString *)timestamp {
     long double microsecondsDouble                  = floorl([timestamp doubleValue]);
     long double secondsDouble                       = microsecondsDouble / (double)100000;
     return [NSDate dateWithTimeIntervalSince1970:secondsDouble];

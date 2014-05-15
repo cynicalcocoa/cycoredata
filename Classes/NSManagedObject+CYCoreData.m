@@ -170,7 +170,7 @@ static NSString *UniquePropertyKey              = @"uid";
                 [self setValue:[NSNumber numberWithDouble:[attribute doubleValue]] forKey:keyValue];
                 break;
             case UniqueObjectValueTypeMicrosecondDate:
-                [self setValue:[NSDate microSecondsStringToDate:attribute] forKey:keyValue];
+                [self setValue:[NSDate dateFromMicroSecondsString:attribute] forKey:keyValue];
                 break;
             case UniqueObjectValueTypeUnixDate:
                 [self setValue:[NSDate dateForUnixString:attribute] forKey:keyValue];

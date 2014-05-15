@@ -18,18 +18,11 @@ PODS:
   - AFNetworking/UIKit (2.2.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CYCoreData (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2)
-  - CYCoreData (from `../`)
-
-EXTERNAL SOURCES:
-  CYCoreData:
-    :path: ../
 
 SPEC CHECKSUMS:
   AFNetworking: ae513199cca79e9d7af2708ccabe2ed075550c42
-  CYCoreData: 4ffde1db36f7422df92fb8af307f89b096ce8a9c
 
 COCOAPODS: 0.32.1

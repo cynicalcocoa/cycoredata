@@ -11,8 +11,8 @@
 @implementation Listing (Util)
 
 #pragma mark - get int conversion
-- (int)clickedInt {
-    return [self.clicked intValue];
+- (BOOL)clickedBool {
+    return [self.clicked boolValue];
 }
 
 - (int)numCommentsInt {
@@ -28,10 +28,6 @@
 }
 
 #pragma mark - set int conversion
-- (void)setClickedInt:(int)clicked {
-    [self setValue:[NSNumber numberWithInt:clicked] forKeyPath:@"clicked"];
-}
-
 - (void)setNumCommentsInt:(int)numComments {
     [self setValue:[NSNumber numberWithInt:numComments] forKeyPath:@"numComments"];
 }
@@ -43,6 +39,11 @@
 - (void)setIsSelfBool:(BOOL)isSelf {
     [self setValue:[NSNumber numberWithBool:isSelf] forKeyPath:@"isSelf"];
 }
+
+- (void)setClickedBool:(BOOL)clicked {
+    [self setValue:[NSNumber numberWithBool:clicked] forKeyPath:@"clicked"];
+}
+
 
 #pragma mark - string utils for textfields
 - (NSString *)clickedString {
