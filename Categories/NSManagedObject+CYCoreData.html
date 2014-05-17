@@ -390,7 +390,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Sets the keys and type of the unique indexer for<code>NSManagedObjects</code>. This key is used to fetch unique<code>Entity</code>in the database.</p>
+		<p>Sets the keys for and type of unique indexer for <code>NSManagedObjects</code>. This key is used to fetch unique <code>NSEntity</code> in the database.</p>
 	</div>		
 	
     
@@ -502,7 +502,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Deletes all<code>NSEntityDescription</code>of <code>NSManagedObject</code> subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
+		<p>Deletes all <code>NSEntityDescription</code> of <code>NSManagedObject</code> subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
 	</div>		
 	
     
@@ -548,7 +548,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Deletes specifically fetched<code>NSEntityDescription</code>of <code>NSManagedObject</code> with <code>NSSortDescriptors</code> and <code>NSPredicate</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
+		<p>Deletes specifically fetched <code>NSEntityDescription</code> of <code>NSManagedObject</code> with <code>NSSortDescriptors</code> and <code>NSPredicate</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
 	</div>		
 	
     
@@ -645,7 +645,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Returns all <code>NSManagedObject</code> subclass from the <code>NSManagedObjectContext</code> passed.</p>
+		<p>Returns all <code>NSManagedObjects</code> of subclass that call it from the <code>NSManagedObjectContext</code> passed.</p>
 	</div>		
 	
     
@@ -696,7 +696,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Returns an NSUInteger identitifying the number of <code>NSManagedObject</code> subclasses in the <code>NSManagedObjectContext</code> passed with <code>predicate</code>.</p>
+		<p>Returns an NSUInteger identitifying the number of <code>NSManagedObject</code> subclasses in the <code>NSManagedObjectContext</code> passed with <code>NSPredicate</code>.</p>
 	</div>		
 	
     
@@ -813,7 +813,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Fetches<code>NSEntityDescription</code>of <code>NSManagedObject</code> subclasses with <code>NSSortDescriptors</code> and <code>NSPredicate</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed. The resulting array is paginated by the <code>perPage</code> and the give page <code>pageNumber</code> is returned</p>
+		<p>Fetches <code>NSEntityDescription</code> of <code>NSManagedObject</code> subclasses with <code>NSSortDescriptors</code> and <code>NSPredicate</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed. The resulting array is paginated by the <code>perPage</code> and the give page <code>pageNumber</code> is returned</p>
 	</div>		
 	
     
@@ -884,7 +884,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Fetches<code>NSEntityDescription</code>of <code>NSManagedObject</code> subclasses with <code>NSSortDescriptors</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed. The resulting array is paginated by the <code>perPage</code> and the give page <code>pageNumber</code> is returned</p>
+		<p>Fetches <code>NSEntityDescription</code> of <code>NSManagedObject</code> subclasses with <code>NSSortDescriptors</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed. The resulting array is paginated by the <code>perPage</code> and the give page <code>pageNumber</code> is returned</p>
 	</div>		
 	
     
@@ -950,7 +950,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Returns specifically fetched<code>NSEntityDescription</code>of <code>NSManagedObject</code> with <code>sortDescriptors</code> and <code>predicate</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
+		<p>Returns specifically fetched <code>NSEntityDescriptions</code> of <code>NSManagedObject</code> with <code>sortDescriptors</code> and <code>NSPredicate</code> of subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
 	</div>		
 	
     
@@ -1011,7 +1011,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Creates and returns an <code>NSManagedObject</code> subclass from the subclass that calls it from the <code>NSManagedObjectContext</code> passed.</p>
+		<p>Creates and returns an <code>NSManagedObject</code> from the subclass that calls via the <code>NSManagedObjectContext</code> passed.</p>
 	</div>		
 	
     
@@ -1062,7 +1062,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>Creates and returns an <code>NSManagedObject</code> subclass from the subclass that calls it from the <code>NSManagedObjectContext</code> passed. The <code>NSDictionary</code> passed will be parsed and key value mapped to the new created <code>NSManagedObject</code> subclass.</p>
+		<p>Creates and returns an <code>NSManagedObject</code> from the subclass that calls via the <code>NSManagedObjectContext</code> passed. The <code>NSDictionary</code> passed will be parsed and key value mapped to the new created <code>NSManagedObject</code> subclass.</p>
 	</div>		
 	
     
@@ -1075,13 +1075,13 @@
 		<h4 class="method-subtitle parameter-title">Parameters</h4>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>dictionary</em></dt>
-			<dd><p>NSDictionary that will be parsed and key value mapped to the new created <code>NSManagedObject</code> subclass</p></dd>
+			<dt><em>context</em></dt>
+			<dd><p><code>NSManagedObjectContext</code> the context the <code>NSManagedObject</code> subclass will be inserted from</p></dd>
 		</dl>
 		
 		<dl class="argument-def parameter-def">
-			<dt><em>context`NSManagedObjectContext`the</em></dt>
-			<dd><p>context the <code>NSManagedObject</code> subclass will be inserted from</p></dd>
+			<dt><em>dictionary</em></dt>
+			<dd><p>NSDictionary that will be parsed and key value mapped to the new created <code>NSManagedObject</code> subclass</p></dd>
 		</dl>
 		
 	</div>
@@ -1126,7 +1126,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>The <code>NSDictionary</code> will be searched by <code>NSString</code>keys in <code>NSArray</code>. If found, <code>BOOL</code> values will be applied to <code>NSManagedObject</code> subclass that called it.</p>
+		<p>The <code>NSDictionary</code> will be searched by <code>NSString</code> keys in <code>NSArray</code>. If found, <code>BOOL</code> values will be applied to <code>NSManagedObject</code> subclass that called it.</p>
 	</div>		
 	
     
@@ -1630,7 +1630,7 @@
 	
 	
 	<div class="method-subsection brief-description">
-		<p>The <code>NSDictionary</code> passed will be parsed and key value mapped to <code>NSManagedObject</code> subclass.</p>
+		<p>The <code>NSDictionary</code> passed will be parsed and key value mapped to <code>NSManagedObject</code> the subclass.</p>
 	</div>		
 	
     
@@ -1684,7 +1684,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2014 cynicalcocoa. All rights reserved. (Last updated: 2014-05-13)</span><br />
+						<p><span class="copyright">&copy; 2014 cynicalcocoa. All rights reserved. (Last updated: 2014-05-17)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

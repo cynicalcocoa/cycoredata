@@ -1,0 +1,808 @@
+TCYCoreData
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh
+cDataModelVersionCompile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/ExampleModel.xcdatamodeld
+cProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o /Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o /Users/scott/iOS/cycoredata/Example/CYCoreData/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o /Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o /Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData normal arm64
+cCopyPNGFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png CYCoreData/ui/activityindicator/global_spinner@2x.png
+cCopyStringsFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj/InfoPlist.strings CYCoreData/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app /Users/scott/iOS/cycoredata/Example/CYCoreData/Images.xcassets
+cProcessInfoPlistFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist
+cGenerateDSYMFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh
+cProcessProductPackaging /Users/scott/Library/MobileDevice/Provisioning\ Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision
+cTouch /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent
+cCodeSign /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c000000005347C2520000000000000132
+t1397211730
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531F35020000000000000094
+t1394554114
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531F35020000000000000096
+t1394554114
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531F3502000000000000036B
+t1394554114
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F3502000000000000019E
+t1394554114
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005347C23A00000000004D7BC0
+t1397211706
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F35040000000000A90C10
+t1394554116
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F35080000000002759920
+t1394554120
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F35240000000000000ADC
+t1394554148
+s2780
+
+N/Users/scott/Library/MobileDevice/Provisioning Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision
+c00000000535F03610000000000008096
+t1398735713
+s32918
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent
+t1399998649
+s428
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o
+t1399998648
+s74356
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o
+t1399998648
+s48148
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYCoreData.LinkFileList
+c00000000537248B7000000000000076A
+t1399998647
+s1898
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o
+t1399998648
+s91028
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o
+t1399998648
+s91684
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o
+t1399998648
+s20888
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o
+t1399998647
+s13368
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o
+t1399998647
+s18340
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o
+t1399998648
+s12684
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o
+t1399998647
+s9792
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o
+t1399998648
+s120388
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o
+t1399998648
+s22684
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o
+t1399998648
+s83824
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o
+t1399998648
+s4184
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh
+c00000000537248B7000000000000002F
+t1399998647
+s47
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh
+c00000000537248B70000000000000103
+t1399998647
+s259
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_dependencies.txt
+t1399998649
+s662
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_generated_info.plist
+t1399998649
+s777
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch
+t1399998647
+s116988
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+t1399998649
+s544
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM
+t2
+s0
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData
+t1399998648
+s756564
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd
+t1399998647
+s136
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist
+t1399998649
+s1399
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/PkgInfo
+t1399998649
+s8
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist
+t1399998647
+s150
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision
+t1399998649
+s32918
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj/InfoPlist.strings
+t1399998648
+s42
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png
+t1399998648
+s3000
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods.a
+c00000000537248B700000000001A2640
+t1399998647
+s1713728
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m
+c00000000537248280000000000000D00
+t1399998504
+s3328
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist
+c00000000537248280000000000000495
+t1399998504
+s1173
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch
+c00000000537248280000000000000158
+t1399998504
+s344
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/Images.xcassets
+c00000000537248280000000000000088
+t1399998504
+s136
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m
+c00000000537248280000000000001820
+t1399998504
+s6176
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m
+c00000000537248280000000000000639
+t1399998504
+s1593
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/ExampleModel.xcdatamodeld
+c00000000537248280000000000000066
+t1399998504
+s102
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m
+c0000000053724828000000000000056C
+t1399998504
+s1388
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m
+c000000005372482800000000000003F6
+t1399998504
+s1014
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m
+c0000000053724828000000000000050E
+t1399998504
+s1294
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m
+c00000000537248280000000000000398
+t1399998504
+s920
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m
+c00000000537248280000000000000161
+t1399998504
+s353
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/en.lproj/InfoPlist.strings
+c0000000053724828000000000000002D
+t1399998504
+s45
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/main.m
+c00000000537248280000000000000152
+t1399998504
+s338
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m
+c0000000053724828000000000000081D
+t1399998504
+s2077
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/global_spinner@2x.png
+c00000000537248280000000000000770
+t1399998504
+s1904
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m
+c00000000537248280000000000001015
+t1399998504
+s4117
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m
+c0000000053724828000000000000102E
+t1399998504
+s4142
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m
+c000000005372482800000000000034B7
+t1399998504
+s13495
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/main.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1b84ad378022b941^55faad378022b941^---0#1#1#--18"Check dependencies36"E7AA34F7-C745-4A8C-BB06-96260B1CD583-
+
+CCodeSign /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+s421691449.412791
+e421691449.532257
+r1
+xCodeSign
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CodeSign Build/Products/Debug-iphoneos/CYCoreData.app53"CodeSign Build/Products/Debug-iphoneos/CYCoreData.appa9bc69398022b941^744288398022b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/0000000000000000^1009"CodeSign Build/Products/Debug-iphoneos/CYCoreData.app    cd /Users/scott/iOS/cycoredata/Example    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Scott Jones (CMRRL7885D)" and provisioning profile "iOS Team Provisioning Profile: *" (DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E)    /usr/bin/codesign --force --sign 2C00124FA6610643793FF2EA873F2F94BC4CDFEC --resource-rules=/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist --entitlements /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app36"16938D3E-A4AC-4E38-96C5-94CECE5BEA9D-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileAssetCatalog /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app /Users/scott/iOS/cycoredata/Example/CYCoreData/Images.xcassets
+s421691448.278487
+e421691449.061023
+r1
+xCompileAssetCatalog
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/AppIcon29x29@2x.png
+o/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/AppIcon40x40@2x.png
+o/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/AppIcon60x60@2x.png
+o/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/LaunchImage-700-568h@2x.png
+o/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Assets.car
+o/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CompileAssetCatalog Build/Products/Debug-iphoneos/CYCoreData.app CYCoreData/Images.xcassets91"CompileAssetCatalog Build/Products/Debug-iphoneos/CYCoreData.app CYCoreData/Images.xcassets085847388022b941^999f0f398022b941^-687"/* com.apple.actool.compilation-results *//Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/AppIcon29x29@2x.png/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/AppIcon40x40@2x.png/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/AppIcon60x60@2x.png/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/LaunchImage-700-568h@2x.png/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Assets.car/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@70"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/Images.xcassets/0000000000000000^1060"CompileAssetCatalog Build/Products/Debug-iphoneos/CYCoreData.app CYCoreData/Images.xcassets    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app /Users/scott/iOS/cycoredata/Example/CYCoreData/Images.xcassets36"5B7950F1-5705-43D9-AB87-B4FBC63BC953-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o /Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691448.031514
+e421691448.112997
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m206"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o CYCoreData/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4a2908388022b941^3eed1c388022b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m0000000000000000^3816"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o CYCoreData/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o36"E7792E4F-6607-44B1-8C64-AB31AD8D1323-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o /Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691448.063094
+e421691448.122806
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m243"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o CYCoreData/ui/activityindicator/CYActivityIndicator.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6d3c10388022b941^d6721f388022b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m0000000000000000^3906"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o CYCoreData/ui/activityindicator/CYActivityIndicator.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o36"D6545A59-96C5-4664-9858-8CF9BAAD0B22-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.967670
+e421691448.070362
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m253"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler28d4f7378022b941^710312388022b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m0000000000000000^3932"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o36"48809BDF-8A50-453A-B9EB-BBDDC6BE4F52-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.926865
+e421691448.031248
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m279"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler425ced378022b941^deff07388022b941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m0000000000000000^4004"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o36"14DB97C7-0DD3-4DC5-9DAF-59BC9D10E4A5-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691448.003297
+e421691448.062840
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m223"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o CYCoreData/coredata/listing/Listing+API.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7cee00388022b941^1e1810388022b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m0000000000000000^3850"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o CYCoreData/coredata/listing/Listing+API.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o36"4C9A732D-1C5D-47E8-B672-DE3D5F349CA7-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.927484
+e421691447.964922
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m225"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o CYCoreData/coredata/listing/Listing+Read.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5989ed378022b941^a705f7378022b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m0000000000000000^3856"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o CYCoreData/coredata/listing/Listing+Read.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o36"8C00FF35-0195-4D45-B99F-FFAE33F123BA-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.927221
+e421691447.967468
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m225"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o CYCoreData/coredata/listing/Listing+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilere770ed378022b941^e6acf7378022b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m0000000000000000^3856"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o CYCoreData/coredata/listing/Listing+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o36"1A635EAF-432A-488D-AA94-CCD1C9245E56-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.962152
+e421691448.003008
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m227"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o CYCoreData/coredata/listing/Listing+Write.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc26cf6378022b941^ebc500388022b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m0000000000000000^3862"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o CYCoreData/coredata/listing/Listing+Write.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o36"3358FFE9-065E-4071-A730-1AF8A35103C2-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.927052
+e421691447.961862
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m215"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o CYCoreData/coredata/listing/Listing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5e69ed378022b941^d13ef6378022b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m0000000000000000^3826"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o CYCoreData/coredata/listing/Listing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o36"5588A867-ABAB-46E7-A4B4-D7FD218AAA21-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691448.095435
+e421691448.190198
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m263"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o CYCoreData/viewcontroller/write/OverloadExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler008b18388022b941^64b230388022b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m0000000000000000^3966"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o CYCoreData/viewcontroller/write/OverloadExampleViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o36"D17FDA96-53CA-4EFC-AB8E-557A38ACF8A9-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o /Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691448.070768
+e421691448.117296
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m259"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o CYCoreData/afnetworking/RedditListingResponseSerializer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerac3b12388022b941^89091e388022b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m0000000000000000^3962"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o CYCoreData/afnetworking/RedditListingResponseSerializer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o36"DC7FC2B9-061B-4830-8AD7-9AECFC18D00A-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o /Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.965155
+e421691448.059251
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m220"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o CYCoreData/RootViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2f30f7378022b941^802d0f388022b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m0000000000000000^3858"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o CYCoreData/RootViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o36"0D16B0E9-2411-4A55-9BD4-4C8DE1C3C80E-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o /Users/scott/iOS/cycoredata/Example/CYCoreData/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691448.059547
+e421691448.095200
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/main.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/scott/iOS/cycoredata/Example/CYCoreData/main.m192"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o CYCoreData/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilera4530f388022b941^036018388022b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/main.m0000000000000000^3774"CompileC Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o CYCoreData/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreData/main.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o36"25C2F90A-C196-4D02-B2CD-18E1E12944BE-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCopyPNGFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png CYCoreData/ui/activityindicator/global_spinner@2x.png
+s421691448.278080
+e421691448.302635
+r1
+xCopyPNGFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png
+xCYCoreData/ui/activityindicator/global_spinner@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png CYCoreData/ui/activityindicator/global_spinner@2x.png132"CopyPNGFile Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png CYCoreData/ui/activityindicator/global_spinner@2x.png4f3c47388022b941^f2794d388022b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/global_spinner@2x.png0000000000000000^668"CopyPNGFile Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png CYCoreData/ui/activityindicator/global_spinner@2x.png    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/global_spinner@2x.png /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/global_spinner@2x.png36"92D4F406-905A-4051-8B63-FC334EDF61DC-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCopyStringsFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj/InfoPlist.strings CYCoreData/en.lproj/InfoPlist.strings
+s421691448.278214
+e421691448.278958
+r1
+xCopyStringsFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj/InfoPlist.strings
+xCYCoreData/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy CYCoreData/en.lproj/InfoPlist.strings125"CopyStringsFile Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj/InfoPlist.strings CYCoreData/en.lproj/InfoPlist.strings9a4247388022b941^b66a47388022b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/en.lproj/InfoPlist.strings0000000000000000^578"CopyStringsFile Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj/InfoPlist.strings CYCoreData/en.lproj/InfoPlist.strings    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/en.lproj -- CYCoreData/en.lproj/InfoPlist.strings36"B6F6999A-CD5E-45F0-BE6C-73092313FB00-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist
+s421691447.680171
+e421691447.680940
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist197"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist382fae378022b941^6952ae378022b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist003410b5deffdf42^744"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app36"3A176777-5349-4069-9314-B73A15866EC0-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CDataModelVersionCompile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/ExampleModel.xcdatamodeld
+s421691447.693982
+e421691447.926290
+r1
+xDataModelVersionCompile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/ExampleModel.xcdatamodeld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"DataModelVersionCompile Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd CYCoreData/coredata/ExampleModel.xcdatamodeld132"DataModelVersionCompile Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd CYCoreData/coredata/ExampleModel.xcdatamodeld1cb6b1378022b941^7522ed378022b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/ExampleModel.xcdatamodeld/0000000000000000^781"DataModelVersionCompile Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd CYCoreData/coredata/ExampleModel.xcdatamodeld    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos /Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/ExampleModel.xcdatamodeld /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ExampleModel.momd36"9F7C7D79-CB4E-446D-AD62-E5B6F26CA147-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CGenerateDSYMFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData
+s421691449.063144
+e421691449.112990
+r1
+xGenerateDSYMFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generate /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM122"GenerateDSYMFile Build/Products/Debug-iphoneos/CYCoreData.app.dSYM Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData513310398022b941^5fed1c398022b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM003410b5deffdf42^635"GenerateDSYMFile Build/Products/Debug-iphoneos/CYCoreData.app.dSYM Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app.dSYM36"DEC9F37B-337E-4EBA-B90A-EF4CA08779B7-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CLd /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData normal arm64
+s421691448.191632
+e421691448.277406
+r1
+xLd
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData
+xnormal
+xarm64
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYCoreData.LinkFileList
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchWithPredicateViewController.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Util.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Read.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+Write.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RootViewController.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/FetchAllViewController.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/Listing+API.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/AppDelegate.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/main.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYActivityIndicator.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/RedditListingResponseSerializer.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/OverloadExampleViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData71"Ld Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData normal arm643a2431388022b941^a30647388022b941^---0#0#1#--1420"Ld Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData normal arm64    cd /Users/scott/iOS/cycoredata/Example    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -filelist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYCoreData.LinkFileList -dead_strip -ObjC -framework CoreData -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Objects-normal/arm64/CYCoreData_dependency_info.dat -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/CYCoreData36"744C434E-9ABA-48EC-B2B4-E0403ADC1F93-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh
+s421691447.681708
+e421691447.693450
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'151"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh7dcdae378022b941^a587b1378022b941^---0#0#1#--350"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh    cd /Users/scott/iOS/cycoredata/Example    /bin/sh -c /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-E780C39505E646DC80129BAB.sh36"CBBA7E03-2A97-4F98-A2CC-DD1582CF519A-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh
+s421691449.113849
+e421691449.409404
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh
+o/Users/scott/iOS/cycoredata/Example/Pods/../../Assets/githubaddress.png
+obuilding file list ... done
+ogithubaddress.png
+o
+osent 1741 bytes  received 42 bytes  3566.00 bytes/sec
+ototal size is 1607  speedup is 0.90
+o/* com.apple.actool.compilation-results */
+o/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'146"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh10771d398022b941^e6ce68398022b941^-345"/Users/scott/iOS/cycoredata/Example/Pods/../../Assets/githubaddress.pngbuilding file list ... donegithubaddress.pngsent 1741 bytes  received 42 bytes  3566.00 bytes/sectotal size is 1607  speedup is 0.90/* com.apple.actool.compilation-results *//Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Assets.car7(21%IDEActivityLogMessage2@72"/Users/scott/iOS/cycoredata/Example/Pods/../../Assets/githubaddress.png-421691449#0#72#-0#-----2@28"building file list ... done-421691449#72#28#-0#-----2@18"githubaddress.png-421691449#100#18#-0#-----2@54"sent 1741 bytes  received 42 bytes  3566.00 bytes/sec-421691449#119#54#-0#-----2@36"total size is 1607  speedup is 0.90-421691449#173#36#-0#-----2@43"/* com.apple.actool.compilation-results */-421691449#209#43#-0#-----2@92"/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Assets.car-421691449#252#92#-0#-----0#0#1#--345"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh    cd /Users/scott/iOS/cycoredata/Example    /bin/sh -c /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/Script-1113DBAF97FA487294EA5F0E.sh36"5F0F013C-A11F-42D4-8AB5-13ADE4D64381-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CProcessInfoPlistFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist
+s421691449.061466
+e421691449.062819
+r1
+xProcessInfoPlistFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist
+x/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Process /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist109"ProcessInfoPlistFile Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist CYCoreData/CYCoreData-Info.plist4bc80f398022b941^051610398022b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist0000000000000000^972"ProcessInfoPlistFile Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist CYCoreData/CYCoreData-Info.plist    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Info.plist -genpkginfo /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/ResourceRules.plist -additionalcontentfile /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/assetcatalog_generated_info.plist -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/Info.plist36"8DA9D531-5ED7-46F6-A60B-94544EEDFAD4-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/CYCoreData-Prefix-cfqkzfbvqsywupevffxqwhzlobjc_ast/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.694347
+e421691447.728584
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch
+xCYCoreData/CYCoreData-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile CYCoreData/CYCoreData-Prefix.pch224"ProcessPCH Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4ed5b1378022b941^3485ba378022b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch0000000000000000^3716"ProcessPCH Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-dberwpkyndswdfgmdghbiklrgoat/CYCoreData-Prefix.pch.pch36"9F324922-BD6F-4B49-85B6-93F0B31440E3-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent
+s421691449.411678
+e421691449.412552
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent230"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcentd26d69398022b941^bb9d69398022b941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent003410b5deffdf42^770"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphoneos/CYCoreData.build/CYCoreData.xcent36"1A147590-B973-45B9-8751-B6DC19A4EDD4-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CProcessProductPackaging /Users/scott/Library/MobileDevice/Provisioning\ Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision
+s421691449.409742
+e421691449.411097
+r1
+xProcessProductPackaging
+x/Users/scott/Library/MobileDevice/Provisioning Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"ProcessProductPackaging /Users/scott/Library/MobileDevice/Provisioning\ Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision203"ProcessProductPackaging /Users/scott/Library/MobileDevice/Provisioning\ Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision3df168398022b941^2d3e69398022b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision003410b5deffdf42^690"ProcessProductPackaging /Users/scott/Library/MobileDevice/Provisioning\ Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/scott/Library/MobileDevice/Provisioning\ Profiles/DAA9F0C1-BB93-4BBA-A3A4-6D660C573D6E.mobileprovision -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app/embedded.mobileprovision36"CB645AB9-6726-4A35-92D9-6A81F3247A44-
+b50E0E025-7575-4486-8A1F-A3CDDF6A794F
+
+CTouch /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/CYCoreData.app
+r0
+

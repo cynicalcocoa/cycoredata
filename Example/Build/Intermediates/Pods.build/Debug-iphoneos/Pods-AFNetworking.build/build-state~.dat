@@ -1,0 +1,716 @@
+TPods-AFNetworking
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c000000005347C2520000000000000132
+t1397211730
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531F3502000000000000036B
+t1394554114
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F3502000000000000019E
+t1394554114
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005347C23A00000000004D7BC0
+t1397211706
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F35040000000000A90C10
+t1394554116
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000531F35040000000000210E90
+t1394554116
+s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000531F35050000000000186D60
+t1394554117
+s1600864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000531F350500000000001A2B00
+t1394554117
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F35240000000000000ADC
+t1394554148
+s2780
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o
+t1399998647
+s48096
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o
+t1399998647
+s58900
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o
+t1399998647
+s67692
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o
+t1399998647
+s37296
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o
+t1399998647
+s47240
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o
+t1399998647
+s44112
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o
+t1399998647
+s211680
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o
+t1399998647
+s244324
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o
+t1399998647
+s106680
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o
+t1399998647
+s211756
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o
+t1399998647
+s4248
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking.LinkFileList
+c00000000537248B70000000000000AE4
+t1399998647
+s2788
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o
+t1399998647
+s49644
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o
+t1399998647
+s29152
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o
+t1399998647
+s75952
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o
+t1399998647
+s74140
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o
+t1399998647
+s67884
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o
+t1399998647
+s50976
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o
+t1399998647
+s68436
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch
+t1399998647
+s120272
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch
+t1399998647
+s120684
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a
+t2
+s0
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+c00000000537248280000000000001D02
+t1399998504
+s7426
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+c000000005372482800000000000028DE
+t1399998504
+s10462
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+c00000000537248280000000000002FE3
+t1399998504
+s12259
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+c00000000537248280000000000002525
+t1399998504
+s9509
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+c000000005372482800000000000027E9
+t1399998504
+s10217
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+c00000000537248280000000000006BB0
+t1399998504
+s27568
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+c0000000053724828000000000000B9E6
+t1399998504
+s47590
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+c000000005372482800000000000064D7
+t1399998504
+s25815
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+c0000000053724828000000000000A5D8
+t1399998504
+s42456
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+c00000000537248280000000000001911
+t1399998504
+s6417
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+c00000000537248280000000000000F1E
+t1399998504
+s3870
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+c00000000537248280000000000001641
+t1399998504
+s5697
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+c00000000537248280000000000001D60
+t1399998504
+s7520
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+c00000000537248280000000000001E4C
+t1399998504
+s7756
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+c00000000537248280000000000001EE1
+t1399998504
+s7905
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+c00000000537248280000000000000EFC
+t1399998504
+s3836
+
+N/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+c0000000053724828000000000000192C
+t1399998504
+s6444
+
+N/Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m
+c0000000053724828000000000000008A
+t1399998504
+s138
+
+N/Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch
+c0000000053724828000000000000004D
+t1399998504
+s77
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa987f0368022b941^369200378022b941^---0#1#1#--18"Check dependencies36"0BA4FC37-4E15-43E7-940E-20AEF65AF265-
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.095022
+e421691447.177295
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m280"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler376f18378022b941^24632d378022b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m0000000000000000^3822"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperation.o36"8B561BE9-A9F8-497C-9F9C-E8745DAE7814-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.096842
+e421691447.195230
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m294"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb8e418378022b941^b9fa31378022b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m0000000000000000^3864"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPRequestOperationManager.o36"590A1E34-CAE8-4335-9EBA-2CF8ED088D7E-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.107115
+e421691447.218813
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m276"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o AFNetworking/AFNetworking/AFHTTPSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8b871b378022b941^430438378022b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m0000000000000000^3810"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o AFNetworking/AFNetworking/AFHTTPSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFHTTPSessionManager.o36"6D2BE4DF-2B76-4976-A8C7-B49DFAACD68B-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.108571
+e421691447.182371
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m308"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8fdf1b378022b941^42b02e378022b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m0000000000000000^3900"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkActivityIndicatorManager.o36"5A308C8E-793C-4179-9761-784626575834-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.177562
+e421691447.244665
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m292"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2fa62d378022b941^7fa23e378022b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m0000000000000000^3858"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o AFNetworking/AFNetworking/AFNetworkReachabilityManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFNetworkReachabilityManager.o36"36563E51-D892-4FAF-8119-53CDAB3D494C-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.182592
+e421691447.254721
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m268"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o AFNetworking/AFNetworking/AFSecurityPolicy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilere8db2e378022b941^a83541378022b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m0000000000000000^3786"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o AFNetworking/AFNetworking/AFSecurityPolicy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFSecurityPolicy.o36"AA83C42B-F66A-42B7-98AE-16463D2E48AF-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.195519
+e421691447.376876
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m284"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler062b32378022b941^ab7b60378022b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m0000000000000000^3834"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o AFNetworking/AFNetworking/AFURLConnectionOperation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLConnectionOperation.o36"6CCA7495-92D1-4492-87F7-2B8A03EC2A22-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.226596
+e421691447.454272
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m286"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o AFNetworking/AFNetworking/AFURLRequestSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7d1f3a378022b941^6f4b74378022b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m0000000000000000^3840"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o AFNetworking/AFNetworking/AFURLRequestSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLRequestSerialization.o36"934DEBE1-CBFE-4132-8B80-7D2377C853EA-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.244951
+e421691447.375509
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m288"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o AFNetworking/AFNetworking/AFURLResponseSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler71cc3e378022b941^4a2560378022b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m0000000000000000^3846"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o AFNetworking/AFNetworking/AFURLResponseSerialization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLResponseSerialization.o36"7360CB88-4A83-499A-99E3-FE6A90ED9F36-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.254976
+e421691447.441491
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m274"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o AFNetworking/AFNetworking/AFURLSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerdc6341378022b941^4b0571378022b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m0000000000000000^3804"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o AFNetworking/AFNetworking/AFURLSessionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/AFURLSessionManager.o36"9FC3258B-833F-4B6E-93E1-0D8FFD103042-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.375724
+e421691447.403394
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o
+x/Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m256"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o Pods-AFNetworking-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb34360378022b941^7c4567378022b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m0000000000000000^3765"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o Pods-AFNetworking-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.dia -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-dummy.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking-dummy.o36"7209390E-5331-4C5E-AD0C-82EA308468FA-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.377116
+e421691447.452246
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m314"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler499d60378022b941^a8c673378022b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m0000000000000000^3918"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIActivityIndicatorView+AFNetworking.o36"B9F857D8-FFE2-4256-A280-30342F2D1737-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.403614
+e421691447.465170
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m290"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler386867378022b941^1a1677378022b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m0000000000000000^3846"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIAlertView+AFNetworking.o36"A9A439CB-C427-4A7A-88C8-AA3D7E55854E-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.441759
+e421691447.543588
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m284"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc72e71378022b941^fa288b378022b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m0000000000000000^3828"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIButton+AFNetworking.o36"32DCB258-16D6-4904-A40B-6543321939E0-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.452487
+e421691447.528345
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m290"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc4ee73378022b941^034287378022b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m0000000000000000^3846"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIImageView+AFNetworking.o36"A2DE95C7-CEE0-4F2D-BBF0-91D69782D438-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.454481
+e421691447.540721
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m296"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler267374378022b941^679c8a378022b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m0000000000000000^3864"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIProgressView+AFNetworking.o36"E75CE417-0DCB-4BB7-A448-B1FC4233AADD-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.465427
+e421691447.533006
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m300"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9a4277378022b941^927588378022b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m0000000000000000^3876"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIRefreshControl+AFNetworking.o36"631347B2-4B59-4F67-97BA-C436DA6903CF-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.528579
+e421691447.601415
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o
+x/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+d/Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m286"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler416687378022b941^c6f799378022b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m0000000000000000^3834"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.dia -c /Users/scott/iOS/cycoredata/Example/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/UIWebView+AFNetworking.o36"08D74E64-A24F-4478-92A5-0FD2BE2C2405-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CLibtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal arm64
+s421691447.602621
+e421691447.615376
+r1
+xLibtool
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal arm64109"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal arm649c529a378022b941^728b9d378022b941^---0#0#1#--1081"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a normal arm64    cd /Users/scott/iOS/cycoredata/Example/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -filelist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Objects-normal/arm64/Pods-AFNetworking.LinkFileList -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework Security -framework SystemConfiguration -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-AFNetworking.a36"8A3DDBAE-2005-411A-B81B-CE412C33854A-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/Pods-AFNetworking-prefix-ahttgfxxwskhyhexwtqdposklnjf_ast/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/Pods-AFNetworking-prefix-gwflorfzdtjcmdbenkpimyjxzjrt_ast/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.004227
+e421691447.036985
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch
+xPods-AFNetworking-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-AFNetworking-prefix.pch270"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc93d01378022b941^577a09378022b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch0000000000000000^3645"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-amzrfrpmzcprmvapgnuhfjmaulcf/Pods-AFNetworking-prefix.pch.pch36"29DD7D12-B4C7-4756-B7EF-0039F738FCB6-
+b198B3B12-72C9-420B-8979-DA98823AE221
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.002842
+e421691447.043476
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch
+xPods-AFNetworking-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-AFNetworking-prefix.pch270"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbfd300378022b941^f2220b378022b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch0000000000000000^3656"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch Pods-AFNetworking-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/Pods-AFNetworking-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AFNetworking.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-AFNetworking-prefix-fsegarzlnkdwpfhibenpnweyrnez/Pods-AFNetworking-prefix.pch.pch36"A513C1F6-9A3B-4C7A-9F3B-14EF05A69470-
+b198B3B12-72C9-420B-8979-DA98823AE221
+

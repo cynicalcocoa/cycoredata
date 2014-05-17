@@ -1,0 +1,311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - Coverage.info - Classes/NSManagedObject+CYCoreData.m</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">Classes</a> - NSManagedObject+CYCoreData.m<span style="font-size: 80%;"> (source / <a href="NSManagedObject+CYCoreData.m.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">Coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">129</td>
+            <td class="headerCovTableEntry">143</td>
+            <td class="headerCovTableEntryHi">90.2 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2014-05-15</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">24</td>
+            <td class="headerCovTableEntry">26</td>
+            <td class="headerCovTableEntryHi">92.3 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : //</a>
+<span class="lineNum">       2 </span>            : //  NSManagedObject+CYCoreData.m
+<span class="lineNum">       3 </span>            : //  SharedFiles
+<span class="lineNum">       4 </span>            : //
+<span class="lineNum">       5 </span>            : //  Created by hatebyte on 5/6/14.
+<span class="lineNum">       6 </span>            : //  Copyright (c) 2014 hatebyte. All rights reserved.
+<span class="lineNum">       7 </span>            : //
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : 
+<span class="lineNum">      10 </span>            : #import &quot;NSManagedObject+CYCoreData.h&quot;
+<span class="lineNum">      11 </span>            : #import &quot;NSManagedObjectContext+CYCoreData.h&quot;
+<span class="lineNum">      12 </span>            : #import &quot;NSDate+Util.h&quot;
+<span class="lineNum">      13 </span>            : 
+<span class="lineNum">      14 </span>            : static UniqueObjectValueType UniqueValueType    = UniqueObjectValueTypeInteger;
+<span class="lineNum">      15 </span>            : static NSString *JsonPropertyKey                = @&quot;id&quot;;
+<span class="lineNum">      16 </span>            : static NSString *UniquePropertyKey              = @&quot;uid&quot;;
+<span class="lineNum">      17 </span>            : 
+<span class="lineNum">      18 </span>            : @implementation NSManagedObject (CYCoreData)
+<span class="lineNum">      19 </span>            : 
+<span class="lineNum">      20 </span>            : 
+<span class="lineNum">      21 </span>            : /**************************************************************************************
+<a name="22"><span class="lineNum">      22 </span>            :  CONFIG</a>
+<span class="lineNum">      23 </span>            :  **************************************************************************************/
+<span class="lineNum">      24 </span><span class="lineNoCov">          0 : + (void)configureUniqueIdentifier:(UniqueIdentiferStruct)uniqueIdentiferStruct {</span>
+<span class="lineNum">      25 </span><span class="lineNoCov">          0 :     [self configureModelUniqueIdentifier:uniqueIdentiferStruct.uniquePropertyKey</span>
+<span class="lineNum">      26 </span>            :                               ofDataType:uniqueIdentiferStruct.uniqueObjectValueType
+<span class="lineNum">      27 </span>            :                     withJSONSearchString:uniqueIdentiferStruct.jsonSearchPropertyKey];
+<a name="28"><span class="lineNum">      28 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      29 </span>            : 
+<span class="lineNum">      30 </span><span class="lineCov">        573 : + (void)configureModelUniqueIdentifier:(NSString *)uniquePropertyKey</span>
+<span class="lineNum">      31 </span><span class="lineCov">        573 :                             ofDataType:(UniqueObjectValueType)uniqueObjectValueType</span>
+<span class="lineNum">      32 </span><span class="lineCov">        573 :                   withJSONSearchString:(NSString *)jsonSearchPropertyKey {</span>
+<span class="lineNum">      33 </span><span class="lineCov">        573 :     if (uniqueObjectValueType) {</span>
+<span class="lineNum">      34 </span><span class="lineCov">        573 :         UniqueValueType                         = uniqueObjectValueType;</span>
+<span class="lineNum">      35 </span><span class="lineCov">        573 :     }</span>
+<span class="lineNum">      36 </span><span class="lineCov">        573 :     if (jsonSearchPropertyKey) {</span>
+<span class="lineNum">      37 </span><span class="lineCov">        573 :         JsonPropertyKey                         = jsonSearchPropertyKey;</span>
+<span class="lineNum">      38 </span><span class="lineCov">        573 :     }</span>
+<span class="lineNum">      39 </span><span class="lineCov">        573 :     if (uniquePropertyKey) {</span>
+<span class="lineNum">      40 </span><span class="lineCov">        573 :         UniquePropertyKey                       = uniquePropertyKey;</span>
+<span class="lineNum">      41 </span><span class="lineCov">        573 :     }</span>
+<span class="lineNum">      42 </span><span class="lineCov">        573 : }</span>
+<span class="lineNum">      43 </span>            : 
+<span class="lineNum">      44 </span>            : /**************************************************************************************
+<a name="45"><span class="lineNum">      45 </span>            :  WRITE</a>
+<span class="lineNum">      46 </span>            :  **************************************************************************************/
+<span class="lineNum">      47 </span>            : + (NSString *)entityName {
+<span class="lineNum">      48 </span><span class="lineCov">       7847 :     return NSStringFromClass([self class]);</span>
+<a name="49"><span class="lineNum">      49 </span>            : }</a>
+<span class="lineNum">      50 </span>            : 
+<span class="lineNum">      51 </span><span class="lineCov">       2623 : + (instancetype)newObjectInContext:(NSManagedObjectContext *)context {</span>
+<span class="lineNum">      52 </span><span class="lineCov">       2623 :     return [context insertNewObjectWithEntityName:[self entityName]];</span>
+<a name="53"><span class="lineNum">      53 </span><span class="lineCov">       2623 : }</span></a>
+<span class="lineNum">      54 </span>            : 
+<span class="lineNum">      55 </span><span class="lineCov">       2408 : + (instancetype)updateOrCreateObjectInContext:(NSManagedObjectContext *)context withDictionary:(NSDictionary *)dictionary {</span>
+<span class="lineNum">      56 </span><span class="lineCov">       2408 :     NSManagedObject *entity                     = nil;</span>
+<span class="lineNum">      57 </span><span class="lineCov">       2408 :     id jsonproperty                             = [dictionary valueForKey:JsonPropertyKey];</span>
+<span class="lineNum">      58 </span><span class="lineCov">       2408 :     switch (UniqueValueType) {</span>
+<span class="lineNum">      59 </span>            :         case UniqueObjectValueTypeInt:
+<span class="lineNum">      60 </span><span class="lineNoCov">          0 :             jsonproperty                        = [NSNumber numberWithInt:[jsonproperty intValue]];</span>
+<span class="lineNum">      61 </span><span class="lineNoCov">          0 :             break;</span>
+<span class="lineNum">      62 </span>            :         case UniqueObjectValueTypeInteger:
+<span class="lineNum">      63 </span><span class="lineNoCov">          0 :             jsonproperty                        = [NSNumber numberWithInteger:[jsonproperty integerValue]];</span>
+<span class="lineNum">      64 </span><span class="lineNoCov">          0 :             break;</span>
+<span class="lineNum">      65 </span>            :         case UniqueObjectValueTypeDouble:
+<span class="lineNum">      66 </span><span class="lineNoCov">          0 :             jsonproperty                        = [NSNumber numberWithFloat:[jsonproperty doubleValue]];</span>
+<span class="lineNum">      67 </span><span class="lineNoCov">          0 :             break;</span>
+<span class="lineNum">      68 </span>            :         case UniqueObjectValueTypeFloat:
+<span class="lineNum">      69 </span><span class="lineNoCov">          0 :             jsonproperty                        = [NSNumber numberWithFloat:[jsonproperty floatValue]];</span>
+<span class="lineNum">      70 </span><span class="lineNoCov">          0 :             break;</span>
+<span class="lineNum">      71 </span>            :         default:
+<span class="lineNum">      72 </span><span class="lineCov">       2408 :             break;</span>
+<span class="lineNum">      73 </span>            :     }
+<span class="lineNum">      74 </span><span class="lineCov">       4816 :     if (jsonproperty &amp;&amp; ![jsonproperty isEqual:[NSNull null]]) {</span>
+<span class="lineNum">      75 </span><span class="lineCov">       2408 :         NSPredicate *predicate                  = [NSPredicate predicateWithFormat:@&quot;self.%@ == %@&quot;, UniquePropertyKey, jsonproperty];</span>
+<span class="lineNum">      76 </span><span class="lineCov">       2408 :         entity                                  = [context fetchFirstObjectWithEntityName:[self entityName] sortedBy:nil withPredicate:predicate];</span>
+<span class="lineNum">      77 </span><span class="lineCov">       2408 :     }</span>
+<span class="lineNum">      78 </span><span class="lineCov">       2408 :     if (!entity) {</span>
+<span class="lineNum">      79 </span><span class="lineCov">       2408 :         entity                                  = [self newObjectInContext:context];</span>
+<span class="lineNum">      80 </span><span class="lineCov">       2408 :     }</span>
+<span class="lineNum">      81 </span>            :     
+<span class="lineNum">      82 </span><span class="lineCov">       2408 :     [entity updateWithDictionary:dictionary];</span>
+<span class="lineNum">      83 </span><span class="lineCov">       2408 :     return entity;</span>
+<a name="84"><span class="lineNum">      84 </span><span class="lineCov">       2408 : }</span></a>
+<span class="lineNum">      85 </span>            : 
+<span class="lineNum">      86 </span><span class="lineCov">         18 : + (void)deleteAllObjectsInContext:(NSManagedObjectContext *)context {</span>
+<span class="lineNum">      87 </span><span class="lineCov">         18 :     [context deleteAllObjectsWithEntityName:[self entityName]];</span>
+<a name="88"><span class="lineNum">      88 </span><span class="lineCov">         18 : }</span></a>
+<span class="lineNum">      89 </span>            : 
+<span class="lineNum">      90 </span><span class="lineCov">         18 : + (void)deleteObjectsInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">      91 </span><span class="lineCov">         18 :     [context deleteObjectsWithEntityName:[self entityName] sortDescriptors:sortDescriptors andPredicate:predicate];</span>
+<span class="lineNum">      92 </span><span class="lineCov">         18 : }</span>
+<a name="93"><span class="lineNum">      93 </span>            : </a>
+<span class="lineNum">      94 </span>            : #pragma mark - override methods
+<span class="lineNum">      95 </span><span class="lineNoCov">          0 : - (void)updateWithDictionary:(NSDictionary *)dictionary {</span>
+<span class="lineNum">      96 </span><span class="lineNoCov">          0 :     NSAssert(false, @&quot;updateWithDictionary must be overridded in %@+Write.m&quot;, NSStringFromClass([self class]));</span>
+<span class="lineNum">      97 </span><span class="lineNoCov">          0 : }</span>
+<a name="98"><span class="lineNum">      98 </span>            : </a>
+<span class="lineNum">      99 </span>            : #pragma mark - object mapping methods
+<span class="lineNum">     100 </span><span class="lineCov">       2444 : - (void)setBoolValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     101 </span><span class="lineCov">       2444 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     102 </span><span class="lineCov">       2444 :     [self setManagedObjectValueType:UniqueObjectValueTypeBool withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="103"><span class="lineNum">     103 </span><span class="lineCov">       2444 : }</span></a>
+<span class="lineNum">     104 </span>            : 
+<span class="lineNum">     105 </span><span class="lineCov">         18 : - (void)setIntValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     106 </span><span class="lineCov">         18 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     107 </span><span class="lineCov">         18 :     [self setManagedObjectValueType:UniqueObjectValueTypeInt withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="108"><span class="lineNum">     108 </span><span class="lineCov">         18 : }</span></a>
+<span class="lineNum">     109 </span>            : 
+<span class="lineNum">     110 </span><span class="lineCov">       2444 : - (void)setIntegerValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     111 </span><span class="lineCov">       2444 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     112 </span><span class="lineCov">       2444 :     [self setManagedObjectValueType:UniqueObjectValueTypeInteger withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="113"><span class="lineNum">     113 </span><span class="lineCov">       2444 : }</span></a>
+<span class="lineNum">     114 </span>            : 
+<span class="lineNum">     115 </span><span class="lineCov">         18 : - (void)setFloatValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     116 </span><span class="lineCov">         18 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     117 </span><span class="lineCov">         18 :     [self setManagedObjectValueType:UniqueObjectValueTypeFloat withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="118"><span class="lineNum">     118 </span><span class="lineCov">         18 : }</span></a>
+<span class="lineNum">     119 </span>            : 
+<span class="lineNum">     120 </span><span class="lineCov">         18 : - (void)setDoubleValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     121 </span><span class="lineCov">         18 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     122 </span><span class="lineCov">         18 :     [self setManagedObjectValueType:UniqueObjectValueTypeDouble withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="123"><span class="lineNum">     123 </span><span class="lineCov">         18 : }</span></a>
+<span class="lineNum">     124 </span>            : 
+<span class="lineNum">     125 </span><span class="lineCov">         18 : - (void)setDateValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     126 </span><span class="lineCov">         18 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     127 </span><span class="lineCov">         18 :     [self setManagedObjectValueType:UniqueObjectValueTypeDate withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="128"><span class="lineNum">     128 </span><span class="lineCov">         18 : }</span></a>
+<span class="lineNum">     129 </span>            : 
+<span class="lineNum">     130 </span><span class="lineCov">       2444 : - (void)setUnixDateValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     131 </span><span class="lineCov">       2444 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     132 </span><span class="lineCov">       2444 :     [self setManagedObjectValueType:UniqueObjectValueTypeUnixDate withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="133"><span class="lineNum">     133 </span><span class="lineCov">       2444 : }</span></a>
+<span class="lineNum">     134 </span>            : 
+<span class="lineNum">     135 </span><span class="lineCov">         18 : - (void)setMicrosecondDateValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     136 </span><span class="lineCov">         18 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     137 </span><span class="lineCov">         18 :     [self setManagedObjectValueType:UniqueObjectValueTypeMicrosecondDate withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="138"><span class="lineNum">     138 </span><span class="lineCov">         18 : }</span></a>
+<span class="lineNum">     139 </span>            : 
+<span class="lineNum">     140 </span><span class="lineCov">       2444 : - (void)setStringValuesInDictionary:(NSDictionary *)dictionary forKeys:(NSString *)first, ... NS_REQUIRES_NIL_TERMINATION {</span>
+<span class="lineNum">     141 </span><span class="lineCov">       2444 :     va_list args; va_start(args, first);</span>
+<span class="lineNum">     142 </span><span class="lineCov">       2444 :     [self setManagedObjectValueType:UniqueObjectValueTypeString withDictionary:dictionary firstAttribute:first args:args];</span>
+<a name="143"><span class="lineNum">     143 </span><span class="lineCov">       2444 : }</span></a>
+<span class="lineNum">     144 </span>            : 
+<span class="lineNum">     145 </span><span class="lineCov">       9866 : - (void)setManagedObjectValueType:(UniqueObjectValueType)type withDictionary:(NSDictionary *)dictionary firstAttribute:(NSString *)first args:(va_list)args {</span>
+<span class="lineNum">     146 </span><span class="lineCov">     108382 :     for (NSString *objectKey = first; objectKey != nil; objectKey = va_arg(args, NSString *)) {</span>
+<span class="lineNum">     147 </span><span class="lineCov">      19696 :         NSString *dictionaryKey                     = [self camelCaseToUnderscore:objectKey];</span>
+<span class="lineNum">     148 </span><span class="lineCov">      19696 :         [self setKeyValue:objectKey fromKey:dictionaryKey inDictionary:dictionary forManagedObjectValueType:type];</span>
+<span class="lineNum">     149 </span><span class="lineCov">      19696 :     }</span>
+<span class="lineNum">     150 </span><span class="lineCov">       9866 :     va_end(args);</span>
+<a name="151"><span class="lineNum">     151 </span><span class="lineCov">       9866 : }</span></a>
+<span class="lineNum">     152 </span>            : 
+<span class="lineNum">     153 </span><span class="lineCov">      19696 : - (void)setKeyValue:(NSString *)keyValue fromKey:(NSString *)key inDictionary:(NSDictionary *)dictionary forManagedObjectValueType:(UniqueObjectValueType)type {</span>
+<span class="lineNum">     154 </span><span class="lineCov">      19696 :     id attribute                                    = [dictionary objectForKey:key];</span>
+<span class="lineNum">     155 </span><span class="lineCov">      39392 :     if (attribute &amp;&amp; attribute != [NSNull null]) {</span>
+<span class="lineNum">     156 </span><span class="lineCov">      39392 :         switch (type) {</span>
+<span class="lineNum">     157 </span>            :             case UniqueObjectValueTypeBool:
+<span class="lineNum">     158 </span><span class="lineCov">       4888 :                 [self setValue:[NSNumber numberWithInt:[attribute boolValue]] forKey:keyValue];</span>
+<span class="lineNum">     159 </span><span class="lineCov">       4888 :                 break;</span>
+<span class="lineNum">     160 </span>            :             case UniqueObjectValueTypeInt:
+<span class="lineNum">     161 </span><span class="lineCov">         36 :                 [self setValue:[NSNumber numberWithInt:[attribute intValue]] forKey:keyValue];</span>
+<span class="lineNum">     162 </span><span class="lineCov">         36 :                 break;</span>
+<span class="lineNum">     163 </span>            :             case UniqueObjectValueTypeInteger:
+<span class="lineNum">     164 </span><span class="lineCov">       4888 :                 [self setValue:[NSNumber numberWithInteger:[attribute integerValue]] forKey:keyValue];</span>
+<span class="lineNum">     165 </span><span class="lineCov">       4888 :                 break;</span>
+<span class="lineNum">     166 </span>            :             case UniqueObjectValueTypeFloat:
+<span class="lineNum">     167 </span><span class="lineCov">         36 :                 [self setValue:[NSNumber numberWithFloat:[attribute floatValue]] forKey:keyValue];</span>
+<span class="lineNum">     168 </span><span class="lineCov">         36 :                 break;</span>
+<span class="lineNum">     169 </span>            :             case UniqueObjectValueTypeDouble:
+<span class="lineNum">     170 </span><span class="lineCov">         36 :                 [self setValue:[NSNumber numberWithDouble:[attribute doubleValue]] forKey:keyValue];</span>
+<span class="lineNum">     171 </span><span class="lineCov">         36 :                 break;</span>
+<span class="lineNum">     172 </span>            :             case UniqueObjectValueTypeMicrosecondDate:
+<span class="lineNum">     173 </span><span class="lineCov">         18 :                 [self setValue:[NSDate dateFromMicroSecondsString:attribute] forKey:keyValue];</span>
+<span class="lineNum">     174 </span><span class="lineCov">         18 :                 break;</span>
+<span class="lineNum">     175 </span>            :             case UniqueObjectValueTypeUnixDate:
+<span class="lineNum">     176 </span><span class="lineCov">       2444 :                 [self setValue:[NSDate dateForUnixString:attribute] forKey:keyValue];</span>
+<span class="lineNum">     177 </span><span class="lineCov">       2444 :                 break;</span>
+<span class="lineNum">     178 </span>            :             case UniqueObjectValueTypeDate:
+<span class="lineNum">     179 </span><span class="lineCov">         18 :                 [self setValue:[NSDate dateFromString:attribute] forKey:keyValue];</span>
+<span class="lineNum">     180 </span><span class="lineCov">         18 :                 break;</span>
+<span class="lineNum">     181 </span>            :             case UniqueObjectValueTypeString:
+<span class="lineNum">     182 </span><span class="lineCov">       7332 :                 [self setValue:attribute forKey:keyValue];</span>
+<span class="lineNum">     183 </span><span class="lineCov">       7332 :                 break;</span>
+<span class="lineNum">     184 </span>            :         }
+<span class="lineNum">     185 </span><span class="lineCov">      19696 :     }</span>
+<a name="186"><span class="lineNum">     186 </span><span class="lineCov">      19696 : }</span></a>
+<span class="lineNum">     187 </span>            : 
+<span class="lineNum">     188 </span><span class="lineCov">      19696 : - (NSString *)camelCaseToUnderscore:(NSString *)dataAttribute {</span>
+<span class="lineNum">     189 </span><span class="lineCov">      19696 :     NSRegularExpression *capitals                   = [NSRegularExpression regularExpressionWithPattern:@&quot;[A-Z]&quot;</span>
+<span class="lineNum">     190 </span>            :                                                                                                 options:0
+<span class="lineNum">     191 </span>            :                                                                                                   error:nil];
+<span class="lineNum">     192 </span><span class="lineCov">      39392 :     dataAttribute                                   = [capitals stringByReplacingMatchesInString:dataAttribute</span>
+<span class="lineNum">     193 </span>            :                                                                                          options:0
+<span class="lineNum">     194 </span><span class="lineCov">      19696 :                                                                                            range:NSMakeRange(0, dataAttribute.length)</span>
+<span class="lineNum">     195 </span>            :                                                                                     withTemplate:@&quot;_$0&quot;];
+<span class="lineNum">     196 </span><span class="lineCov">      19696 :     return [dataAttribute lowercaseString];</span>
+<span class="lineNum">     197 </span><span class="lineCov">      19696 : }</span>
+<span class="lineNum">     198 </span>            : 
+<span class="lineNum">     199 </span>            : 
+<span class="lineNum">     200 </span>            : /**************************************************************************************
+<a name="201"><span class="lineNum">     201 </span>            :  READ</a>
+<span class="lineNum">     202 </span>            :  **************************************************************************************/
+<span class="lineNum">     203 </span><span class="lineCov">         31 : + (NSArray *)fetchObjectsInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">     204 </span><span class="lineCov">         31 :     return [context fetchObjectsWithEntityName:[self entityName] sortedBy:sortDescriptors withPredicate:predicate];</span>
+<a name="205"><span class="lineNum">     205 </span><span class="lineCov">         31 : }</span></a>
+<span class="lineNum">     206 </span>            : 
+<span class="lineNum">     207 </span><span class="lineCov">         88 : + (NSUInteger)fetchCountInContext:(NSManagedObjectContext *)context withPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">     208 </span><span class="lineCov">         88 :     return [context fetchCountWithEntityName:[self entityName] andPredicate:predicate];</span>
+<a name="209"><span class="lineNum">     209 </span><span class="lineCov">         88 : }</span></a>
+<span class="lineNum">     210 </span>            : 
+<span class="lineNum">     211 </span><span class="lineCov">         15 : + (instancetype)fetchFirstObjectInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">     212 </span><span class="lineCov">         15 :     return [context fetchFirstObjectWithEntityName:[self entityName] sortedBy:sortDescriptors withPredicate:predicate];</span>
+<a name="213"><span class="lineNum">     213 </span><span class="lineCov">         15 : }</span></a>
+<span class="lineNum">     214 </span>            : 
+<span class="lineNum">     215 </span><span class="lineCov">         14 : + (NSArray *)fetchAllInContext:(NSManagedObjectContext *)context {</span>
+<span class="lineNum">     216 </span><span class="lineCov">         14 :     return [self fetchObjectsInContext:context sortedBy:nil withPredicate:nil];</span>
+<a name="217"><span class="lineNum">     217 </span><span class="lineCov">         14 : }</span></a>
+<span class="lineNum">     218 </span>            : 
+<span class="lineNum">     219 </span><span class="lineCov">         36 : + (NSArray *)fetchObjectsInContext:(NSManagedObjectContext *)context byPageNumber:(NSInteger)pageNumber withObjectsPerPage:(NSInteger)perPage withSortDescriptors:(NSArray *)sortDescriptors {</span>
+<span class="lineNum">     220 </span><span class="lineCov">         36 :     return [context fetchObjectsWithEntityName:[self entityName]</span>
+<span class="lineNum">     221 </span>            :                                   byPageNumber:pageNumber
+<span class="lineNum">     222 </span>            :                             withObjectsPerPage:perPage
+<span class="lineNum">     223 </span>            :                                   andPredicate:nil
+<span class="lineNum">     224 </span>            :                            withSortDescriptors:sortDescriptors];
+<a name="225"><span class="lineNum">     225 </span><span class="lineCov">         36 : }</span></a>
+<span class="lineNum">     226 </span>            : 
+<span class="lineNum">     227 </span><span class="lineCov">         39 : + (NSArray *)fetchObjectsInContext:(NSManagedObjectContext *)context byPageNumber:(NSInteger)pageNumber withObjectsPerPage:(NSInteger)perPage andPredicate:(NSPredicate *)predicate withSortDescriptors:(NSArray *)sortDescriptors {</span>
+<span class="lineNum">     228 </span><span class="lineCov">         39 :     return [context fetchObjectsWithEntityName:[self entityName]</span>
+<span class="lineNum">     229 </span>            :                                   byPageNumber:pageNumber
+<span class="lineNum">     230 </span>            :                             withObjectsPerPage:perPage
+<span class="lineNum">     231 </span>            :                                   andPredicate:predicate
+<span class="lineNum">     232 </span>            :                            withSortDescriptors:sortDescriptors];
+<span class="lineNum">     233 </span><span class="lineCov">         39 : }</span>
+<span class="lineNum">     234 </span>            : 
+<span class="lineNum">     235 </span>            : @end
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

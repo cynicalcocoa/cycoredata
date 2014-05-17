@@ -1,0 +1,824 @@
+TCYCoreDataTests
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist
+cProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests normal x86_64
+cGenerateDSYMFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests
+cCpResource CYCoreDataTests/listing.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json
+cCopyStringsFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj/InfoPlist.strings CYCoreDataTests/en.lproj/InfoPlist.strings
+cTouch /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest
+
+N/Applications/Xcode.app/Contents/Developer/Library/Frameworks/XCTest.framework/XCTest
+c00000000531F350100000000000266D0
+t1394554113
+s157392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c000000005347C2610000000000000198
+t1397211745
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
+c00000000531F350F0000000000026690
+t1394554127
+s157328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F350F00000000000003B4
+t1394554127
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F3513000000000000019E
+t1394554131
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000531F3514000000000058E0E0
+t1394554132
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c00000000531F351400000000006CED60
+t1394554132
+s7138656
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000531F351400000000005B82F0
+t1394554132
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005347C23A0000000000446820
+t1397211706
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000531F351400000000003599D0
+t1394554132
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000531F351400000000002FC3B0
+t1394554132
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531F3514000000000004B000
+t1394554132
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F3515000000000088D8C0
+t1394554133
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000531F351500000000001BE790
+t1394554133
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531F35150000000000037680
+t1394554133
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531F3516000000000048F720
+t1394554134
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000531F3516000000000013FD70
+t1394554134
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000531F351600000000001081C0
+t1394554134
+s1081792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F35170000000001F1DE10
+t1394554135
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000531F351E00000000002BC360
+t1394554142
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/bundle1.o
+c00000000531F35210000000000002220
+t1394554145
+s8736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000531F3522000000000008D370
+t1394554146
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000531F35220000000000392E20
+t1394554146
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000530EC67C00000000000141F0
+t1393477244
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000531F35220000000000014A80
+t1394554146
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000531F35220000000000033BA0
+t1394554146
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000531F3522000000000001CFB0
+t1394554146
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000531F3522000000000001B2B0
+t1394554146
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000531F352200000000000C9570
+t1394554146
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000531F35220000000000063280
+t1394554146
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000531F35220000000000008880
+t1394554146
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000531F35220000000000015080
+t1394554146
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000531F352200000000000230F0
+t1394554146
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000531F3522000000000000E380
+t1394554146
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000531F35220000000000089380
+t1394554146
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000531F35220000000000017320
+t1394554146
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000531F35220000000000039CD0
+t1394554146
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000531F3522000000000000B0B0
+t1394554146
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000531F35220000000000167E80
+t1394554146
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000531F352200000000000106A0
+t1394554146
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000531F3522000000000001CE40
+t1394554146
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000531F352200000000000740C0
+t1394554146
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000531F3522000000000006CA60
+t1394554146
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000531F3522000000000001BAD0
+t1394554146
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000531F35220000000000084A20
+t1394554146
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F35240000000000000ADC
+t1394554148
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c000000005347C23A000000000000514C
+t1397211706
+s20812
+
+N/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+c00000000537372850000000000001516
+t1400074885
+s5398
+
+N/Users/scott/iOS/cycoredata/Classes/CYFixtureHelper.h
+c000000005373F6E3000000000000017B
+t1400108771
+s379
+
+N/Users/scott/iOS/cycoredata/Classes/NSDate+Util.h
+c00000000537404A100000000000001E2
+t1400112289
+s482
+
+N/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+c000000005372482800000000000039AD
+t1399998504
+s14765
+
+N/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+c00000000537373AF0000000000001B6B
+t1400075183
+s7019
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o
+t1400155034
+s109628
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o
+t1400156616
+s221332
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.LinkFileList
+c000000005374052B0000000000000291
+t1400112427
+s657
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o
+t1400155034
+s46076
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o
+t1400155034
+s14536
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.pch
+t1400112427
+s123816
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch
+t1400155034
+s123632
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreData.app/CYCoreData
+c000000005374AB9900000000000E15FC
+t1400155033
+s923132
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest
+t1400156616
+s204
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM
+t1400156594
+s102
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests
+t1400156616
+s231560
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist
+t1400112427
+s518
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json
+t1400110361
+s21943
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj/InfoPlist.strings
+t1400112427
+s42
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json
+t1400112427
+s1750
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch
+c00000000537248280000000000000158
+t1399998504
+s344
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.h
+c000000005373FA8F000000000000026C
+t1400109711
+s620
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+c000000005372482800000000000002B8
+t1399998504
+s696
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m
+c000000005373F6BA0000000000003182
+t1400108730
+s12674
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m
+c000000005374B1C70000000000004CDB
+t1400156615
+s19675
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist
+c000000005372482800000000000002B8
+t1399998504
+s696
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m
+c000000005373770F0000000000000D04
+t1400076047
+s3332
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.h
+c000000005372482800000000000002EB
+t1399998504
+s747
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m
+c000000005372482800000000000002A3
+t1399998504
+s675
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/conversation.json
+c0000000053726CEF00000000000055B7
+t1400007919
+s21943
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/en.lproj/InfoPlist.strings
+c0000000053724828000000000000002D
+t1399998504
+s45
+
+N/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/listing.json
+c000000005373FD1500000000000006D6
+t1400110357
+s1750
+
+N/usr/lib/libSystem.B.dylib
+c00000000526BD260000000000000E6D0
+t1382797920
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000526BD26B0000000000012A00
+t1382797931
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c00000000526BD255000000000002E320
+t1382797909
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000526BD2600000000000021860
+t1382797920
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000526BD26A000000000001B620
+t1382797930
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000526BD26A00000000000BD920
+t1382797930
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000530EC67C00000000000141F0
+t1393477244
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000526BD26A000000000000A120
+t1382797930
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000530EC67C000000000001D550
+t1393477244
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000526BD26A0000000000014EE0
+t1382797930
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000526BD26C0000000000010380
+t1382797932
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000526BD26C000000000000C4C0
+t1382797932
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000526BD26B00000000000357A0
+t1382797931
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000526BD26B000000000000C070
+t1382797931
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000530EC6640000000000168D00
+t1393477220
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000530EC6790000000000010630
+t1393477241
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000530EC67C000000000001DF10
+t1393477244
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000526BD2600000000000075B00
+t1382797920
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053584067000000000007CC70
+t1398292583
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000526BD26000000000000766C0
+t1382797920
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000530EC67C0000000000044DC0
+t1393477244
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000526BD2600000000000021FA0
+t1382797920
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000530EC67C000000000002D920
+t1393477244
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000526BD26B000000000001E570
+t1382797931
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000530EC671000000000000CC70
+t1393477233
+s52336
+
+N/usr/lib/system/libsystem_stats.dylib
+c00000000530EC6740000000000009A80
+t1393477236
+s39552
+
+N/usr/lib/system/libunc.dylib
+c00000000526BD267000000000000C3F0
+t1382797927
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000526BD26B00000000000199F0
+t1382797931
+s104944
+
+CAnalyzeShallow /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m
+r0
+
+CAnalyzeShallow /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m
+r0
+
+CAnalyzeShallow /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m
+r0
+
+CAnalyzeShallow /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf4a53f48e924b941^f3cc3f48e924b941^---0#1#1#--18"Check dependencies36"D655B2E0-4A3E-463C-9697-2C9D492810AB-
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421847834.405453
+e421847834.518438
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m277"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1de6671ae324b941^62ba841ae324b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m0000000000000000^4329"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSManagedObjectContextTests.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o36"4B4646DC-01EE-4BFC-91B5-7FB7A708435D-
+b4DB64D28-893A-44B3-A2CB-CEB8A0232093
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421849416.250179
+e421849416.454758
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing.h
+d/Users/scott/iOS/cycoredata/Classes/CYFixtureHelper.h
+d/Users/scott/iOS/cycoredata/Classes/NSDate+Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m249"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o CYCoreDataTests/CYCoreDataNSObjectTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler791e4048e924b941^6a6b7448e924b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m0000000000000000^4245"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o CYCoreDataTests/CYCoreDataNSObjectTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataNSObjectTests.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o36"29DAC579-2218-4FAE-9EFF-54D028ABEA6A-
+b7C99E03D-EA18-4B7B-BB66-D2766F0BA14F
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421847834.406147
+e421847834.474773
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m233"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o CYCoreDataTests/CYCoreDataTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9414681ae324b941^2f8b791ae324b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m0000000000000000^4197"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o CYCoreDataTests/CYCoreDataTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o36"4CDBDCDC-4367-417D-B59B-C2C709021726-
+b4DB64D28-893A-44B3-A2CB-CEB8A0232093
+
+CCompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421847834.405655
+e421847834.442366
+r1
+xCompileC
+xBuild/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o
+x/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m
+d/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m231"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o CYCoreDataTests/MockCYCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3aeb671ae324b941^7940711ae324b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m0000000000000000^4191"CompileC Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o CYCoreDataTests/MockCYCoreData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.dia -c /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/MockCYCoreData.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o36"E1446162-58B6-4AA6-8066-E201899549EE-
+b4DB64D28-893A-44B3-A2CB-CEB8A0232093
+
+CCopyStringsFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj/InfoPlist.strings CYCoreDataTests/en.lproj/InfoPlist.strings
+s421805227.311741
+e421805227.312478
+r1
+xCopyStringsFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj/InfoPlist.strings
+xCYCoreDataTests/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy CYCoreDataTests/en.lproj/InfoPlist.strings145"CopyStringsFile Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj/InfoPlist.strings CYCoreDataTests/en.lproj/InfoPlist.strings49d84fab3c24b941^873650ab3c24b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/scott/iOS/cycoredata/Example/CYCoreDataTests/en.lproj/InfoPlist.strings0000000000000000^625"CopyStringsFile Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj/InfoPlist.strings CYCoreDataTests/en.lproj/InfoPlist.strings    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/en.lproj -- CYCoreDataTests/en.lproj/InfoPlist.strings36"B744A3FA-511F-413E-87CB-D49A97C976B3-
+b16E56B22-1359-4941-9D3A-C17C4E80FD33
+
+CCpResource CYCoreDataTests/conversation.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json
+s421803161.149701
+e421803161.150560
+r1
+xCpResource
+xCYCoreDataTests/conversation.json
+xBuild/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json122"CpResource CYCoreDataTests/conversation.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json425f26993424b941^f48b26993424b941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json003410b5deffdf42^639"CpResource CYCoreDataTests/conversation.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/conversation.json    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/conversation.json /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest36"AA1B8E4B-5E89-4FEB-865C-4405FD4E26C2-
+bB8B1C478-E5AC-4958-898A-D6418392FAF5
+
+CCpResource CYCoreDataTests/listing.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json
+s421805227.311640
+e421805227.312316
+r1
+xCpResource
+xCYCoreDataTests/listing.json
+xBuild/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json112"CpResource CYCoreDataTests/listing.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.jsond4d74fab3c24b941^e83350ab3c24b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json003410b5deffdf42^624"CpResource CYCoreDataTests/listing.json Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/listing.json    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/listing.json /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest36"E9676CCB-4341-4205-8DAF-B03261688559-
+b16E56B22-1359-4941-9D3A-C17C4E80FD33
+
+CGenerateDSYMFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests
+s421849416.485141
+e421849416.498803
+r1
+xGenerateDSYMFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Generate /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM157"GenerateDSYMFile Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests193c7c48e924b941^abb27f48e924b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM/0000000000000000^712"GenerateDSYMFile Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest.dSYM36"AD029C1F-1A20-4CC0-8F88-B0E45969E13D-
+b7C99E03D-EA18-4B7B-BB66-D2766F0BA14F
+
+CLd /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests normal x86_64
+s421849416.456518
+e421849416.484458
+r1
+xLd
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests
+xnormal
+xx86_64
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.LinkFileList
+d/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreData.app/CYCoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/bundle1.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSManagedObjectContextTests.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/MockCYCoreData.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataNSObjectTests.o
+d/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests92"Ld Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests normal x86_64bceb7448e924b941^25077c48e924b941^---0#0#1#--1893"Ld Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests normal x86_64    cd /Users/scott/iOS/cycoredata/Example    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests.LinkFileList -bundle_loader /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreData.app/CYCoreData -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework XCTest -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/Objects-normal/x86_64/CYCoreDataTests_dependency_info.dat -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/CYCoreDataTests36"41CA2014-5C7D-44C2-9EC5-A92FBCB26207-
+b7C99E03D-EA18-4B7B-BB66-D2766F0BA14F
+
+CProcessInfoPlistFile /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist
+s421805227.055301
+e421805227.056134
+r1
+xProcessInfoPlistFile
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist
+x/Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Process /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist134"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist CYCoreDataTests/CYCoreDataTests-Info.plist3c320eab3c24b941^315f0eab3c24b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist0000000000000000^653"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist CYCoreDataTests/CYCoreDataTests-Info.plist    cd /Users/scott/iOS/cycoredata/Example    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/scott/iOS/cycoredata/Example/CYCoreDataTests/CYCoreDataTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest/Info.plist36"3F8455CF-91A3-4C2A-A5BD-F444C3B9068A-
+b16E56B22-1359-4941-9D3A-C17C4E80FD33
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/CYCoreData-Prefix-cnnovzjzncjowzcwfmowtgldpavh_ast/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/CYCoreData-Prefix-gykcrwrznemqwretjhwgfvfmhfsz_ast/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421805227.056630
+e421805227.090747
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.pch
+xCYCoreData/CYCoreData-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile CYCoreData/CYCoreData-Prefix.pch225"ProcessPCH Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera7950eab3c24b941^b43c17ab3c24b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch0000000000000000^4142"ProcessPCH Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-daddwbknxrsehxbrnrehjevhcniv/CYCoreData-Prefix.pch.pch36"D92569E7-7570-4C1A-BF1C-A4423927865E-
+b16E56B22-1359-4941-9D3A-C17C4E80FD33
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gjiwwkwxmcoxephetyfxyslqorzr/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+r0
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421847834.362990
+e421847834.404841
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch
+xCYCoreData/CYCoreData-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile CYCoreData/CYCoreData-Prefix.pch225"ProcessPCH Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler26fe5c1ae324b941^8fa5671ae324b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch0000000000000000^4011"ProcessPCH Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch CYCoreData/CYCoreData-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/CYCoreDataTests-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/CYCoreData.build/Debug-iphonesimulator/CYCoreDataTests.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/CYCoreData/CYCoreData-Prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/CYCoreData-Prefix-gyhroqlnuioycqcebhhjcqibhpzz/CYCoreData-Prefix.pch.pch36"377743DA-180E-48B4-972F-CF3EACD1519B-
+b4DB64D28-893A-44B3-A2CB-CEB8A0232093
+
+CTouch /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/CYCoreDataTests.xctest
+r0
+

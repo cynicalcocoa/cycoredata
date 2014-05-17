@@ -1,0 +1,263 @@
+TPods-CYCoreData
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o /Users/scott/iOS/cycoredata/Classes/CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a normal arm64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c000000005347C2520000000000000132
+t1397211730
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531F3502000000000000036B
+t1394554114
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F3502000000000000019E
+t1394554114
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c00000000531F350400000000008F30A0
+t1394554116
+s9384096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F35040000000000A90C10
+t1394554116
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F35240000000000000ADC
+t1394554148
+s2780
+
+N/Users/scott/iOS/cycoredata/Classes/CYCoreData.m
+c00000000537248280000000000002884
+t1399998504
+s10372
+
+N/Users/scott/iOS/cycoredata/Classes/NSDate+Util.m
+c00000000537248280000000000000B9E
+t1399998504
+s2974
+
+N/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m
+c00000000537248280000000000002F13
+t1399998504
+s12051
+
+N/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m
+c000000005372482800000000000014FE
+t1399998504
+s5374
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o
+t1399998647
+s94268
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o
+t1399998647
+s16800
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o
+t1399998647
+s45796
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o
+t1399998647
+s32992
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o
+t1399998647
+s4232
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData.LinkFileList
+c00000000537248B600000000000002E5
+t1399998646
+s741
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch
+t1399998647
+s120628
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch
+t1399998647
+s120216
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a
+t2
+s0
+
+N/Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m
+c00000000537248280000000000000086
+t1399998504
+s134
+
+N/Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch
+c0000000053724828000000000000004D
+t1399998504
+s77
+
+CBuild AST from /Users/scott/iOS/cycoredata/Classes/CYCoreData.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m
+r0
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb281f0368022b941^5c77f7368022b941^---0#1#1#--18"Check dependencies36"7A5C2154-1151-400C-BA27-B7D1BC10E0F5-
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o /Users/scott/iOS/cycoredata/Classes/CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.012539
+e421691447.106855
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o
+x/Users/scott/iOS/cycoredata/Classes/CYCoreData.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.m
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/scott/iOS/cycoredata/Classes/CYCoreData.m264"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o /Users/scott/iOS/cycoredata/Classes/CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler124a03378022b941^815b1b378022b941^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/scott/iOS/cycoredata/Classes/CYCoreData.m0000000000000000^3695"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o /Users/scott/iOS/cycoredata/Classes/CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.dia -c /Users/scott/iOS/cycoredata/Classes/CYCoreData.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/CYCoreData.o36"D4BF6BDD-3355-4349-8EE4-1751FC712374-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.012896
+e421691447.056993
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o
+x/Users/scott/iOS/cycoredata/Classes/NSDate+Util.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Classes/NSDate+Util.m
+d/Users/scott/iOS/cycoredata/Classes/NSDate+Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m266"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd95e03378022b941^03980e378022b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/scott/iOS/cycoredata/Classes/NSDate+Util.m0000000000000000^3701"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.dia -c /Users/scott/iOS/cycoredata/Classes/NSDate+Util.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSDate+Util.o36"51EBBCC2-39AF-4102-BC28-4EEDD6536FD2-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.037217
+e421691447.108316
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o
+x/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSDate+Util.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m296"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler809b09378022b941^33c21b378022b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m0000000000000000^3791"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.dia -c /Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObject+CYCoreData.o36"E9E4CA7F-36F0-40BE-A093-0143D0D9F8B7-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.043753
+e421691447.096614
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o
+x/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/CYCoreData.h
+d/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m310"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb2480b378022b941^5ebb18378022b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m0000000000000000^3833"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.dia -c /Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/NSManagedObjectContext+CYCoreData.o36"5C23FD5F-3AFC-464B-BD41-0DA622EA144C-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691447.057297
+e421691447.094656
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o
+x/Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m250"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o Pods-CYCoreData-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler15ca0e378022b941^3a4018378022b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m0000000000000000^3719"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o Pods-CYCoreData-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -include /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.dia -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-dummy.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData-dummy.o36"51E96F40-52A5-4032-AB75-8DA8F66BAB00-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CLibtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a normal arm64
+s421691447.219134
+e421691447.226421
+r1
+xLibtool
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a normal arm64107"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a normal arm644d2c38378022b941^94f739378022b941^---0#0#1#--988"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a normal arm64    cd /Users/scott/iOS/cycoredata/Example/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -filelist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Objects-normal/arm64/Pods-CYCoreData.LinkFileList -framework CoreData -framework Foundation -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/libPods-CYCoreData.a36"5245156E-7444-4711-A506-4CF5A537DAD4-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/Pods-CYCoreData-prefix-ckmihizilesfsqcfvkhcsyjdlrkl_ast/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/Library/Developer/Xcode/DerivedData/CYCoreData-gcvbynnjhmkepreqpumrgeryjtpj/Index/PrecompiledHeaders/Pods-CYCoreData-prefix-cxgdyjukblzziobntyehtxdncgdi_ast/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691446.968675
+e421691447.011785
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch
+xPods-CYCoreData-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-CYCoreData-prefix.pch264"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7d40f8368022b941^3e0603378022b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch0000000000000000^3614"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos -fobjc-arc --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-ajtuajorbeefgjbvscieegmpnhxw/Pods-CYCoreData-prefix.pch.pch36"E1630E9D-C754-4230-9724-14FDCB15C6AB-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+
+CProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421691446.969693
+e421691447.005900
+r1
+xProcessPCH
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch
+xPods-CYCoreData-prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Pods-CYCoreData-prefix.pch264"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler459ef8368022b941^628301378022b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch0000000000000000^3603"ProcessPCH /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch Pods-CYCoreData-prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/Pods-CYCoreData-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders -I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources/arm64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CYCoreData.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.dia -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.d -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/PrecompiledHeaders/Pods-CYCoreData-prefix-amaobhqxcmuefehduiqmpbblqksa/Pods-CYCoreData-prefix.pch.pch36"D9A36076-F0EE-4C28-933D-11F0A765FCBD-
+b93F2D4D4-8CC2-429F-B7B5-4840976F68C3
+

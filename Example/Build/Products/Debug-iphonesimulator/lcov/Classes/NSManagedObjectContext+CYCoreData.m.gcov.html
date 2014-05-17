@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - Coverage.info - Classes/NSManagedObjectContext+CYCoreData.m</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">Classes</a> - NSManagedObjectContext+CYCoreData.m<span style="font-size: 80%;"> (source / <a href="NSManagedObjectContext+CYCoreData.m.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">Coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">75</td>
+            <td class="headerCovTableEntry">79</td>
+            <td class="headerCovTableEntryHi">94.9 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2014-05-15</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">15</td>
+            <td class="headerCovTableEntry">16</td>
+            <td class="headerCovTableEntryHi">93.8 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : //</a>
+<span class="lineNum">       2 </span>            : //  NSManagedObjectContext+CYCoreData.m
+<span class="lineNum">       3 </span>            : //  SharedFiles
+<span class="lineNum">       4 </span>            : //
+<span class="lineNum">       5 </span>            : //  Created by hatebyte on 5/6/14.
+<span class="lineNum">       6 </span>            : //  Copyright (c) 2014 hatebyte. All rights reserved.
+<span class="lineNum">       7 </span>            : //
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #import &quot;NSManagedObjectContext+CYCoreData.h&quot;
+<span class="lineNum">      10 </span>            : #import &quot;CYCoreData.h&quot;
+<span class="lineNum">      11 </span>            : 
+<span class="lineNum">      12 </span>            : @implementation NSManagedObjectContext (CYCoreData)
+<span class="lineNum">      13 </span>            : 
+<span class="lineNum">      14 </span>            : /**************************************************************************************
+<a name="15"><span class="lineNum">      15 </span>            :  WRITE</a>
+<span class="lineNum">      16 </span>            :  **************************************************************************************/
+<span class="lineNum">      17 </span>            : - (void)saveSynchronously {
+<span class="lineNum">      18 </span><span class="lineCov">        313 :     [self saveAndWait:YES];</span>
+<a name="19"><span class="lineNum">      19 </span><span class="lineCov">        313 : }</span></a>
+<span class="lineNum">      20 </span>            : 
+<span class="lineNum">      21 </span>            : - (void)saveAsynchronously {
+<span class="lineNum">      22 </span><span class="lineNoCov">          0 :     [self saveAndWait:NO];</span>
+<a name="23"><span class="lineNum">      23 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      24 </span>            : 
+<span class="lineNum">      25 </span><span class="lineCov">        313 : - (void)saveAndWait:(BOOL)wait {</span>
+<span class="lineNum">      26 </span><span class="lineCov">        313 :     NSError *error                                              = nil;</span>
+<span class="lineNum">      27 </span><span class="lineCov">        313 :     [self save:&amp;error];</span>
+<span class="lineNum">      28 </span><span class="lineCov">        313 :     if (error) {</span>
+<span class="lineNum">      29 </span><span class="lineNoCov">          0 :         NSLog(@&quot;Error saving tempContext: %@&quot;, error);</span>
+<span class="lineNum">      30 </span><span class="lineNoCov">          0 :     }</span>
+<span class="lineNum">      31 </span><span class="lineCov">        313 :     [CYCoreData saveContextAndWait:wait];</span>
+<a name="32"><span class="lineNum">      32 </span><span class="lineCov">        313 : }</span></a>
+<span class="lineNum">      33 </span>            : 
+<span class="lineNum">      34 </span><span class="lineCov">       4906 : - (id)insertNewObjectWithEntityName:(NSString *)entityName {</span>
+<span class="lineNum">      35 </span><span class="lineCov">       4906 :     return [NSEntityDescription insertNewObjectForEntityForName:entityName inManagedObjectContext:self];</span>
+<a name="36"><span class="lineNum">      36 </span><span class="lineCov">       4906 : }</span></a>
+<span class="lineNum">      37 </span>            : 
+<span class="lineNum">      38 </span><span class="lineCov">         36 : - (void)deleteAllObjectsWithEntityName:(NSString *)entityName {</span>
+<span class="lineNum">      39 </span><span class="lineCov">         36 :     [self deleteAllObjectsInResults:[self fetchObjectsWithEntityName:entityName sortedBy:nil withPredicate:nil]];</span>
+<a name="40"><span class="lineNum">      40 </span><span class="lineCov">         36 : }</span></a>
+<span class="lineNum">      41 </span>            : 
+<span class="lineNum">      42 </span><span class="lineCov">         36 : - (void)deleteObjectsWithEntityName:(NSString *)entityName sortDescriptors:(NSArray *)sortDescriptors andPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">      43 </span><span class="lineCov">         36 :     [self deleteAllObjectsInResults:[self fetchObjectsWithEntityName:entityName sortedBy:sortDescriptors withPredicate:predicate]];</span>
+<a name="44"><span class="lineNum">      44 </span><span class="lineCov">         36 : }</span></a>
+<span class="lineNum">      45 </span>            : 
+<span class="lineNum">      46 </span><span class="lineCov">         72 : - (void)deleteAllObjectsInResults:(NSArray *)results {</span>
+<span class="lineNum">      47 </span><span class="lineCov">       2394 :     for (NSManagedObject *result in results) {</span>
+<span class="lineNum">      48 </span><span class="lineCov">       1125 :         [self deleteObject:result];</span>
+<span class="lineNum">      49 </span><span class="lineCov">       2430 :     }</span>
+<span class="lineNum">      50 </span><span class="lineCov">         72 : }</span>
+<span class="lineNum">      51 </span>            : 
+<span class="lineNum">      52 </span>            : /**************************************************************************************
+<a name="53"><span class="lineNum">      53 </span>            :  READ</a>
+<span class="lineNum">      54 </span>            :  **************************************************************************************/
+<span class="lineNum">      55 </span><span class="lineCov">       2941 : - (NSFetchRequest *)fetchRequestForEntity:(NSEntityDescription *)entity {</span>
+<span class="lineNum">      56 </span><span class="lineCov">       2941 :     NSFetchRequest *request                                     = [[NSFetchRequest alloc] init];</span>
+<span class="lineNum">      57 </span><span class="lineCov">       2941 :     request.entity                                              = entity;</span>
+<span class="lineNum">      58 </span><span class="lineCov">       2941 :     return request;</span>
+<a name="59"><span class="lineNum">      59 </span><span class="lineCov">       2941 : }</span></a>
+<span class="lineNum">      60 </span>            : 
+<span class="lineNum">      61 </span><span class="lineCov">       2923 : - (NSFetchRequest *)fetchRequestForEntityName:(NSString *)entityName {</span>
+<span class="lineNum">      62 </span><span class="lineCov">       2923 :     NSEntityDescription *entityDescription                      = [NSEntityDescription entityForName:entityName inManagedObjectContext:self];</span>
+<span class="lineNum">      63 </span><span class="lineCov">       2923 :     return [self fetchRequestForEntity:entityDescription];</span>
+<a name="64"><span class="lineNum">      64 </span><span class="lineCov">       2923 : }</span></a>
+<span class="lineNum">      65 </span>            : 
+<span class="lineNum">      66 </span><span class="lineCov">       2887 : - (NSFetchRequest *)fetchRequestForEntityName:(NSString *)entityName sortDescriptors:(NSArray *)sortDescriptors andPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">      67 </span><span class="lineCov">       2887 :     NSFetchRequest *fetchRequest                                = [self fetchRequestForEntityName:entityName];</span>
+<span class="lineNum">      68 </span>            :     
+<span class="lineNum">      69 </span><span class="lineCov">       2887 :     if (sortDescriptors) {</span>
+<span class="lineNum">      70 </span><span class="lineCov">        251 :         fetchRequest.sortDescriptors                            = sortDescriptors;</span>
+<span class="lineNum">      71 </span><span class="lineCov">        251 :     }</span>
+<span class="lineNum">      72 </span>            :     
+<span class="lineNum">      73 </span><span class="lineCov">       2887 :     if (predicate) {</span>
+<span class="lineNum">      74 </span><span class="lineCov">       2657 :         fetchRequest.predicate                                  = predicate;</span>
+<span class="lineNum">      75 </span><span class="lineCov">       2657 :     }</span>
+<span class="lineNum">      76 </span><span class="lineCov">       2887 :     return fetchRequest;</span>
+<a name="77"><span class="lineNum">      77 </span><span class="lineCov">       2887 : }</span></a>
+<span class="lineNum">      78 </span>            : 
+<span class="lineNum">      79 </span><span class="lineCov">       2691 : - (NSArray *)fetchObjectArrayWithRequest:(NSFetchRequest *)request {</span>
+<span class="lineNum">      80 </span><span class="lineCov">       2691 :     NSError *error                                              = nil;</span>
+<span class="lineNum">      81 </span><span class="lineCov">       2691 :     NSArray *results                                            = [self executeFetchRequest:request error:&amp;error];</span>
+<span class="lineNum">      82 </span><span class="lineCov">      10764 :     NSAssert(error == nil, [error description]);</span>
+<span class="lineNum">      83 </span><span class="lineCov">       2691 :     return results;</span>
+<a name="84"><span class="lineNum">      84 </span><span class="lineCov">       2691 : }</span></a>
+<span class="lineNum">      85 </span>            : 
+<span class="lineNum">      86 </span><span class="lineCov">        196 : - (NSUInteger)fetchCountWithRequest:(NSFetchRequest *)request {</span>
+<span class="lineNum">      87 </span><span class="lineCov">        196 :     NSError *error                                              = nil;</span>
+<span class="lineNum">      88 </span><span class="lineCov">        196 :     NSInteger count                                             = [self countForFetchRequest:request error:&amp;error];</span>
+<span class="lineNum">      89 </span><span class="lineCov">        784 :     NSAssert(error == nil, [error description]);</span>
+<span class="lineNum">      90 </span><span class="lineCov">        196 :     return count;</span>
+<a name="91"><span class="lineNum">      91 </span><span class="lineCov">        196 : }</span></a>
+<span class="lineNum">      92 </span>            : 
+<span class="lineNum">      93 </span><span class="lineCov">        121 : - (NSArray *)fetchObjectsWithEntityName:(NSString *)entityName sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">      94 </span><span class="lineCov">        121 :     NSFetchRequest *request                                     = [self fetchRequestForEntityName:entityName sortDescriptors:sortDescriptors andPredicate:predicate];</span>
+<span class="lineNum">      95 </span><span class="lineCov">        121 :     return [self fetchObjectArrayWithRequest:request];</span>
+<a name="96"><span class="lineNum">      96 </span><span class="lineCov">        121 : }</span></a>
+<span class="lineNum">      97 </span>            : 
+<span class="lineNum">      98 </span><span class="lineCov">       2441 : - (id)fetchFirstObjectWithEntityName:(NSString *)entityName sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">      99 </span><span class="lineCov">       2441 :     NSFetchRequest *request                                     = [self fetchRequestForEntityName:entityName sortDescriptors:sortDescriptors andPredicate:predicate];</span>
+<span class="lineNum">     100 </span><span class="lineCov">       2441 :     request.fetchLimit                                          = 1;</span>
+<span class="lineNum">     101 </span><span class="lineCov">       2441 :     NSArray *results                                            = [self fetchObjectArrayWithRequest:request];</span>
+<span class="lineNum">     102 </span>            :     
+<span class="lineNum">     103 </span><span class="lineCov">       2441 :     if ([results count] == 0) {</span>
+<span class="lineNum">     104 </span><span class="lineCov">       2408 :         return nil;</span>
+<span class="lineNum">     105 </span>            :     }
+<span class="lineNum">     106 </span><span class="lineCov">         33 :     return [results lastObject];</span>
+<a name="107"><span class="lineNum">     107 </span><span class="lineCov">       2441 : }</span></a>
+<span class="lineNum">     108 </span>            : 
+<span class="lineNum">     109 </span><span class="lineCov">        178 : - (NSUInteger)fetchCountWithEntityName:(NSString *)entityName andPredicate:(NSPredicate *)predicate {</span>
+<span class="lineNum">     110 </span><span class="lineCov">        178 :     NSFetchRequest *request                                     = [self fetchRequestForEntityName:entityName sortDescriptors:nil andPredicate:predicate];</span>
+<span class="lineNum">     111 </span><span class="lineCov">        178 :     return [self fetchCountWithRequest:request];</span>
+<a name="112"><span class="lineNum">     112 </span><span class="lineCov">        178 : }</span></a>
+<span class="lineNum">     113 </span>            : 
+<span class="lineNum">     114 </span><span class="lineCov">        129 : - (NSArray *)fetchObjectsWithEntityName:(NSString *)entityName byPageNumber:(NSInteger)pageNumber withObjectsPerPage:(NSInteger)perPage andPredicate:(NSPredicate *)predicate withSortDescriptors:(NSArray *)sortDescriptors {</span>
+<span class="lineNum">     115 </span><span class="lineCov">        129 :     NSFetchRequest *request                                     = [self fetchRequestForEntityName:entityName sortDescriptors:sortDescriptors andPredicate:predicate];</span>
+<span class="lineNum">     116 </span><span class="lineCov">        129 :     request.fetchLimit                                          = perPage;</span>
+<span class="lineNum">     117 </span><span class="lineCov">        129 :     request.fetchOffset                                         = perPage * (pageNumber - 1);</span>
+<span class="lineNum">     118 </span><span class="lineCov">        129 :     return [self fetchObjectArrayWithRequest:request];</span>
+<span class="lineNum">     119 </span><span class="lineCov">        129 : }</span>
+<span class="lineNum">     120 </span>            : 
+<span class="lineNum">     121 </span>            : @end
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

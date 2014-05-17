@@ -1,0 +1,148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - Coverage.info - Classes/NSDate+Util.m</title>
+  <link rel="stylesheet" type="text/css" href="../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../index.html">top level</a> - <a href="index.html">Classes</a> - NSDate+Util.m<span style="font-size: 80%;"> (source / <a href="NSDate+Util.m.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">Coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">16</td>
+            <td class="headerCovTableEntry">42</td>
+            <td class="headerCovTableEntryLo">38.1 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2014-05-15</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">4</td>
+            <td class="headerCovTableEntry">6</td>
+            <td class="headerCovTableEntryLo">66.7 %</td>
+          </tr>
+          <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : //</a>
+<span class="lineNum">       2 </span>            : //  NSDate+Util.m
+<span class="lineNum">       3 </span>            : //  CaptureMedia-Library
+<span class="lineNum">       4 </span>            : //
+<span class="lineNum">       5 </span>            : //  Created by hatebyte on 5/6/14.
+<span class="lineNum">       6 </span>            : //  Copyright (c) 2014 hatebyte. All rights reserved.
+<span class="lineNum">       7 </span>            : //
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #import &quot;NSDate+Util.h&quot;
+<span class="lineNum">      10 </span>            : 
+<a name="11"><span class="lineNum">      11 </span>            : @implementation NSDate (Util)</a>
+<span class="lineNum">      12 </span>            : 
+<span class="lineNum">      13 </span><span class="lineNoCov">          0 : + (NSString*)timeAgoWithDate:(NSDate*)date {</span>
+<span class="lineNum">      14 </span><span class="lineNoCov">          0 :     NSDictionary *timeScale                         = @{@&quot;second&quot;   :@1,</span>
+<span class="lineNum">      15 </span>            :                                                         @&quot;minute&quot;   :@60,
+<span class="lineNum">      16 </span>            :                                                         @&quot;hour&quot;     :@3600,
+<span class="lineNum">      17 </span>            :                                                         @&quot;day&quot;      :@86400,
+<span class="lineNum">      18 </span>            :                                                         @&quot;week&quot;     :@605800,
+<span class="lineNum">      19 </span>            :                                                         @&quot;month&quot;    :@2629743,
+<span class="lineNum">      20 </span>            :                                                         @&quot;year&quot;     :@31556926};
+<span class="lineNum">      21 </span><span class="lineNoCov">          0 :     NSString *scale;</span>
+<span class="lineNum">      22 </span><span class="lineNoCov">          0 :     int timeAgo                                     = 0-(int)[date timeIntervalSinceNow];</span>
+<span class="lineNum">      23 </span><span class="lineNoCov">          0 :     if (timeAgo &lt; 60) {</span>
+<span class="lineNum">      24 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;second&quot;;</span>
+<span class="lineNum">      25 </span><span class="lineNoCov">          0 :     } else if (timeAgo &lt; 3600) {</span>
+<span class="lineNum">      26 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;minute&quot;;</span>
+<span class="lineNum">      27 </span><span class="lineNoCov">          0 :     } else if (timeAgo &lt; 86400) {</span>
+<span class="lineNum">      28 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;hour&quot;;</span>
+<span class="lineNum">      29 </span><span class="lineNoCov">          0 :     } else if (timeAgo &lt; 605800) {</span>
+<span class="lineNum">      30 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;day&quot;;</span>
+<span class="lineNum">      31 </span><span class="lineNoCov">          0 :     } else if (timeAgo &lt; 2629743) {</span>
+<span class="lineNum">      32 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;week&quot;;</span>
+<span class="lineNum">      33 </span><span class="lineNoCov">          0 :     } else if (timeAgo &lt; 31556926) {</span>
+<span class="lineNum">      34 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;month&quot;;</span>
+<span class="lineNum">      35 </span><span class="lineNoCov">          0 :     } else {</span>
+<span class="lineNum">      36 </span><span class="lineNoCov">          0 :         scale                                       = @&quot;year&quot;;</span>
+<span class="lineNum">      37 </span>            :     }
+<span class="lineNum">      38 </span><span class="lineNoCov">          0 :     timeAgo                                         = timeAgo/[[timeScale objectForKey:scale] integerValue];</span>
+<span class="lineNum">      39 </span><span class="lineNoCov">          0 :     NSString *s                                     = @&quot;&quot;;</span>
+<span class="lineNum">      40 </span><span class="lineNoCov">          0 :     if (timeAgo &gt; 1) {</span>
+<span class="lineNum">      41 </span><span class="lineNoCov">          0 :         s                                           = @&quot;s&quot;;</span>
+<span class="lineNum">      42 </span><span class="lineNoCov">          0 :     }</span>
+<span class="lineNum">      43 </span><span class="lineNoCov">          0 :     return [NSString stringWithFormat:@&quot;%d %@%@ ago&quot;, timeAgo, scale, s];</span>
+<a name="44"><span class="lineNum">      44 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      45 </span>            : 
+<span class="lineNum">      46 </span><span class="lineCov">         36 : + (NSDate *)dateFromString:(NSString *)string {</span>
+<span class="lineNum">      47 </span><span class="lineCov">         36 :     NSDateFormatter *dateFormatter                  = [[NSDateFormatter alloc] init];</span>
+<span class="lineNum">      48 </span><span class="lineCov">         36 :     dateFormatter.timeZone                          = [NSTimeZone timeZoneForSecondsFromGMT:0];</span>
+<span class="lineNum">      49 </span><span class="lineCov">         36 :     dateFormatter.dateFormat                        = @&quot;yyyy-MM-dd'T'HH:mm:ss'Z'&quot;;</span>
+<span class="lineNum">      50 </span><span class="lineCov">         36 :     return [dateFormatter dateFromString:string];</span>
+<a name="51"><span class="lineNum">      51 </span><span class="lineCov">         36 : }</span></a>
+<span class="lineNum">      52 </span>            : 
+<span class="lineNum">      53 </span><span class="lineCov">       2444 : + (NSDate *)dateForUnixString:(NSString *)timestamp {</span>
+<span class="lineNum">      54 </span><span class="lineCov">       2444 :     return [NSDate dateWithTimeIntervalSince1970:[timestamp intValue]];</span>
+<a name="55"><span class="lineNum">      55 </span><span class="lineCov">       2444 : }</span></a>
+<span class="lineNum">      56 </span>            : 
+<span class="lineNum">      57 </span><span class="lineCov">         36 : + (NSDate *)dateFromMicroSecondsString:(NSString *)timestamp {</span>
+<span class="lineNum">      58 </span><span class="lineCov">         36 :     long double microsecondsDouble                  = floorl([timestamp doubleValue]);</span>
+<span class="lineNum">      59 </span><span class="lineCov">         36 :     long double secondsDouble                       = microsecondsDouble / (double)100000;</span>
+<span class="lineNum">      60 </span><span class="lineCov">         36 :     return [NSDate dateWithTimeIntervalSince1970:secondsDouble];</span>
+<a name="61"><span class="lineNum">      61 </span><span class="lineCov">         36 : }</span></a>
+<span class="lineNum">      62 </span>            : 
+<span class="lineNum">      63 </span>            : - (long double)inMicroSeconds {
+<span class="lineNum">      64 </span><span class="lineCov">         18 :     long double secondsDouble                       = (long double)[self timeIntervalSince1970];</span>
+<span class="lineNum">      65 </span><span class="lineCov">         18 :     return secondsDouble * 100000;</span>
+<a name="66"><span class="lineNum">      66 </span>            : }</a>
+<span class="lineNum">      67 </span>            : 
+<span class="lineNum">      68 </span>            : - (NSString *)inMicroSecondsString {
+<span class="lineNum">      69 </span><span class="lineNoCov">          0 :     return [NSString stringWithFormat:@&quot;%.Lf&quot;, [self inMicroSeconds]];</span>
+<span class="lineNum">      70 </span>            : }
+<span class="lineNum">      71 </span>            : 
+<span class="lineNum">      72 </span>            : @end
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

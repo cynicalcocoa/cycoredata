@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - Coverage.info - Example/CYCoreData/RootViewController.m</title>
+  <link rel="stylesheet" type="text/css" href="../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../index.html">top level</a> - <a href="index.html">Example/CYCoreData</a> - RootViewController.m<span style="font-size: 80%;"> (source / <a href="RootViewController.m.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">Coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">57</td>
+            <td class="headerCovTableEntry">80</td>
+            <td class="headerCovTableEntryLo">71.2 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2014-05-15</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">10</td>
+            <td class="headerCovTableEntry">15</td>
+            <td class="headerCovTableEntryLo">66.7 %</td>
+          </tr>
+          <tr><td><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : //</a>
+<span class="lineNum">       2 </span>            : //  ViewController.m
+<span class="lineNum">       3 </span>            : //  HBCoreData-Example
+<span class="lineNum">       4 </span>            : //
+<span class="lineNum">       5 </span>            : //  Created by hatebyte on 5/6/14.
+<span class="lineNum">       6 </span>            : //  Copyright (c) 2014 hatebyte. All rights reserved.
+<span class="lineNum">       7 </span>            : //
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #import &quot;RootViewController.h&quot;
+<span class="lineNum">      10 </span>            : #import &quot;FetchAllViewController.h&quot;
+<span class="lineNum">      11 </span>            : #import &quot;FetchWithPredicateViewController.h&quot;
+<span class="lineNum">      12 </span>            : #import &quot;OverloadExampleViewController.h&quot;
+<span class="lineNum">      13 </span>            : #import &quot;CYCoreData.h&quot;
+<span class="lineNum">      14 </span>            : #import &quot;Listing+API.h&quot;
+<span class="lineNum">      15 </span>            : 
+<a name="16"><span class="lineNum">      16 </span>            : @interface RootViewController () &lt;UITableViewDataSource, UITableViewDelegate&gt;</a>
+<a name="17"><span class="lineNum">      17 </span>            : </a>
+<span class="lineNum">      18 </span><span class="lineNoCov">          0 : @property(nonatomic, strong) UITableView *tableView;</span>
+<span class="lineNum">      19 </span><span class="lineCov">        192 : @property(nonatomic, strong) NSArray *listings;</span>
+<span class="lineNum">      20 </span>            : 
+<a name="21"><span class="lineNum">      21 </span>            : @end</a>
+<span class="lineNum">      22 </span>            : 
+<a name="23"><span class="lineNum">      23 </span><span class="lineNoCov">          0 : @implementation RootViewController</span></a>
+<span class="lineNum">      24 </span>            : 
+<span class="lineNum">      25 </span>            : - (void)viewDidLoad {
+<span class="lineNum">      26 </span><span class="lineCov">         24 :     [super viewDidLoad];</span>
+<span class="lineNum">      27 </span><span class="lineCov">         24 :     self.navigationItem.title                               = @&quot;CYCoreData&quot;;</span>
+<span class="lineNum">      28 </span><span class="lineCov">         24 :     self.navigationController.navigationBar.barTintColor    = [UIColor colorWithWhite:.2f alpha:1.f];</span>
+<span class="lineNum">      29 </span><span class="lineCov">         24 :     NSMutableDictionary *textAttributes                     = [[NSMutableDictionary alloc] initWithDictionary:self.navigationController.navigationBar.titleTextAttributes];</span>
+<span class="lineNum">      30 </span><span class="lineCov">         24 :     [textAttributes setValue:[UIColor colorWithWhite:.7f alpha:1.f] forKey:NSForegroundColorAttributeName];</span>
+<span class="lineNum">      31 </span><span class="lineCov">         24 :     self.navigationController.navigationBar.titleTextAttributes = textAttributes;</span>
+<span class="lineNum">      32 </span><span class="lineCov">         24 :     self.navigationController.navigationBar.translucent     = NO;</span>
+<span class="lineNum">      33 </span>            : 
+<span class="lineNum">      34 </span><span class="lineCov">         24 :     self.view.backgroundColor                               = [UIColor colorWithWhite:.2f alpha:1.f];</span>
+<span class="lineNum">      35 </span>            : 
+<span class="lineNum">      36 </span><span class="lineCov">         24 :     _listings                                               = [NSArray arrayWithObjects:</span>
+<span class="lineNum">      37 </span>            :                                                                [NSArray arrayWithObjects:@&quot;Fetch all&quot;, @&quot;Fetch with predicate&quot;, nil]
+<span class="lineNum">      38 </span>            :                                                                ,[NSArray arrayWithObjects:@&quot;Overload Example&quot;, nil]
+<span class="lineNum">      39 </span>            :                                                                ,[NSArray arrayWithObjects:@&quot;Clear database&quot;, nil]
+<span class="lineNum">      40 </span>            :                                                                , nil];
+<span class="lineNum">      41 </span>            :     
+<span class="lineNum">      42 </span><span class="lineCov">        120 :     _tableView                                              = [[UITableView alloc] initWithFrame:CGRectMake(0,</span>
+<span class="lineNum">      43 </span>            :                                                                                                             0,
+<span class="lineNum">      44 </span>            :                                                                                                             self.view.bounds.size.width,
+<span class="lineNum">      45 </span>            :                                                                                                             self.view.bounds.size.height)];
+<span class="lineNum">      46 </span><span class="lineCov">         24 :     _tableView.backgroundColor                              = [UIColor colorWithWhite:.1f alpha:1.f];</span>
+<span class="lineNum">      47 </span><span class="lineCov">         24 :     _tableView.separatorStyle                               = UITableViewCellSeparatorStyleNone;</span>
+<span class="lineNum">      48 </span><span class="lineCov">         24 :     _tableView.delegate                                     = self;</span>
+<span class="lineNum">      49 </span><span class="lineCov">         24 :     _tableView.dataSource                                   = self;</span>
+<span class="lineNum">      50 </span><span class="lineCov">         24 :     [self.view addSubview:_tableView];</span>
+<span class="lineNum">      51 </span>            : 
+<a name="52"><span class="lineNum">      52 </span><span class="lineCov">         24 : }</span></a>
+<span class="lineNum">      53 </span>            : 
+<span class="lineNum">      54 </span><span class="lineCov">         24 : - (void)viewWillAppear:(BOOL)animated {</span>
+<span class="lineNum">      55 </span><span class="lineCov">         24 :     [super viewWillAppear:animated];</span>
+<a name="56"><span class="lineNum">      56 </span><span class="lineCov">         24 : }</span></a>
+<span class="lineNum">      57 </span>            : 
+<span class="lineNum">      58 </span>            : - (void)didReceiveMemoryWarning
+<span class="lineNum">      59 </span>            : {
+<span class="lineNum">      60 </span><span class="lineNoCov">          0 :     [super didReceiveMemoryWarning];</span>
+<span class="lineNum">      61 </span>            :     // Dispose of any resources that can be recreated.
+<span class="lineNum">      62 </span><span class="lineNoCov">          0 : }</span>
+<a name="63"><span class="lineNum">      63 </span>            : </a>
+<span class="lineNum">      64 </span>            : #pragma mark - UITableView delegate methods
+<span class="lineNum">      65 </span><span class="lineCov">        120 : - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {</span>
+<span class="lineNum">      66 </span><span class="lineCov">        120 :     if (section != 0) {</span>
+<span class="lineNum">      67 </span><span class="lineCov">         96 :         return 30.f;</span>
+<span class="lineNum">      68 </span>            :     }
+<span class="lineNum">      69 </span><span class="lineCov">        144 :     return 0.f;</span>
+<a name="70"><span class="lineNum">      70 </span><span class="lineCov">        120 : }</span></a>
+<span class="lineNum">      71 </span>            : 
+<span class="lineNum">      72 </span><span class="lineCov">         48 : - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {</span>
+<span class="lineNum">      73 </span><span class="lineCov">         48 :     if (section != 0) {</span>
+<span class="lineNum">      74 </span><span class="lineCov">         48 :         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 0)];</span>
+<span class="lineNum">      75 </span><span class="lineCov">         48 :         view.backgroundColor = [UIColor colorWithWhite:.2f alpha:1.f];</span>
+<span class="lineNum">      76 </span><span class="lineCov">         48 :         return view;</span>
+<span class="lineNum">      77 </span><span class="lineCov">         48 :     }</span>
+<span class="lineNum">      78 </span><span class="lineNoCov">          0 :     return nil;</span>
+<a name="79"><span class="lineNum">      79 </span><span class="lineCov">         48 : }</span></a>
+<span class="lineNum">      80 </span>            : 
+<span class="lineNum">      81 </span><span class="lineCov">         24 : - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {</span>
+<span class="lineNum">      82 </span><span class="lineCov">         24 :     return [self.listings count];</span>
+<a name="83"><span class="lineNum">      83 </span><span class="lineCov">         24 : }</span></a>
+<span class="lineNum">      84 </span>            : 
+<span class="lineNum">      85 </span><span class="lineCov">         72 : - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {</span>
+<span class="lineNum">      86 </span><span class="lineCov">         72 :     return [[self.listings objectAtIndex:section] count];</span>
+<a name="87"><span class="lineNum">      87 </span><span class="lineCov">         72 : }</span></a>
+<span class="lineNum">      88 </span>            : 
+<span class="lineNum">      89 </span><span class="lineCov">         96 : - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {</span>
+<span class="lineNum">      90 </span><span class="lineCov">         96 :     return 60.f;</span>
+<a name="91"><span class="lineNum">      91 </span><span class="lineCov">         96 : }</span></a>
+<span class="lineNum">      92 </span>            : 
+<span class="lineNum">      93 </span><span class="lineCov">         96 : - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {</span>
+<span class="lineNum">      94 </span><span class="lineCov">         96 :     UITableViewCell *cell                                   = [tableView dequeueReusableCellWithIdentifier:@&quot;UITableViewCellReuseIdentifier&quot;];</span>
+<span class="lineNum">      95 </span><span class="lineCov">         96 :     if (cell == nil) {</span>
+<span class="lineNum">      96 </span><span class="lineCov">         96 :         cell                                                = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@&quot;UITableViewCellReuseIdentifier&quot;];</span>
+<span class="lineNum">      97 </span><span class="lineCov">         96 :     }</span>
+<span class="lineNum">      98 </span>            :     
+<span class="lineNum">      99 </span><span class="lineCov">         96 :     cell.textLabel.text                                     = [[self.listings objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];</span>
+<span class="lineNum">     100 </span>            :     
+<span class="lineNum">     101 </span><span class="lineCov">         96 :     if (indexPath.section == 2) {</span>
+<span class="lineNum">     102 </span><span class="lineCov">         24 :         cell.contentView.backgroundColor                    = [UIColor redColor];</span>
+<span class="lineNum">     103 </span><span class="lineCov">         24 :         cell.textLabel.textColor                            = [UIColor whiteColor];</span>
+<span class="lineNum">     104 </span><span class="lineCov">         24 :         cell.textLabel.textAlignment                        = NSTextAlignmentCenter;</span>
+<span class="lineNum">     105 </span><span class="lineCov">         24 :     } else {</span>
+<span class="lineNum">     106 </span><span class="lineCov">         72 :         cell.contentView.backgroundColor                    = [UIColor colorWithWhite:.13f alpha:1.f];</span>
+<span class="lineNum">     107 </span><span class="lineCov">         72 :         cell.textLabel.textColor                            = [UIColor colorWithWhite:.4f alpha:1.f];</span>
+<span class="lineNum">     108 </span><span class="lineCov">         72 :         cell.selectionStyle                                 = UITableViewCellSelectionStyleNone;</span>
+<span class="lineNum">     109 </span>            :     }
+<span class="lineNum">     110 </span>            :     
+<span class="lineNum">     111 </span><span class="lineCov">         96 :     return cell;</span>
+<a name="112"><span class="lineNum">     112 </span><span class="lineCov">         96 : }</span></a>
+<span class="lineNum">     113 </span>            : 
+<span class="lineNum">     114 </span><span class="lineNoCov">          0 : - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {</span>
+<span class="lineNum">     115 </span><span class="lineNoCov">          0 :     if (indexPath.section == 0) {</span>
+<span class="lineNum">     116 </span><span class="lineNoCov">          0 :         switch (indexPath.row) {</span>
+<span class="lineNum">     117 </span>            :             case 0: {
+<span class="lineNum">     118 </span><span class="lineNoCov">          0 :                 FetchAllViewController *fetchAllViewController = [[FetchAllViewController alloc] init];</span>
+<span class="lineNum">     119 </span><span class="lineNoCov">          0 :                 [self.navigationController pushViewController:fetchAllViewController animated:YES];</span>
+<span class="lineNum">     120 </span><span class="lineNoCov">          0 :             }</span>
+<span class="lineNum">     121 </span><span class="lineNoCov">          0 :                 break;</span>
+<span class="lineNum">     122 </span>            :             case 1:{
+<span class="lineNum">     123 </span><span class="lineNoCov">          0 :                 FetchWithPredicateViewController *fetchWithPredicateViewController = [[FetchWithPredicateViewController alloc] init];</span>
+<span class="lineNum">     124 </span><span class="lineNoCov">          0 :                 [self.navigationController pushViewController:fetchWithPredicateViewController animated:YES];</span>
+<span class="lineNum">     125 </span><span class="lineNoCov">          0 :             }</span>
+<span class="lineNum">     126 </span><span class="lineNoCov">          0 :                 break;</span>
+<span class="lineNum">     127 </span>            :         }
+<span class="lineNum">     128 </span><span class="lineNoCov">          0 :     } else if (indexPath.section == 1) {</span>
+<span class="lineNum">     129 </span><span class="lineNoCov">          0 :         OverloadExampleViewController *overloadExampleViewController = [[OverloadExampleViewController alloc] init];</span>
+<span class="lineNum">     130 </span><span class="lineNoCov">          0 :         [self.navigationController pushViewController:overloadExampleViewController animated:YES];</span>
+<span class="lineNum">     131 </span><span class="lineNoCov">          0 :     } else {</span>
+<span class="lineNum">     132 </span><span class="lineNoCov">          0 :         [CYCoreData reset];</span>
+<span class="lineNum">     133 </span>            :     }
+<span class="lineNum">     134 </span><span class="lineNoCov">          0 :     [self.tableView reloadData];</span>
+<span class="lineNum">     135 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">     136 </span>            : 
+<span class="lineNum">     137 </span>            : 
+<span class="lineNum">     138 </span>            : @end
+<span class="lineNum">     139 </span>            : 
+<span class="lineNum">     140 </span>            : 
+<span class="lineNum">     141 </span>            : 
+<span class="lineNum">     142 </span>            : 
+<span class="lineNum">     143 </span>            : 
+<span class="lineNum">     144 </span>            : 
+<span class="lineNum">     145 </span>            : 
+<span class="lineNum">     146 </span>            : 
+<span class="lineNum">     147 </span>            : 
+<span class="lineNum">     148 </span>            : 
+<span class="lineNum">     149 </span>            : 
+<span class="lineNum">     150 </span>            : 
+<span class="lineNum">     151 </span>            : 
+<span class="lineNum">     152 </span>            : 
+<span class="lineNum">     153 </span>            : 
+<span class="lineNum">     154 </span>            : 
+<span class="lineNum">     155 </span>            : 
+<span class="lineNum">     156 </span>            : 
+<span class="lineNum">     157 </span>            : 
+<span class="lineNum">     158 </span>            : 
+<span class="lineNum">     159 </span>            : 
+<span class="lineNum">     160 </span>            : 
+<span class="lineNum">     161 </span>            : 
+<span class="lineNum">     162 </span>            : 
+<span class="lineNum">     163 </span>            : 
+<span class="lineNum">     164 </span>            : 
+<span class="lineNum">     165 </span>            : 
+<span class="lineNum">     166 </span>            : 
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

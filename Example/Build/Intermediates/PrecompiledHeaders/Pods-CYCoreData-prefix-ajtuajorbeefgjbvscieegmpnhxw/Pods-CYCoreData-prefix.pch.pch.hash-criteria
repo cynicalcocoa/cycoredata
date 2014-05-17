@@ -1,0 +1,30 @@
+Contents of /Users/scott/iOS/cycoredata/Example/Pods/Pods-CYCoreData-prefix.pch
+-x
+objective-c
+-arch
+arm64
+-std=gnu99
+-fmodules
+-fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DCOCOAPODS=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+-g
+-miphoneos-version-min=7.1
+-iquote
+-iquote
+-I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos/include
+-I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders
+-I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/CYCoreData
+-I/Users/scott/iOS/cycoredata/Example/Pods/Headers
+-I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking
+-I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData
+-F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphoneos
+-fobjc-arc
+arm64-apple-darwin13.1.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167

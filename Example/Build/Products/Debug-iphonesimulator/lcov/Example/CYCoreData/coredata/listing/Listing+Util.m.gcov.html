@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>LCOV - Coverage.info - Example/CYCoreData/coredata/listing/Listing+Util.m</title>
+  <link rel="stylesheet" type="text/css" href="../../../../gcov.css">
+</head>
+
+<body>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="title">LCOV - code coverage report</td></tr>
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+
+    <tr>
+      <td width="100%">
+        <table cellpadding=1 border=0 width="100%">
+          <tr>
+            <td width="10%" class="headerItem">Current view:</td>
+            <td width="35%" class="headerValue"><a href="../../../../index.html">top level</a> - <a href="index.html">Example/CYCoreData/coredata/listing</a> - Listing+Util.m<span style="font-size: 80%;"> (source / <a href="Listing+Util.m.func.html">functions</a>)</span></td>
+            <td width="5%"></td>
+            <td width="15%"></td>
+            <td width="10%" class="headerCovTableHead">Hit</td>
+            <td width="10%" class="headerCovTableHead">Total</td>
+            <td width="15%" class="headerCovTableHead">Coverage</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Test:</td>
+            <td class="headerValue">Coverage.info</td>
+            <td></td>
+            <td class="headerItem">Lines:</td>
+            <td class="headerCovTableEntry">4</td>
+            <td class="headerCovTableEntry">19</td>
+            <td class="headerCovTableEntryLo">21.1 %</td>
+          </tr>
+          <tr>
+            <td class="headerItem">Date:</td>
+            <td class="headerValue">2014-05-15</td>
+            <td></td>
+            <td class="headerItem">Functions:</td>
+            <td class="headerCovTableEntry">4</td>
+            <td class="headerCovTableEntry">11</td>
+            <td class="headerCovTableEntryLo">36.4 %</td>
+          </tr>
+          <tr><td><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+  </table>
+
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td><br></td>
+    </tr>
+    <tr>
+      <td>
+<pre class="sourceHeading">          Line data    Source code</pre>
+<pre class="source">
+<a name="1"><span class="lineNum">       1 </span>            : //</a>
+<span class="lineNum">       2 </span>            : //  Listing+Util.m
+<span class="lineNum">       3 </span>            : //  HBCoreData-Example
+<span class="lineNum">       4 </span>            : //
+<span class="lineNum">       5 </span>            : //  Created by hatebyte on 5/7/14.
+<span class="lineNum">       6 </span>            : //  Copyright (c) 2014 hatebyte. All rights reserved.
+<span class="lineNum">       7 </span>            : //
+<span class="lineNum">       8 </span>            : 
+<span class="lineNum">       9 </span>            : #import &quot;Listing+Util.h&quot;
+<span class="lineNum">      10 </span>            : 
+<span class="lineNum">      11 </span>            : @implementation Listing (Util)
+<a name="12"><span class="lineNum">      12 </span>            : </a>
+<span class="lineNum">      13 </span>            : #pragma mark - get int conversion
+<span class="lineNum">      14 </span>            : - (BOOL)clickedBool {
+<span class="lineNum">      15 </span><span class="lineCov">         69 :     return [self.clicked boolValue];</span>
+<a name="16"><span class="lineNum">      16 </span>            : }</a>
+<span class="lineNum">      17 </span>            : 
+<span class="lineNum">      18 </span>            : - (int)numCommentsInt {
+<span class="lineNum">      19 </span><span class="lineCov">         46 :     return [self.numComments intValue];</span>
+<a name="20"><span class="lineNum">      20 </span>            : }</a>
+<span class="lineNum">      21 </span>            : 
+<span class="lineNum">      22 </span>            : - (int)upsInt {
+<span class="lineNum">      23 </span><span class="lineCov">         46 :     return [self.ups intValue];</span>
+<a name="24"><span class="lineNum">      24 </span>            : }</a>
+<span class="lineNum">      25 </span>            : 
+<span class="lineNum">      26 </span>            : - (BOOL)isSelfBool {
+<span class="lineNum">      27 </span><span class="lineCov">         69 :     return [self.isSelf boolValue];</span>
+<span class="lineNum">      28 </span>            : }
+<a name="29"><span class="lineNum">      29 </span>            : </a>
+<span class="lineNum">      30 </span>            : #pragma mark - set int conversion
+<span class="lineNum">      31 </span><span class="lineNoCov">          0 : - (void)setNumCommentsInt:(int)numComments {</span>
+<span class="lineNum">      32 </span><span class="lineNoCov">          0 :     [self setValue:[NSNumber numberWithInt:numComments] forKeyPath:@&quot;numComments&quot;];</span>
+<a name="33"><span class="lineNum">      33 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      34 </span>            : 
+<span class="lineNum">      35 </span><span class="lineNoCov">          0 : - (void)setUpsInt:(int)ups {</span>
+<span class="lineNum">      36 </span><span class="lineNoCov">          0 :     [self setValue:[NSNumber numberWithInt:ups] forKeyPath:@&quot;ups&quot;];</span>
+<a name="37"><span class="lineNum">      37 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      38 </span>            : 
+<span class="lineNum">      39 </span><span class="lineNoCov">          0 : - (void)setIsSelfBool:(BOOL)isSelf {</span>
+<span class="lineNum">      40 </span><span class="lineNoCov">          0 :     [self setValue:[NSNumber numberWithBool:isSelf] forKeyPath:@&quot;isSelf&quot;];</span>
+<a name="41"><span class="lineNum">      41 </span><span class="lineNoCov">          0 : }</span></a>
+<span class="lineNum">      42 </span>            : 
+<span class="lineNum">      43 </span><span class="lineNoCov">          0 : - (void)setClickedBool:(BOOL)clicked {</span>
+<span class="lineNum">      44 </span><span class="lineNoCov">          0 :     [self setValue:[NSNumber numberWithBool:clicked] forKeyPath:@&quot;clicked&quot;];</span>
+<span class="lineNum">      45 </span><span class="lineNoCov">          0 : }</span>
+<span class="lineNum">      46 </span>            : 
+<a name="47"><span class="lineNum">      47 </span>            : </a>
+<span class="lineNum">      48 </span>            : #pragma mark - string utils for textfields
+<span class="lineNum">      49 </span>            : - (NSString *)clickedString {
+<span class="lineNum">      50 </span><span class="lineNoCov">          0 :     return [NSString stringWithFormat:@&quot;%@&quot;, self.clicked];</span>
+<a name="51"><span class="lineNum">      51 </span>            : }</a>
+<span class="lineNum">      52 </span>            : 
+<span class="lineNum">      53 </span>            : - (NSString *)numCommentsString {
+<span class="lineNum">      54 </span><span class="lineNoCov">          0 :     return [NSString stringWithFormat:@&quot;%@&quot;, self.numComments];</span>
+<a name="55"><span class="lineNum">      55 </span>            : }</a>
+<span class="lineNum">      56 </span>            : 
+<span class="lineNum">      57 </span>            : - (NSString *)upsString {
+<span class="lineNum">      58 </span><span class="lineNoCov">          0 :     return [NSString stringWithFormat:@&quot;%@&quot;, self.ups];</span>
+<span class="lineNum">      59 </span>            : }
+<span class="lineNum">      60 </span>            : 
+<span class="lineNum">      61 </span>            : @end
+</pre>
+      </td>
+    </tr>
+  </table>
+  <br>
+
+  <table width="100%" border=0 cellspacing=0 cellpadding=0>
+    <tr><td class="ruler"><img src="../../../../glass.png" width=3 height=3 alt=""></td></tr>
+    <tr><td class="versionInfo">Generated by: <a href="http://ltp.sourceforge.net/coverage/lcov.php" target="_parent">LCOV version 1.10</a></td></tr>
+  </table>
+  <br>
+
+</body>
+</html>

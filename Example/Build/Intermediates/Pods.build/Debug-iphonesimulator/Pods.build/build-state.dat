@@ -1,0 +1,93 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F35040000000000A90C10
+t1394554116
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c000000005347C2610000000000000198
+t1397211745
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F350F00000000000003B4
+t1394554127
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F3513000000000000019E
+t1394554131
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531F35240000000000000ADC
+t1394554148
+s2780
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+t1400155033
+s3524
+
+N/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList
+c00000000537405290000000000000087
+t1400112425
+s135
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
+c000000005374AB990000000000175100
+t1400155033
+s1528064
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods-CYCoreData.a
+c000000005374AA9F00000000000329F0
+t1400154783
+s207344
+
+N/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a
+t1400155033
+s1531744
+
+N/Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m
+c000000005374AB940000000000000070
+t1400155028
+s112
+
+CBuild AST from /Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd76be647e924b941^0091e647e924b941^---0#1#1#--18"Check dependencies36"2749076E-E4DF-4F87-A632-568CDAEC1FA0-
+
+CCompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421847833.021564
+e421847833.136581
+r1
+xCompileC
+x/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+x/Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m226"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler779d0519e324b941^5ef72219e324b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m0000000000000000^3497"CompileC /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/scott/iOS/cycoredata/Example/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include -I/Users/scott/iOS/cycoredata/Example/Pods/Pods/Headers -I/Users/scott/iOS/cycoredata/Example/Pods/Pods/Headers/AFNetworking -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/x86_64 -I/Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -isystem /Users/scott/iOS/cycoredata/Example/Pods/Pods/Headers -isystem /Users/scott/iOS/cycoredata/Example/Pods/Pods/Headers/AFNetworking -MMD -MT dependencies -MF /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.d --serialize-diagnostics /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.dia -c /Users/scott/iOS/cycoredata/Example/Pods/Pods-dummy.m -o /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o36"EEB7258F-52CB-432E-9711-89091C9F137A-
+bA87630DD-0E98-4F3D-A185-99E2E3C49230
+
+CLibtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
+s421847833.137043
+e421847833.177487
+r1
+xLibtool
+x/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64104"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a normal x86_6418222319e324b941^c5702d19e324b941^---0#0#1#--996"Libtool /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64    cd /Users/scott/iOS/cycoredata/Example/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator -filelist /Users/scott/iOS/cycoredata/Example/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -o /Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/libPods.a36"C7673C48-2F0D-4831-A154-CDCAC834AF38-
+bA87630DD-0E98-4F3D-A185-99E2E3C49230
+

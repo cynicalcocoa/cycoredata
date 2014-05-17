@@ -1,0 +1,33 @@
+Contents of /Users/scott/iOS/cycoredata/Example/Pods/Pods-AFNetworking-prefix.pch
+-x
+objective-c
+-arch
+x86_64
+-std=gnu99
+-fmodules
+-fmodules-cache-path=/Users/scott/Library/Developer/Xcode/DerivedData/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DCOCOAPODS=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+-fexceptions
+-fasm-blocks
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-mios-simulator-version-min=7.1
+-iquote
+-iquote
+-I/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator/include
+-I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders
+-I/Users/scott/iOS/cycoredata/Example/Pods/BuildHeaders/AFNetworking
+-I/Users/scott/iOS/cycoredata/Example/Pods/Headers
+-I/Users/scott/iOS/cycoredata/Example/Pods/Headers/AFNetworking
+-I/Users/scott/iOS/cycoredata/Example/Pods/Headers/CYCoreData
+-F/Users/scott/iOS/cycoredata/Example/Build/Products/Debug-iphonesimulator
+x86_64-apple-darwin13.1.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167

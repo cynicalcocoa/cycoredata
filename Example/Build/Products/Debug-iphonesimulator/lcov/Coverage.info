@@ -1,0 +1,1486 @@
+TN:
+SF:/Users/scott/iOS/cycoredata/Classes/CYCoreData.m
+FN:18,-[CYCoreData setManagedObjectModel:]
+FN:19,-[CYCoreData persistentStoreCoordinator]
+FN:19,-[CYCoreData setPersistentStoreCoordinator:]
+FN:20,-[CYCoreData setReadContext:]
+FN:21,-[CYCoreData setWriteToDiskContext:]
+FN:21,-[CYCoreData writeToDiskContext]
+FN:25,-[CYCoreData .cxx_destruct]
+FN:30,+[CYCoreData liason]
+FN:35,__20+[CYCoreData liason]_block_invoke
+FN:43,+[CYCoreData configureSqliteFileName:withModelFileName:inBundleName:]
+FN:49,+[CYCoreData configureSqliteFileName:withModelFileName:]
+FN:55,+[CYCoreData configureModelUniqueIdentifier:ofDataType:withJSONSearchString:]
+FN:63,+[CYCoreData configureUniqueIdentifier:]
+FN:67,+[CYCoreData setTesting:]
+FN:72,+[CYCoreData reset]
+FN:94,+[CYCoreData readContext]
+FN:98,+[CYCoreData temporaryWriteContext]
+FN:102,+[CYCoreData saveSynchronously]
+FN:106,+[CYCoreData saveAsynchronously]
+FN:110,+[CYCoreData saveContextAndWait:]
+FN:115,-[CYCoreData init]
+FN:122,-[CYCoreData createStoreAndManagedObjectModel]
+FN:127,-[CYCoreData saveContextAndWait:]
+FN:131,__33-[CYCoreData saveContextAndWait:]_block_invoke
+FN:140,__33-[CYCoreData saveContextAndWait:]_block_invoke76
+FN:157,-[CYCoreData readContext]
+FN:170,-[CYCoreData temporaryWriteContext]
+FN:176,-[CYCoreData managedObjectModel]
+FN:185,-[CYCoreData persistentStoreCoordinatorWithModel:andStoreURL:]
+FN:212,-[CYCoreData modelFileName]
+FN:216,-[CYCoreData storeURL]
+FN:221,-[CYCoreData storeType]
+FN:225,-[CYCoreData bundleWithModelFile]
+FNDA:609,+[CYCoreData liason]
+FNDA:18,+[CYCoreData configureSqliteFileName:withModelFileName:inBundleName:]
+FNDA:609,__20+[CYCoreData liason]_block_invoke
+FNDA:18,+[CYCoreData setTesting:]
+FNDA:555,-[CYCoreData temporaryWriteContext]
+FNDA:573,+[CYCoreData configureModelUniqueIdentifier:ofDataType:withJSONSearchString:]
+FNDA:591,-[CYCoreData setWriteToDiskContext:]
+FNDA:0,+[CYCoreData saveSynchronously]
+FNDA:609,-[CYCoreData persistentStoreCoordinatorWithModel:andStoreURL:]
+FNDA:627,+[CYCoreData configureSqliteFileName:withModelFileName:]
+FNDA:555,+[CYCoreData temporaryWriteContext]
+FNDA:354,+[CYCoreData readContext]
+FNDA:609,-[CYCoreData managedObjectModel]
+FNDA:627,-[CYCoreData modelFileName]
+FNDA:1809,-[CYCoreData storeURL]
+FNDA:591,-[CYCoreData writeToDiskContext]
+FNDA:627,-[CYCoreData init]
+FNDA:591,-[CYCoreData .cxx_destruct]
+FNDA:591,-[CYCoreData setReadContext:]
+FNDA:313,+[CYCoreData saveContextAndWait:]
+FNDA:1935,-[CYCoreData storeType]
+FNDA:18,-[CYCoreData bundleWithModelFile]
+FNDA:313,-[CYCoreData saveContextAndWait:]
+FNDA:313,__33-[CYCoreData saveContextAndWait:]_block_invoke
+FNDA:555,-[CYCoreData readContext]
+FNDA:609,-[CYCoreData createStoreAndManagedObjectModel]
+FNDA:2382,-[CYCoreData persistentStoreCoordinator]
+FNDA:0,+[CYCoreData configureUniqueIdentifier:]
+FNDA:591,+[CYCoreData reset]
+FNDA:2382,-[CYCoreData setPersistentStoreCoordinator:]
+FNDA:0,+[CYCoreData saveAsynchronously]
+FNDA:591,-[CYCoreData setManagedObjectModel:]
+FNDA:313,__33-[CYCoreData saveContextAndWait:]_block_invoke76
+FNF:33
+FNH:30
+DA:18,591
+DA:19,2382
+DA:20,591
+DA:21,591
+DA:25,591
+DA:31,5601
+DA:32,5601
+DA:34,1867
+DA:35,1218
+DA:36,609
+DA:37,609
+DA:38,609
+DA:39,1867
+DA:43,18
+DA:44,18
+DA:45,18
+DA:46,18
+DA:47,18
+DA:49,627
+DA:50,627
+DA:51,627
+DA:52,627
+DA:53,627
+DA:55,573
+DA:56,573
+DA:57,573
+DA:58,573
+DA:61,573
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,18
+DA:68,18
+DA:69,18
+DA:73,1773
+DA:74,2364
+DA:75,591
+DA:76,2364
+DA:77,591
+DA:78,591
+DA:79,591
+DA:80,0
+DA:81,0
+DA:83,591
+DA:85,591
+DA:86,591
+DA:87,591
+DA:88,591
+DA:90,591
+DA:91,591
+DA:92,591
+DA:95,354
+DA:99,555
+DA:103,0
+DA:107,0
+DA:110,313
+DA:111,313
+DA:116,627
+DA:117,627
+DA:118,627
+DA:119,627
+DA:120,627
+DA:123,609
+DA:124,609
+DA:125,609
+DA:127,313
+DA:128,313
+DA:130,313
+DA:131,626
+DA:132,313
+DA:133,313
+DA:134,313
+DA:135,0
+DA:136,0
+DA:137,626
+DA:138,313
+DA:140,626
+DA:141,313
+DA:142,313
+DA:143,313
+DA:144,0
+DA:145,0
+DA:146,626
+DA:148,313
+DA:149,313
+DA:150,313
+DA:151,313
+DA:152,0
+DA:154,313
+DA:155,626
+DA:158,909
+DA:159,555
+DA:160,555
+DA:161,555
+DA:163,555
+DA:164,555
+DA:165,555
+DA:166,555
+DA:167,909
+DA:171,555
+DA:172,555
+DA:173,555
+DA:174,555
+DA:177,609
+DA:178,609
+DA:179,609
+DA:180,609
+DA:181,609
+DA:182,609
+DA:185,609
+DA:186,609
+DA:187,609
+DA:193,609
+DA:194,609
+DA:200,3045
+DA:201,0
+DA:206,0
+DA:207,0
+DA:208,609
+DA:209,609
+DA:213,627
+DA:217,1809
+DA:218,1809
+DA:219,1809
+DA:222,1935
+DA:226,645
+DA:227,645
+DA:228,18
+DA:229,18
+DA:230,18
+DA:231,627
+DA:233,645
+DA:234,645
+LF:133
+LH:118
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Classes/CYFixtureHelper.m
+FN:13,+[CYFixtureHelper dictionaryFromFixtureByName:]
+FN:36,+[CYFixtureHelper dictionaryFromFixtureByName:inBundle:]
+FNDA:357,+[CYFixtureHelper dictionaryFromFixtureByName:]
+FNDA:357,+[CYFixtureHelper dictionaryFromFixtureByName:inBundle:]
+FNF:2
+FNH:2
+DA:13,357
+DA:33,357
+DA:34,357
+DA:36,357
+DA:37,357
+DA:38,357
+DA:39,357
+DA:40,357
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,357
+DA:47,357
+DA:48,357
+DA:50,357
+DA:51,357
+DA:52,357
+DA:53,357
+DA:54,357
+DA:55,357
+DA:56,0
+DA:58,357
+DA:60,357
+DA:61,357
+LF:24
+LH:20
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Classes/NSDate+Util.m
+FN:13,+[NSDate(Util) timeAgoWithDate:]
+FN:46,+[NSDate(Util) dateFromString:]
+FN:53,+[NSDate(Util) dateForUnixString:]
+FN:57,+[NSDate(Util) dateFromMicroSecondsString:]
+FN:63,-[NSDate(Util) inMicroSeconds]
+FN:68,-[NSDate(Util) inMicroSecondsString]
+FNDA:36,+[NSDate(Util) dateFromMicroSecondsString:]
+FNDA:0,+[NSDate(Util) timeAgoWithDate:]
+FNDA:36,+[NSDate(Util) dateFromString:]
+FNDA:18,-[NSDate(Util) inMicroSeconds]
+FNDA:0,-[NSDate(Util) inMicroSecondsString]
+FNDA:2444,+[NSDate(Util) dateForUnixString:]
+FNF:6
+FNH:4
+DA:13,0
+DA:14,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,36
+DA:47,36
+DA:48,36
+DA:49,36
+DA:50,36
+DA:51,36
+DA:53,2444
+DA:54,2444
+DA:55,2444
+DA:57,36
+DA:58,36
+DA:59,36
+DA:60,36
+DA:61,36
+DA:64,18
+DA:65,18
+DA:69,0
+LF:42
+LH:16
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Classes/NSManagedObject+CYCoreData.m
+FN:24,+[NSManagedObject(CYCoreData) configureUniqueIdentifier:]
+FN:30,+[NSManagedObject(CYCoreData) configureModelUniqueIdentifier:ofDataType:withJSONSearchString:]
+FN:47,+[NSManagedObject(CYCoreData) entityName]
+FN:51,+[NSManagedObject(CYCoreData) newObjectInContext:]
+FN:55,+[NSManagedObject(CYCoreData) updateOrCreateObjectInContext:withDictionary:]
+FN:86,+[NSManagedObject(CYCoreData) deleteAllObjectsInContext:]
+FN:90,+[NSManagedObject(CYCoreData) deleteObjectsInContext:sortedBy:withPredicate:]
+FN:95,-[NSManagedObject(CYCoreData) updateWithDictionary:]
+FN:100,-[NSManagedObject(CYCoreData) setBoolValuesInDictionary:forKeys:]
+FN:105,-[NSManagedObject(CYCoreData) setIntValuesInDictionary:forKeys:]
+FN:110,-[NSManagedObject(CYCoreData) setIntegerValuesInDictionary:forKeys:]
+FN:115,-[NSManagedObject(CYCoreData) setFloatValuesInDictionary:forKeys:]
+FN:120,-[NSManagedObject(CYCoreData) setDoubleValuesInDictionary:forKeys:]
+FN:125,-[NSManagedObject(CYCoreData) setDateValuesInDictionary:forKeys:]
+FN:130,-[NSManagedObject(CYCoreData) setUnixDateValuesInDictionary:forKeys:]
+FN:135,-[NSManagedObject(CYCoreData) setMicrosecondDateValuesInDictionary:forKeys:]
+FN:140,-[NSManagedObject(CYCoreData) setStringValuesInDictionary:forKeys:]
+FN:145,-[NSManagedObject(CYCoreData) setManagedObjectValueType:withDictionary:firstAttribute:args:]
+FN:153,-[NSManagedObject(CYCoreData) setKeyValue:fromKey:inDictionary:forManagedObjectValueType:]
+FN:188,-[NSManagedObject(CYCoreData) camelCaseToUnderscore:]
+FN:203,+[NSManagedObject(CYCoreData) fetchObjectsInContext:sortedBy:withPredicate:]
+FN:207,+[NSManagedObject(CYCoreData) fetchCountInContext:withPredicate:]
+FN:211,+[NSManagedObject(CYCoreData) fetchFirstObjectInContext:sortedBy:withPredicate:]
+FN:215,+[NSManagedObject(CYCoreData) fetchAllInContext:]
+FN:219,+[NSManagedObject(CYCoreData) fetchObjectsInContext:byPageNumber:withObjectsPerPage:withSortDescriptors:]
+FN:227,+[NSManagedObject(CYCoreData) fetchObjectsInContext:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:]
+FNDA:2444,-[NSManagedObject(CYCoreData) setBoolValuesInDictionary:forKeys:]
+FNDA:14,+[NSManagedObject(CYCoreData) fetchAllInContext:]
+FNDA:18,-[NSManagedObject(CYCoreData) setMicrosecondDateValuesInDictionary:forKeys:]
+FNDA:2444,-[NSManagedObject(CYCoreData) setUnixDateValuesInDictionary:forKeys:]
+FNDA:15,+[NSManagedObject(CYCoreData) fetchFirstObjectInContext:sortedBy:withPredicate:]
+FNDA:31,+[NSManagedObject(CYCoreData) fetchObjectsInContext:sortedBy:withPredicate:]
+FNDA:2408,+[NSManagedObject(CYCoreData) updateOrCreateObjectInContext:withDictionary:]
+FNDA:36,+[NSManagedObject(CYCoreData) fetchObjectsInContext:byPageNumber:withObjectsPerPage:withSortDescriptors:]
+FNDA:0,+[NSManagedObject(CYCoreData) configureUniqueIdentifier:]
+FNDA:88,+[NSManagedObject(CYCoreData) fetchCountInContext:withPredicate:]
+FNDA:9866,-[NSManagedObject(CYCoreData) setManagedObjectValueType:withDictionary:firstAttribute:args:]
+FNDA:18,-[NSManagedObject(CYCoreData) setIntValuesInDictionary:forKeys:]
+FNDA:2444,-[NSManagedObject(CYCoreData) setStringValuesInDictionary:forKeys:]
+FNDA:39,+[NSManagedObject(CYCoreData) fetchObjectsInContext:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:]
+FNDA:18,-[NSManagedObject(CYCoreData) setFloatValuesInDictionary:forKeys:]
+FNDA:2444,-[NSManagedObject(CYCoreData) setIntegerValuesInDictionary:forKeys:]
+FNDA:18,+[NSManagedObject(CYCoreData) deleteAllObjectsInContext:]
+FNDA:18,-[NSManagedObject(CYCoreData) setDoubleValuesInDictionary:forKeys:]
+FNDA:7847,+[NSManagedObject(CYCoreData) entityName]
+FNDA:18,-[NSManagedObject(CYCoreData) setKeyValue:fromKey:inDictionary:forManagedObjectValueType:]
+FNDA:18,+[NSManagedObject(CYCoreData) deleteObjectsInContext:sortedBy:withPredicate:]
+FNDA:0,-[NSManagedObject(CYCoreData) updateWithDictionary:]
+FNDA:573,+[NSManagedObject(CYCoreData) configureModelUniqueIdentifier:ofDataType:withJSONSearchString:]
+FNDA:19696,-[NSManagedObject(CYCoreData) camelCaseToUnderscore:]
+FNDA:18,-[NSManagedObject(CYCoreData) setDateValuesInDictionary:forKeys:]
+FNDA:2623,+[NSManagedObject(CYCoreData) newObjectInContext:]
+FNF:26
+FNH:24
+DA:24,0
+DA:25,0
+DA:28,0
+DA:30,573
+DA:31,573
+DA:32,573
+DA:33,573
+DA:34,573
+DA:35,573
+DA:36,573
+DA:37,573
+DA:38,573
+DA:39,573
+DA:40,573
+DA:41,573
+DA:42,573
+DA:48,7847
+DA:51,2623
+DA:52,2623
+DA:53,2623
+DA:55,2408
+DA:56,2408
+DA:57,2408
+DA:58,2408
+DA:60,0
+DA:61,0
+DA:63,0
+DA:64,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:70,0
+DA:72,2408
+DA:74,4816
+DA:75,2408
+DA:76,2408
+DA:77,2408
+DA:78,2408
+DA:79,2408
+DA:80,2408
+DA:82,2408
+DA:83,2408
+DA:84,2408
+DA:86,18
+DA:87,18
+DA:88,18
+DA:90,18
+DA:91,18
+DA:92,18
+DA:95,0
+DA:96,0
+DA:97,0
+DA:100,2444
+DA:101,2444
+DA:102,2444
+DA:103,2444
+DA:105,18
+DA:106,18
+DA:107,18
+DA:108,18
+DA:110,2444
+DA:111,2444
+DA:112,2444
+DA:113,2444
+DA:115,18
+DA:116,18
+DA:117,18
+DA:118,18
+DA:120,18
+DA:121,18
+DA:122,18
+DA:123,18
+DA:125,18
+DA:126,18
+DA:127,18
+DA:128,18
+DA:130,2444
+DA:131,2444
+DA:132,2444
+DA:133,2444
+DA:135,18
+DA:136,18
+DA:137,18
+DA:138,18
+DA:140,2444
+DA:141,2444
+DA:142,2444
+DA:143,2444
+DA:145,9866
+DA:146,108382
+DA:147,19696
+DA:148,19696
+DA:149,19696
+DA:150,9866
+DA:151,9866
+DA:153,19696
+DA:154,19696
+DA:155,39392
+DA:156,39392
+DA:158,4888
+DA:159,4888
+DA:161,36
+DA:162,36
+DA:164,4888
+DA:165,4888
+DA:167,36
+DA:168,36
+DA:170,36
+DA:171,36
+DA:173,18
+DA:174,18
+DA:176,2444
+DA:177,2444
+DA:179,18
+DA:180,18
+DA:182,7332
+DA:183,7332
+DA:185,19696
+DA:186,19696
+DA:188,19696
+DA:189,19696
+DA:192,39392
+DA:194,19696
+DA:196,19696
+DA:197,19696
+DA:203,31
+DA:204,31
+DA:205,31
+DA:207,88
+DA:208,88
+DA:209,88
+DA:211,15
+DA:212,15
+DA:213,15
+DA:215,14
+DA:216,14
+DA:217,14
+DA:219,36
+DA:220,36
+DA:225,36
+DA:227,39
+DA:228,39
+DA:233,39
+LF:143
+LH:129
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Classes/NSManagedObjectContext+CYCoreData.m
+FN:17,-[NSManagedObjectContext(CYCoreData) saveSynchronously]
+FN:21,-[NSManagedObjectContext(CYCoreData) saveAsynchronously]
+FN:25,-[NSManagedObjectContext(CYCoreData) saveAndWait:]
+FN:34,-[NSManagedObjectContext(CYCoreData) insertNewObjectWithEntityName:]
+FN:38,-[NSManagedObjectContext(CYCoreData) deleteAllObjectsWithEntityName:]
+FN:42,-[NSManagedObjectContext(CYCoreData) deleteObjectsWithEntityName:sortDescriptors:andPredicate:]
+FN:46,-[NSManagedObjectContext(CYCoreData) deleteAllObjectsInResults:]
+FN:55,-[NSManagedObjectContext(CYCoreData) fetchRequestForEntity:]
+FN:61,-[NSManagedObjectContext(CYCoreData) fetchRequestForEntityName:]
+FN:66,-[NSManagedObjectContext(CYCoreData) fetchRequestForEntityName:sortDescriptors:andPredicate:]
+FN:79,-[NSManagedObjectContext(CYCoreData) fetchObjectArrayWithRequest:]
+FN:86,-[NSManagedObjectContext(CYCoreData) fetchCountWithRequest:]
+FN:93,-[NSManagedObjectContext(CYCoreData) fetchObjectsWithEntityName:sortedBy:withPredicate:]
+FN:98,-[NSManagedObjectContext(CYCoreData) fetchFirstObjectWithEntityName:sortedBy:withPredicate:]
+FN:109,-[NSManagedObjectContext(CYCoreData) fetchCountWithEntityName:andPredicate:]
+FN:114,-[NSManagedObjectContext(CYCoreData) fetchObjectsWithEntityName:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:]
+FNDA:251,-[NSManagedObjectContext(CYCoreData) fetchRequestForEntityName:sortDescriptors:andPredicate:]
+FNDA:2923,-[NSManagedObjectContext(CYCoreData) fetchRequestForEntityName:]
+FNDA:129,-[NSManagedObjectContext(CYCoreData) fetchObjectsWithEntityName:byPageNumber:withObjectsPerPage:andPredicate:withSortDescriptors:]
+FNDA:36,-[NSManagedObjectContext(CYCoreData) deleteObjectsWithEntityName:sortDescriptors:andPredicate:]
+FNDA:196,-[NSManagedObjectContext(CYCoreData) fetchCountWithRequest:]
+FNDA:33,-[NSManagedObjectContext(CYCoreData) fetchFirstObjectWithEntityName:sortedBy:withPredicate:]
+FNDA:313,-[NSManagedObjectContext(CYCoreData) saveAndWait:]
+FNDA:2941,-[NSManagedObjectContext(CYCoreData) fetchRequestForEntity:]
+FNDA:313,-[NSManagedObjectContext(CYCoreData) saveSynchronously]
+FNDA:121,-[NSManagedObjectContext(CYCoreData) fetchObjectsWithEntityName:sortedBy:withPredicate:]
+FNDA:2691,-[NSManagedObjectContext(CYCoreData) fetchObjectArrayWithRequest:]
+FNDA:4906,-[NSManagedObjectContext(CYCoreData) insertNewObjectWithEntityName:]
+FNDA:72,-[NSManagedObjectContext(CYCoreData) deleteAllObjectsInResults:]
+FNDA:36,-[NSManagedObjectContext(CYCoreData) deleteAllObjectsWithEntityName:]
+FNDA:0,-[NSManagedObjectContext(CYCoreData) saveAsynchronously]
+FNDA:178,-[NSManagedObjectContext(CYCoreData) fetchCountWithEntityName:andPredicate:]
+FNF:16
+FNH:15
+DA:18,313
+DA:19,313
+DA:22,0
+DA:23,0
+DA:25,313
+DA:26,313
+DA:27,313
+DA:28,313
+DA:29,0
+DA:30,0
+DA:31,313
+DA:32,313
+DA:34,4906
+DA:35,4906
+DA:36,4906
+DA:38,36
+DA:39,36
+DA:40,36
+DA:42,36
+DA:43,36
+DA:44,36
+DA:46,72
+DA:47,2394
+DA:48,1125
+DA:49,2430
+DA:50,72
+DA:55,2941
+DA:56,2941
+DA:57,2941
+DA:58,2941
+DA:59,2941
+DA:61,2923
+DA:62,2923
+DA:63,2923
+DA:64,2923
+DA:66,2887
+DA:67,2887
+DA:69,2887
+DA:70,251
+DA:71,251
+DA:73,2887
+DA:74,2657
+DA:75,2657
+DA:76,2887
+DA:77,2887
+DA:79,2691
+DA:80,2691
+DA:81,2691
+DA:82,10764
+DA:83,2691
+DA:84,2691
+DA:86,196
+DA:87,196
+DA:88,196
+DA:89,784
+DA:90,196
+DA:91,196
+DA:93,121
+DA:94,121
+DA:95,121
+DA:96,121
+DA:98,2441
+DA:99,2441
+DA:100,2441
+DA:101,2441
+DA:103,2441
+DA:104,2408
+DA:106,33
+DA:107,2441
+DA:109,178
+DA:110,178
+DA:111,178
+DA:112,178
+DA:114,129
+DA:115,129
+DA:116,129
+DA:117,129
+DA:118,129
+DA:119,129
+LF:79
+LH:75
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.h
+FN:13,-[AppDelegate window]
+FN:13,-[AppDelegate setWindow:]
+FN:14,-[AppDelegate setNavigationController:]
+FN:14,-[AppDelegate navigationController]
+FNDA:48,-[AppDelegate setNavigationController:]
+FNDA:96,-[AppDelegate window]
+FNDA:96,-[AppDelegate setWindow:]
+FNDA:48,-[AppDelegate navigationController]
+FNF:4
+FNH:4
+DA:13,96
+DA:14,48
+LF:2
+LH:2
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/AppDelegate.m
+FN:14,-[AppDelegate .cxx_destruct]
+FN:16,-[AppDelegate application:didFinishLaunchingWithOptions:]
+FN:36,-[AppDelegate applicationWillResignActive:]
+FN:41,-[AppDelegate applicationDidEnterBackground:]
+FN:46,-[AppDelegate applicationWillEnterForeground:]
+FN:50,-[AppDelegate applicationDidBecomeActive:]
+FN:54,-[AppDelegate applicationWillTerminate:]
+FNDA:24,-[AppDelegate application:didFinishLaunchingWithOptions:]
+FNDA:0,-[AppDelegate applicationDidEnterBackground:]
+FNDA:0,-[AppDelegate applicationWillResignActive:]
+FNDA:0,-[AppDelegate applicationWillTerminate:]
+FNDA:0,-[AppDelegate .cxx_destruct]
+FNDA:24,-[AppDelegate applicationDidBecomeActive:]
+FNDA:0,-[AppDelegate applicationWillEnterForeground:]
+FNF:7
+FNH:2
+DA:14,0
+DA:16,24
+DA:19,24
+DA:23,24
+DA:25,24
+DA:26,24
+DA:27,72
+DA:28,24
+DA:29,24
+DA:30,24
+DA:32,24
+DA:33,24
+DA:34,24
+DA:36,0
+DA:39,0
+DA:41,0
+DA:44,0
+DA:46,0
+DA:48,0
+DA:50,24
+DA:52,24
+DA:54,0
+DA:56,0
+LF:23
+LH:14
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/RootViewController.m
+FN:18,-[RootViewController tableView]
+FN:18,-[RootViewController setTableView:]
+FN:19,-[RootViewController listings]
+FN:19,-[RootViewController setListings:]
+FN:23,-[RootViewController .cxx_destruct]
+FN:25,-[RootViewController viewDidLoad]
+FN:54,-[RootViewController viewWillAppear:]
+FN:58,-[RootViewController didReceiveMemoryWarning]
+FN:65,-[RootViewController tableView:heightForHeaderInSection:]
+FN:72,-[RootViewController tableView:viewForHeaderInSection:]
+FN:81,-[RootViewController numberOfSectionsInTableView:]
+FN:85,-[RootViewController tableView:numberOfRowsInSection:]
+FN:89,-[RootViewController tableView:heightForRowAtIndexPath:]
+FN:93,-[RootViewController tableView:cellForRowAtIndexPath:]
+FN:114,-[RootViewController tableView:didSelectRowAtIndexPath:]
+FNDA:0,-[RootViewController didReceiveMemoryWarning]
+FNDA:72,-[RootViewController tableView:numberOfRowsInSection:]
+FNDA:96,-[RootViewController tableView:heightForHeaderInSection:]
+FNDA:24,-[RootViewController numberOfSectionsInTableView:]
+FNDA:0,-[RootViewController tableView]
+FNDA:24,-[RootViewController tableView:cellForRowAtIndexPath:]
+FNDA:96,-[RootViewController tableView:heightForRowAtIndexPath:]
+FNDA:192,-[RootViewController listings]
+FNDA:0,-[RootViewController setTableView:]
+FNDA:24,-[RootViewController viewDidLoad]
+FNDA:0,-[RootViewController tableView:didSelectRowAtIndexPath:]
+FNDA:192,-[RootViewController setListings:]
+FNDA:24,-[RootViewController viewWillAppear:]
+FNDA:0,-[RootViewController .cxx_destruct]
+FNDA:48,-[RootViewController tableView:viewForHeaderInSection:]
+FNF:15
+FNH:10
+DA:18,0
+DA:19,192
+DA:23,0
+DA:26,24
+DA:27,24
+DA:28,24
+DA:29,24
+DA:30,24
+DA:31,24
+DA:32,24
+DA:34,24
+DA:36,24
+DA:42,120
+DA:46,24
+DA:47,24
+DA:48,24
+DA:49,24
+DA:50,24
+DA:52,24
+DA:54,24
+DA:55,24
+DA:56,24
+DA:60,0
+DA:62,0
+DA:65,120
+DA:66,120
+DA:67,96
+DA:69,144
+DA:70,120
+DA:72,48
+DA:73,48
+DA:74,48
+DA:75,48
+DA:76,48
+DA:77,48
+DA:78,0
+DA:79,48
+DA:81,24
+DA:82,24
+DA:83,24
+DA:85,72
+DA:86,72
+DA:87,72
+DA:89,96
+DA:90,96
+DA:91,96
+DA:93,96
+DA:94,96
+DA:95,96
+DA:96,96
+DA:97,96
+DA:99,96
+DA:101,96
+DA:102,24
+DA:103,24
+DA:104,24
+DA:105,24
+DA:106,72
+DA:107,72
+DA:108,72
+DA:111,96
+DA:112,96
+DA:114,0
+DA:115,0
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:134,0
+DA:135,0
+LF:80
+LH:57
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.h
+FN:13,-[RedditListingResponseSerializer setTempContext:]
+FN:13,-[RedditListingResponseSerializer tempContext]
+FNDA:0,-[RedditListingResponseSerializer setTempContext:]
+FNDA:0,-[RedditListingResponseSerializer tempContext]
+FNF:2
+FNH:0
+DA:13,0
+LF:1
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/afnetworking/RedditListingResponseSerializer.m
+FN:17,-[RedditListingResponseSerializer .cxx_destruct]
+FN:19,+[RedditListingResponseSerializer serializerWithTempContext:]
+FN:23,-[RedditListingResponseSerializer initWithTempContext:]
+FN:30,-[RedditListingResponseSerializer responseObjectForResponse:data:error:]
+FN:32,__72-[RedditListingResponseSerializer responseObjectForResponse:data:error:]_block_invoke
+FNDA:0,-[RedditListingResponseSerializer .cxx_destruct]
+FNDA:0,-[RedditListingResponseSerializer responseObjectForResponse:data:error:]
+FNDA:0,-[RedditListingResponseSerializer initWithTempContext:]
+FNDA:0,__72-[RedditListingResponseSerializer responseObjectForResponse:data:error:]_block_invoke
+FNDA:0,+[RedditListingResponseSerializer serializerWithTempContext:]
+FNF:5
+FNH:0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+DA:42,0
+LF:21
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+API.m
+FN:16,+[Listing(API) getRedditListingsWithComplete:failure:]
+FN:16,__54+[Listing(API) getRedditListingsWithComplete:failure:]_block_invoke
+FN:16,__54+[Listing(API) getRedditListingsWithComplete:failure:]_block_invoke22
+FNDA:0,+[Listing(API) getRedditListingsWithComplete:failure:]
+FNDA:0,__54+[Listing(API) getRedditListingsWithComplete:failure:]_block_invoke
+FNDA:0,__54+[Listing(API) getRedditListingsWithComplete:failure:]_block_invoke22
+FNF:3
+FNH:0
+DA:16,0
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+LF:15
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Read.m
+FN:14,+[Listing(Read) fetchListingsWithCommentsOver:withContext:]
+FN:20,+[Listing(Read) fetchMostRecentWithContext:]
+FNDA:0,+[Listing(Read) fetchMostRecentWithContext:]
+FNDA:0,+[Listing(Read) fetchListingsWithCommentsOver:withContext:]
+FNF:2
+FNH:0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+LF:9
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Util.m
+FN:14,-[Listing(Util) clickedBool]
+FN:18,-[Listing(Util) numCommentsInt]
+FN:22,-[Listing(Util) upsInt]
+FN:26,-[Listing(Util) isSelfBool]
+FN:31,-[Listing(Util) setNumCommentsInt:]
+FN:35,-[Listing(Util) setUpsInt:]
+FN:39,-[Listing(Util) setIsSelfBool:]
+FN:43,-[Listing(Util) setClickedBool:]
+FN:49,-[Listing(Util) clickedString]
+FN:53,-[Listing(Util) numCommentsString]
+FN:57,-[Listing(Util) upsString]
+FNDA:0,-[Listing(Util) clickedString]
+FNDA:46,-[Listing(Util) upsInt]
+FNDA:0,-[Listing(Util) setIsSelfBool:]
+FNDA:46,-[Listing(Util) numCommentsInt]
+FNDA:0,-[Listing(Util) setNumCommentsInt:]
+FNDA:0,-[Listing(Util) setUpsInt:]
+FNDA:0,-[Listing(Util) upsString]
+FNDA:69,-[Listing(Util) isSelfBool]
+FNDA:69,-[Listing(Util) clickedBool]
+FNDA:0,-[Listing(Util) numCommentsString]
+FNDA:0,-[Listing(Util) setClickedBool:]
+FNF:11
+FNH:4
+DA:15,69
+DA:19,46
+DA:23,46
+DA:27,69
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:50,0
+DA:54,0
+DA:58,0
+LF:19
+LH:4
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/coredata/listing/Listing+Write.m
+FN:14,-[Listing(Write) updateWithDictionary:]
+FNDA:2641,-[Listing(Write) updateWithDictionary:]
+FNF:1
+FNH:1
+DA:14,2641
+DA:17,2641
+DA:18,2641
+DA:19,2641
+DA:20,2641
+DA:23,2641
+DA:25,2641
+LF:7
+LH:7
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/ui/activityindicator/CYActivityIndicator.m
+FN:18,-[CYActivityIndicator .cxx_destruct]
+FN:20,-[CYActivityIndicator initWithFrame:]
+FN:31,-[CYActivityIndicator setFrame:]
+FN:36,-[CYActivityIndicator startActivityIndication]
+FN:50,-[CYActivityIndicator stopActivityIndication]
+FNDA:0,-[CYActivityIndicator .cxx_destruct]
+FNDA:0,-[CYActivityIndicator initWithFrame:]
+FNDA:0,-[CYActivityIndicator stopActivityIndication]
+FNDA:0,-[CYActivityIndicator setFrame:]
+FNDA:0,-[CYActivityIndicator startActivityIndication]
+FNF:5
+FNH:0
+DA:18,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+LF:31
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/all/FetchAllViewController.m
+FN:17,-[FetchAllViewController setTableView:]
+FN:17,-[FetchAllViewController tableView]
+FN:18,-[FetchAllViewController setListings:]
+FN:18,-[FetchAllViewController listings]
+FN:19,-[FetchAllViewController currentOperation]
+FN:19,-[FetchAllViewController setCurrentOperation:]
+FN:23,-[FetchAllViewController .cxx_destruct]
+FN:25,-[FetchAllViewController viewDidLoad]
+FN:41,-[FetchAllViewController viewWillAppear:]
+FN:44,__41-[FetchAllViewController viewWillAppear:]_block_invoke
+FN:47,__41-[FetchAllViewController viewWillAppear:]_block_invoke27
+FN:54,-[FetchAllViewController viewWillDisappear:]
+FN:59,-[FetchAllViewController fetchAll]
+FN:60,__34-[FetchAllViewController fetchAll]_block_invoke
+FN:71,-[FetchAllViewController didReceiveMemoryWarning]
+FN:77,-[FetchAllViewController numberOfSectionsInTableView:]
+FN:81,-[FetchAllViewController tableView:numberOfRowsInSection:]
+FN:85,-[FetchAllViewController tableView:heightForRowAtIndexPath:]
+FN:89,-[FetchAllViewController tableView:cellForRowAtIndexPath:]
+FN:101,-[FetchAllViewController tableView:didSelectRowAtIndexPath:]
+FNDA:0,-[FetchAllViewController tableView:numberOfRowsInSection:]
+FNDA:0,__41-[FetchAllViewController viewWillAppear:]_block_invoke27
+FNDA:0,-[FetchAllViewController setListings:]
+FNDA:0,-[FetchAllViewController .cxx_destruct]
+FNDA:0,-[FetchAllViewController currentOperation]
+FNDA:0,-[FetchAllViewController tableView:cellForRowAtIndexPath:]
+FNDA:0,-[FetchAllViewController tableView:didSelectRowAtIndexPath:]
+FNDA:0,-[FetchAllViewController viewDidLoad]
+FNDA:0,-[FetchAllViewController viewWillDisappear:]
+FNDA:0,-[FetchAllViewController viewWillAppear:]
+FNDA:0,-[FetchAllViewController numberOfSectionsInTableView:]
+FNDA:0,-[FetchAllViewController listings]
+FNDA:0,-[FetchAllViewController setCurrentOperation:]
+FNDA:0,-[FetchAllViewController fetchAll]
+FNDA:0,-[FetchAllViewController tableView:heightForRowAtIndexPath:]
+FNDA:0,__34-[FetchAllViewController fetchAll]_block_invoke
+FNDA:0,-[FetchAllViewController didReceiveMemoryWarning]
+FNDA:0,-[FetchAllViewController setTableView:]
+FNDA:0,__41-[FetchAllViewController viewWillAppear:]_block_invoke
+FNDA:0,-[FetchAllViewController tableView]
+FNF:20
+FNH:0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:23,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:66,0
+DA:67,0
+DA:69,0
+DA:72,0
+DA:74,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:101,0
+DA:103,0
+LF:59
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/fetch/predicate/FetchWithPredicateViewController.m
+FN:17,-[FetchWithPredicateViewController setTableView:]
+FN:17,-[FetchWithPredicateViewController tableView]
+FN:18,-[FetchWithPredicateViewController listings]
+FN:18,-[FetchWithPredicateViewController setListings:]
+FN:19,-[FetchWithPredicateViewController currentOperation]
+FN:19,-[FetchWithPredicateViewController setCurrentOperation:]
+FN:23,-[FetchWithPredicateViewController .cxx_destruct]
+FN:25,-[FetchWithPredicateViewController viewDidLoad]
+FN:41,-[FetchWithPredicateViewController viewWillAppear:]
+FN:44,__51-[FetchWithPredicateViewController viewWillAppear:]_block_invoke
+FN:47,__51-[FetchWithPredicateViewController viewWillAppear:]_block_invoke27
+FN:54,-[FetchWithPredicateViewController viewWillDisappear:]
+FN:59,-[FetchWithPredicateViewController fetchWithPredicate]
+FN:60,__54-[FetchWithPredicateViewController fetchWithPredicate]_block_invoke
+FN:70,-[FetchWithPredicateViewController didReceiveMemoryWarning]
+FN:75,-[FetchWithPredicateViewController numberOfSectionsInTableView:]
+FN:79,-[FetchWithPredicateViewController tableView:numberOfRowsInSection:]
+FN:83,-[FetchWithPredicateViewController tableView:heightForRowAtIndexPath:]
+FN:87,-[FetchWithPredicateViewController tableView:cellForRowAtIndexPath:]
+FN:99,-[FetchWithPredicateViewController tableView:didSelectRowAtIndexPath:]
+FNDA:0,-[FetchWithPredicateViewController viewDidLoad]
+FNDA:0,-[FetchWithPredicateViewController setTableView:]
+FNDA:0,-[FetchWithPredicateViewController tableView:numberOfRowsInSection:]
+FNDA:0,-[FetchWithPredicateViewController tableView:cellForRowAtIndexPath:]
+FNDA:0,-[FetchWithPredicateViewController didReceiveMemoryWarning]
+FNDA:0,-[FetchWithPredicateViewController fetchWithPredicate]
+FNDA:0,-[FetchWithPredicateViewController viewWillAppear:]
+FNDA:0,-[FetchWithPredicateViewController tableView:didSelectRowAtIndexPath:]
+FNDA:0,__54-[FetchWithPredicateViewController fetchWithPredicate]_block_invoke
+FNDA:0,-[FetchWithPredicateViewController currentOperation]
+FNDA:0,-[FetchWithPredicateViewController viewWillDisappear:]
+FNDA:0,-[FetchWithPredicateViewController listings]
+FNDA:0,-[FetchWithPredicateViewController .cxx_destruct]
+FNDA:0,-[FetchWithPredicateViewController tableView]
+FNDA:0,-[FetchWithPredicateViewController setCurrentOperation:]
+FNDA:0,__51-[FetchWithPredicateViewController viewWillAppear:]_block_invoke27
+FNDA:0,-[FetchWithPredicateViewController numberOfSectionsInTableView:]
+FNDA:0,-[FetchWithPredicateViewController setListings:]
+FNDA:0,-[FetchWithPredicateViewController tableView:heightForRowAtIndexPath:]
+FNDA:0,__51-[FetchWithPredicateViewController viewWillAppear:]_block_invoke
+FNF:20
+FNH:0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:23,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:71,0
+DA:72,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:99,0
+DA:101,0
+LF:59
+LH:0
+end_of_record
+TN:
+SF:/Users/scott/iOS/cycoredata/Example/CYCoreData/viewcontroller/write/OverloadExampleViewController.m
+FN:19,-[OverloadExampleViewController indicators]
+FN:19,-[OverloadExampleViewController setIndicators:]
+FN:20,-[OverloadExampleViewController mainThreadContext]
+FN:20,-[OverloadExampleViewController setMainThreadContext:]
+FN:21,-[OverloadExampleViewController setMainbutton:]
+FN:21,-[OverloadExampleViewController mainbutton]
+FN:22,-[OverloadExampleViewController temporarybutton]
+FN:22,-[OverloadExampleViewController setTemporarybutton:]
+FN:23,-[OverloadExampleViewController label]
+FN:23,-[OverloadExampleViewController setLabel:]
+FN:27,-[OverloadExampleViewController .cxx_destruct]
+FN:29,-[OverloadExampleViewController viewDidLoad]
+FN:69,-[OverloadExampleViewController viewWillAppear:]
+FN:75,-[OverloadExampleViewController viewWillDisappear:]
+FN:80,-[OverloadExampleViewController readDataBase]
+FN:85,-[OverloadExampleViewController setText:]
+FN:89,-[OverloadExampleViewController preferredStatusBarStyle]
+FN:93,-[OverloadExampleViewController activate:]
+FN:100,-[OverloadExampleViewController finish]
+FN:106,-[OverloadExampleViewController addActivityIndicators]
+FN:107,__54-[OverloadExampleViewController addActivityIndicators]_block_invoke
+FN:107,__54-[OverloadExampleViewController addActivityIndicators]_block_invoke_2
+FN:109,__54-[OverloadExampleViewController addActivityIndicators]_block_invoke_3
+FN:129,-[OverloadExampleViewController removeActivityIndicators]
+FN:130,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke_3
+FN:130,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke
+FN:130,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke128
+FN:130,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke_2
+FN:145,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke143
+FN:148,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke147
+FN:154,__78-[OverloadExampleViewController createsRandomListings:withExtras:withContext:]_block_invoke177
+FN:154,-[OverloadExampleViewController createsRandomListings:withExtras:withContext:]
+FN:155,__78-[OverloadExampleViewController createsRandomListings:withExtras:withContext:]_block_invoke
+FN:179,-[OverloadExampleViewController createAndFetchMassiveListings:]
+FN:185,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke192
+FN:186,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke
+FN:195,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke_2
+FN:195,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke210
+FN:195,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke204
+FN:241,-[OverloadExampleViewController didReceiveMemoryWarning]
+FNDA:0,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke143
+FNDA:0,-[OverloadExampleViewController activate:]
+FNDA:0,-[OverloadExampleViewController temporarybutton]
+FNDA:0,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke_3
+FNDA:0,-[OverloadExampleViewController finish]
+FNDA:0,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke_2
+FNDA:0,-[OverloadExampleViewController createAndFetchMassiveListings:]
+FNDA:0,-[OverloadExampleViewController mainThreadContext]
+FNDA:0,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke
+FNDA:0,-[OverloadExampleViewController viewWillDisappear:]
+FNDA:0,-[OverloadExampleViewController preferredStatusBarStyle]
+FNDA:0,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke147
+FNDA:0,-[OverloadExampleViewController setTemporarybutton:]
+FNDA:0,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke210
+FNDA:0,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke204
+FNDA:0,__63-[OverloadExampleViewController createAndFetchMassiveListings:]_block_invoke192
+FNDA:0,-[OverloadExampleViewController indicators]
+FNDA:0,-[OverloadExampleViewController viewWillAppear:]
+FNDA:0,-[OverloadExampleViewController setText:]
+FNDA:0,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke
+FNDA:0,-[OverloadExampleViewController setMainThreadContext:]
+FNDA:0,-[OverloadExampleViewController removeActivityIndicators]
+FNDA:0,-[OverloadExampleViewController .cxx_destruct]
+FNDA:0,-[OverloadExampleViewController setMainbutton:]
+FNDA:0,__54-[OverloadExampleViewController addActivityIndicators]_block_invoke
+FNDA:0,-[OverloadExampleViewController didReceiveMemoryWarning]
+FNDA:0,-[OverloadExampleViewController setIndicators:]
+FNDA:0,__78-[OverloadExampleViewController createsRandomListings:withExtras:withContext:]_block_invoke177
+FNDA:0,__78-[OverloadExampleViewController createsRandomListings:withExtras:withContext:]_block_invoke
+FNDA:0,-[OverloadExampleViewController viewDidLoad]
+FNDA:0,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke128
+FNDA:0,-[OverloadExampleViewController label]
+FNDA:0,-[OverloadExampleViewController setLabel:]
+FNDA:0,__54-[OverloadExampleViewController addActivityIndicators]_block_invoke_3
+FNDA:0,-[OverloadExampleViewController readDataBase]
+FNDA:0,-[OverloadExampleViewController addActivityIndicators]
+FNDA:0,__54-[OverloadExampleViewController addActivityIndicators]_block_invoke_2
+FNDA:0,__57-[OverloadExampleViewController removeActivityIndicators]_block_invoke_2
+FNDA:0,-[OverloadExampleViewController createsRandomListings:withExtras:withContext:]
+FNDA:0,-[OverloadExampleViewController mainbutton]
+FNF:40
+FNH:0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:27,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:67,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:90,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:143,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:200,0
+DA:201,0
+DA:202,0
+DA:204,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:212,0
+DA:213,0
+DA:214,0
+DA:216,0
+DA:217,0
+DA:218,0
+DA:219,0
+DA:224,0
+DA:229,0
+DA:230,0
+DA:231,0
+DA:232,0
+DA:233,0
+DA:235,0
+DA:236,0
+DA:237,0
+DA:238,0
+DA:239,0
+DA:242,0
+DA:244,0
+LF:177
+LH:0
+end_of_record
