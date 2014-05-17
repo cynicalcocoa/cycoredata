@@ -37,7 +37,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/configureSqliteFileName:withModelFileName:</TokenIdentifier>
-			<Abstract type="html">Configures file name for the .sqlite saved in the NSCachesDirectory. Tells CYCoreData the name of the *.xcdatamodeld to use and assumes it is located in the main bundle</Abstract>
+			<Abstract type="html">Configures the file name for the .sqlite saved in the NSCachesDirectory. Tells CYCoreData the name of the *.xcdatamodeld to use and assumes it is located in the main bundle</Abstract>
 			<DeclaredIn>CYCoreData.h</DeclaredIn>
 			
 			<Declaration>+ (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName</Declaration>
@@ -57,7 +57,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/configureModelUniqueIdentifier:ofDataType:withJSONSearchString:</TokenIdentifier>
-			<Abstract type="html">Sets the keys and type of the unique indexer for NSManagedObjects. This key is used to fetch unique NSEntity in the database.</Abstract>
+			<Abstract type="html">Sets the keys for and type of unique indexer for NSManagedObjects. This key is used to fetch unique NSEntity in the database.</Abstract>
 			<DeclaredIn>CYCoreData.h</DeclaredIn>
 			
 			<Declaration>+ (void)configureModelUniqueIdentifier:(NSString *)uniquePropertyKey ofDataType:(UniqueObjectValueType)uniqueObjectValueType withJSONSearchString:(NSString *)jsonSearchPropertyKey</Declaration>
@@ -145,7 +145,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/temporaryWriteContext</TokenIdentifier>
-			<Abstract type="html">Returns a brand NSManagedObjectContext of spawned off of the [CYCoreData readContext]. To update the database, fetch the NSEntityDescriptions from this context, create or modify as you see fit. When finished, immediately call either [temporaryWriteContext saveSynchronously] or [temporaryWriteContext saveAsynchronously]. This ensures that the changes will be pushed up to the readContext, then written to disk.</Abstract>
+			<Abstract type="html">Returns a brand NSManagedObjectContext of spawned off of the [CYCoreData readContext]. To update the database, fetch the NSEntityDescriptions from this context, create or modify as you see fit. When finished, immediately call either [temporaryWriteContext saveSynchronously] or [temporaryWriteContext saveAsynchronously]. This ensures that the changes will be pushed up to the [CYCoreData readContext], then written to disk.</Abstract>
 			<DeclaredIn>CYCoreData.h</DeclaredIn>
 			
 			<Declaration>+ (NSManagedObjectContext *)temporaryWriteContext</Declaration>
@@ -157,7 +157,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/saveSynchronously</TokenIdentifier>
-			<Abstract type="html">Calls a sychronous(blocking) action to the top NSManagedObjectContext to write the changes to disk.</Abstract>
+			<Abstract type="html">Calls a sychronous(performBlockAndWait) action to the top NSManagedObjectContext to write the changes to disk.</Abstract>
 			<DeclaredIn>CYCoreData.h</DeclaredIn>
 			
 			<Declaration>+ (void)saveSynchronously</Declaration>
@@ -169,7 +169,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/saveAsynchronously</TokenIdentifier>
-			<Abstract type="html">Calls a Asychronous(nonblocking) action to the top NSManagedObjectContext to write the changes to disk.</Abstract>
+			<Abstract type="html">Calls a Asychronous(performBlock) action to the top NSManagedObjectContext to write the changes to disk.</Abstract>
 			<DeclaredIn>CYCoreData.h</DeclaredIn>
 			
 			<Declaration>+ (void)saveAsynchronously</Declaration>
@@ -181,14 +181,14 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/CYCoreData/saveContextAndWait:</TokenIdentifier>
-			<Abstract type="html">For readContext performBlockAndWait pass YES. For readContext performBlock pass NO.</Abstract>
+			<Abstract type="html">For topLevelContext performBlockAndWait pass YES. For topLevelContext performBlock pass NO.</Abstract>
 			<DeclaredIn>CYCoreData.h</DeclaredIn>
 			
 			<Declaration>+ (void)saveContextAndWait:(BOOL)andWait</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>andWait</Name>
-					<Abstract type="html">BOOL for identify call to context performBlock or performBlockAndWait</Abstract>
+					<Abstract type="html">BOOL for identify call to topLevelContext performBlock or performBlockAndWait</Abstract>
 				</Parameter>
 			</Parameters>
 			

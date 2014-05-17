@@ -16,21 +16,21 @@
 /// @name Write
 ///-------------------------
 
-/** Calls a sychronous(blocking) action to the top parent `NSManagedObjectContext` to write the changes to disk. Changes written to a `temporaryWriteContext` are immediately avaible through the `readContext`.
+/** Calls a sychronous(performBlockAndWait) action to the top parent `NSManagedObjectContext` to write the changes to disk. Changes written to a `temporaryWriteContext` are immediately avaible through the `readContext`.
  * 
  * @warning Only call from an `NSManagedObjectContext` returned from `[CYCoreData temporaryWriteContext]`.
  */
 - (void)saveSynchronously;
 
 
-/** Calls a asychronous(nonblocking) action to the top parent `NSManagedObjectContext` to write the changes to disk. Changes written to a `temporaryWriteContext` are immediately avaible through the `readContext`.
+/** Calls a asychronous(performBlock) action to the top parent `NSManagedObjectContext` to write the changes to disk. Changes written to a `temporaryWriteContext` are immediately avaible through the `readContext`.
  *
  * @warning Only call from an `NSManagedObjectContext` returned from `[CYCoreData temporaryWriteContext]`.
  */
 - (void)saveAsynchronously;
 
 
-/** Returns a new `NSEntityDescription` of `entityName` in its own context.
+/** Returns a new `NSEntityDescription` of `entityName` in itself.
  *
  * @param entityName `NSString` of the entity name
  * @return An `NSEntityDescription` who's `managedObjectContext` is context that `insertNewObjectWithEntityName` was called upon
@@ -39,7 +39,7 @@
 - (id)insertNewObjectWithEntityName:(NSString *)entityName;
 
 
-/** Deletes all NSEntityDescription of `entityName` from its own context.
+/** Deletes all NSEntityDescription of `entityName` from itself.
  *
  * @param entityName `NSString` of the entity name
  * @warning Only call from a `NSManagedObjectContext` returned from `[CYCoreData temporaryWriteContext]`.
@@ -47,7 +47,7 @@
 - (void)deleteAllObjectsWithEntityName:(NSString *)entityName;
 
 
-/** Deletes specific `NSEntityDescriptions` of `entityName` returned from a `NSFetchRequest` with `NSSortDescriptors` and `NSPredicate` from its own `NSManagedObjectContext`.
+/** Deletes specific `NSEntityDescriptions` of `entityName` returned from a `NSFetchRequest` with `NSSortDescriptors` and `NSPredicate` from itself.
  *
  * @param entityName `NSString` of the entity name
  * @param sortDescriptors `NSArray` of `NSSortDescriptors` to order against
@@ -83,9 +83,9 @@
 - (NSFetchRequest *)fetchRequestForEntityName:(NSString *)entityName;
 
 
-/** Returns an `NSFetchRequest` with `entityName`, `NSSortDescriptors` and `NSPredicate` from its own `NSManagedObjectContext`.
+/** Returns an `NSFetchRequest` with `entityName`, `NSSortDescriptors` and `NSPredicate`.
  *
- * @param entityName NSString of the entity name
+ * @param entityName `NSString` of the entity name
  * @param sortDescriptors `NSArray` of `NSSortDescriptors` to order against
  * @param predicate `NSPredicate` to search against
  * @return An `NSFetchRequest` for an `NSEntityDescription` of type `entityName` with `NSSortDescriptors` and `NSPredicate`
@@ -103,41 +103,41 @@
 - (NSUInteger)fetchCountWithRequest:(NSFetchRequest *)fetchRequest;
 
 
-/** Returns specific `NSEntityDescriptions` returned from a NSFetchRequest with `entityName`, `NSSortDescriptors` and `NSPredicate` from its own `NSManagedObjectContext`.
+/** Returns specific `NSEntityDescriptions` returned from a NSFetchRequest with `entityName`, `NSSortDescriptors` and `NSPredicate` from itself.
  *
  * @param entityName `NSString` of the entity name
  * @param sortDescriptors `NSArray` of `NSSortDescriptors` to order against
  * @param predicate `NSPredicate` to search against
- * @return `NSArray` of `NSEntityDescriptions` returned from a `NSFetchRequest` with `NSSortDescriptors` and `predicate` from its own `NSManagedObjectContext`.
+ * @return `NSArray` of `NSEntityDescriptions` returned from a `NSFetchRequest` with `NSSortDescriptors` and `predicate` from itself.
  */
 - (NSArray *)fetchObjectsWithEntityName:(NSString *)entityName
                                sortedBy:(NSArray *)sortDescriptors
                           withPredicate:(NSPredicate *)predicate;
 
 
-/** Returns first `NSEntityDescription` returned from a `NSFetchRequest` with `entityName`, `NSSortDescriptors` and `NSPredicate` from its own `NSManagedObjectContext`.
+/** Returns first `NSEntityDescription` returned from a `NSFetchRequest` with `entityName`, `NSSortDescriptors` and `NSPredicate` from itself.
  *
  * @param entityName `NSString` of the entity name
  * @param sortDescriptors `NSArray` of `NSSortDescriptors` to order against
  * @param predicate `NSPredicate` to search against
- * @return First `NSEntityDescription` in `NSArray` returned from a `NSFetchRequest` with `NSSortDescriptors` and `NSPredicate` from its own `NSManagedObjectContext`.
+ * @return First `NSEntityDescription` in `NSArray` returned from a `NSFetchRequest` with `NSSortDescriptors` and `NSPredicate` from itself.
  */
 - (id)fetchFirstObjectWithEntityName:(NSString *)entityName
                             sortedBy:(NSArray *)sortDescriptors
                        withPredicate:(NSPredicate *)predicate;
 
 
-/** Returns an `NSUInteger` identitifying the number of `NSEntityDescriptions` returned by `NSFetchRequest` with `entityName` and `NSPredicate`
+/** Returns an `NSUInteger` identitifying the number of `NSEntityDescriptions` returned by `NSFetchRequest` with `entityName` and `NSPredicate` from itself.
  *
  * @param entityName `NSString` of the entity name
  * @param predicate `NSPredicate` to search against
- * @return `NSUInteger` identitifying the number of `NSEntityDescriptions` returned by `NSFetchRequest`
+ * @return `NSUInteger` identitifying the number of `NSEntityDescriptions` returned by `NSFetchRequest` from itself.
  */
 - (NSUInteger)fetchCountWithEntityName:(NSString *)entityName
                           andPredicate:(NSPredicate *)predicate;
 
 
-/** Paginates `NSEntityDescriptions` returned from a `NSFetchRequest` with `entityName`, `NSSortDescriptors` and `NSPredicate` by `perPage`. Returns `perPage` of `NSEntityDescriptions` at `pageNumber`.
+/** Paginates `NSEntityDescriptions` returned from a `NSFetchRequest` with `entityName`, `NSSortDescriptors` and `NSPredicate` by `perPage`. Returns `perPage` of `NSEntityDescriptions` at `pageNumber` from itself.
  *
  * @param entityName `NSString` of the entity name
  * @param pageNumber `NSInteger` of requested page

@@ -37,7 +37,7 @@ typedef struct UniqueIdentiferStruct {
 /// @name Config
 ///-------------------------
 
-/** Sets the keys and type of the unique indexer for`NSManagedObjects`. This key is used to fetch unique`Entity`in the database.
+/** Sets the keys for and type of unique indexer for `NSManagedObjects`. This key is used to fetch unique `NSEntity` in the database.
 *
 * @param uniquePropertyKey `NSString`for the unique property key if the NSManagedObject; example @"uid"
 * @param uniqueObjectValueType UniqueObjectValueType type of value the uniquePropertyKey is
@@ -72,7 +72,7 @@ typedef struct UniqueIdentiferStruct {
 + (NSString *)entityName;
 
 
-/** Creates and returns an `NSManagedObject` subclass from the subclass that calls it from the `NSManagedObjectContext` passed.
+/** Creates and returns an `NSManagedObject` from the subclass that calls via the `NSManagedObjectContext` passed.
  *
  * @param context `NSManagedObjectContext`the context the `NSManagedObject` subclass will be inserted from
  * @return instancetype `NSManagedObject` subclass from the subclass that calls it.
@@ -80,23 +80,23 @@ typedef struct UniqueIdentiferStruct {
 + (instancetype)newObjectInContext:(NSManagedObjectContext *)context;
 
 
-/** Creates and returns an `NSManagedObject` subclass from the subclass that calls it from the `NSManagedObjectContext` passed. The `NSDictionary` passed will be parsed and key value mapped to the new created `NSManagedObject` subclass.
+/** Creates and returns an `NSManagedObject` from the subclass that calls via the `NSManagedObjectContext` passed. The `NSDictionary` passed will be parsed and key value mapped to the new created `NSManagedObject` subclass.
  *
- * @param context`NSManagedObjectContext`the context the `NSManagedObject` subclass will be inserted from
+ * @param context `NSManagedObjectContext` the context the `NSManagedObject` subclass will be inserted from
  * @param dictionary NSDictionary that will be parsed and key value mapped to the new created `NSManagedObject` subclass
  * @return instancetype `NSManagedObject` subclass from the subclass that calls it.
  */
 + (instancetype)updateOrCreateObjectInContext:(NSManagedObjectContext *)context withDictionary:(NSDictionary *)dictionary;
 
 
-/** Deletes all`NSEntityDescription`of `NSManagedObject` subclass that calls it from the `NSManagedObjectContext` passed.
+/** Deletes all `NSEntityDescription` of `NSManagedObject` subclass that calls it from the `NSManagedObjectContext` passed.
  *
  * @param context `NSManagedObjectContext`to delete the `NSManagedObject` subclass from
  */
 + (void)deleteAllObjectsInContext:(NSManagedObjectContext *)context;
 
 
-/** Deletes specifically fetched`NSEntityDescription`of `NSManagedObject` with `NSSortDescriptors` and `NSPredicate` of subclass that calls it from the `NSManagedObjectContext` passed.
+/** Deletes specifically fetched `NSEntityDescription` of `NSManagedObject` with `NSSortDescriptors` and `NSPredicate` of subclass that calls it from the `NSManagedObjectContext` passed.
  *
  * @param context `NSManagedObjectContext`to delete the `NSManagedObject` subclass from
  * @param sortDescriptors `NSArray` of NSSortDescriptors to order against
@@ -105,14 +105,14 @@ typedef struct UniqueIdentiferStruct {
 + (void)deleteObjectsInContext:(NSManagedObjectContext *)context sortedBy:(NSArray *)sortDescriptors withPredicate:(NSPredicate *)predicate;
 
 
-/** The `NSDictionary` passed will be parsed and key value mapped to `NSManagedObject` subclass.
+/** The `NSDictionary` passed will be parsed and key value mapped to `NSManagedObject` the subclass.
  *
  * @param dictionary `NSDictionary` that will be parsed and key value mapped to the new created `NSManagedObject` subclass
  */
 - (void)updateWithDictionary:(NSDictionary *)dictionary;
 
 
-/** The `NSDictionary` will be searched by `NSString`keys in `NSArray`. If found, `BOOL` values will be applied to `NSManagedObject` subclass that called it.
+/** The `NSDictionary` will be searched by `NSString` keys in `NSArray`. If found, `BOOL` values will be applied to `NSManagedObject` subclass that called it.
  *
  * @param dictionary NSDictionary that will be parsed and key value mapped to the new created `NSManagedObject` subclass
  * @param keys `NSArray` of `NSString` keys for `BOOLs` in the the `NSDictionary`
@@ -202,7 +202,7 @@ typedef struct UniqueIdentiferStruct {
 /// @name Read
 ///-------------------------
 
-/** Returns specifically fetched`NSEntityDescription`of `NSManagedObject` with `sortDescriptors` and `predicate` of subclass that calls it from the `NSManagedObjectContext` passed.
+/** Returns specifically fetched `NSEntityDescriptions` of `NSManagedObject` with `sortDescriptors` and `NSPredicate` of subclass that calls it from the `NSManagedObjectContext` passed.
  *
  * @param context `NSManagedObjectContext` to fetch the `NSManagedObject` subclass from
  * @param sortDescriptors `NSArray` of `NSSortDescriptors` to order against
@@ -214,7 +214,7 @@ typedef struct UniqueIdentiferStruct {
                      withPredicate:(NSPredicate *)predicate;
 
 
-/** Returns an NSUInteger identitifying the number of `NSManagedObject` subclasses in the `NSManagedObjectContext` passed with `predicate`.
+/** Returns an NSUInteger identitifying the number of `NSManagedObject` subclasses in the `NSManagedObjectContext` passed with `NSPredicate`.
  *
  * @param context `NSManagedObjectContext` to fetch from
  * @param predicate `NSPredicate` to search against
@@ -235,7 +235,7 @@ typedef struct UniqueIdentiferStruct {
                             withPredicate:(NSPredicate *)predicate;
 
 
-/** Returns all `NSManagedObject` subclass from the `NSManagedObjectContext` passed.
+/** Returns all `NSManagedObjects` of subclass that call it from the `NSManagedObjectContext` passed.
  *
  * @param context `NSManagedObjectContext` the context to fetch from
  * @return NSArray of `NSManagedObject` subclasses from the `NSManagedObjectContext` passed.
@@ -243,7 +243,7 @@ typedef struct UniqueIdentiferStruct {
 + (NSArray *)fetchAllInContext:(NSManagedObjectContext *)context;
 
 
-/** Fetches`NSEntityDescription`of `NSManagedObject` subclasses with `NSSortDescriptors` of subclass that calls it from the `NSManagedObjectContext` passed. The resulting array is paginated by the `perPage` and the give page `pageNumber` is returned
+/** Fetches `NSEntityDescription` of `NSManagedObject` subclasses with `NSSortDescriptors` of subclass that calls it from the `NSManagedObjectContext` passed. The resulting array is paginated by the `perPage` and the give page `pageNumber` is returned
  *
  * @param context `NSManagedObjectContext` to fetch from
  * @param pageNumber `NSInteger` the page number to return
@@ -257,7 +257,7 @@ typedef struct UniqueIdentiferStruct {
                withSortDescriptors:(NSArray *)sortDescriptors;
 
 
-/** Fetches`NSEntityDescription`of `NSManagedObject` subclasses with `NSSortDescriptors` and `NSPredicate` of subclass that calls it from the `NSManagedObjectContext` passed. The resulting array is paginated by the `perPage` and the give page `pageNumber` is returned
+/** Fetches `NSEntityDescription` of `NSManagedObject` subclasses with `NSSortDescriptors` and `NSPredicate` of subclass that calls it from the `NSManagedObjectContext` passed. The resulting array is paginated by the `perPage` and the give page `pageNumber` is returned
  *
  * @param context `NSManagedObjectContext` to fetch from
  * @param pageNumber `NSInteger` the page number to return

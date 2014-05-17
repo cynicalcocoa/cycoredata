@@ -12,6 +12,7 @@
 					<Path>index.html</Path>
 					<Subnodes>
 						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
 						
 					</Subnodes>
 				</Node>
@@ -21,8 +22,8 @@
 					<Name>Categories</Name>
 					<Path>index.html</Path>
 					<Subnodes>
-						<NodeRef refid="2"/>
 						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
 						
 					</Subnodes>
 				</Node>
@@ -61,8 +62,35 @@
             </Subnodes>
             
         </Node>
-		
 		<Node id="2" type="file" documentType="reference">
+            <Name>CYFixtureHelper</Name>
+            <Path>Classes/CYFixtureHelper.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/CYFixtureHelper.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/CYFixtureHelper.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/CYFixtureHelper.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+		<Node id="3" type="file" documentType="reference">
             <Name>NSManagedObject(CYCoreData)</Name>
             <Path>Categories/NSManagedObject+CYCoreData.html</Path>
             
@@ -95,7 +123,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="3" type="file" documentType="reference">
+		<Node id="4" type="file" documentType="reference">
             <Name>NSManagedObjectContext(CYCoreData)</Name>
             <Path>Categories/NSManagedObjectContext+CYCoreData.html</Path>
             

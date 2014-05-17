@@ -30,7 +30,7 @@
 + (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName inBundleName:(NSString *)bundleName;
 
 
-/** Configures file name for the .sqlite saved in the `NSCachesDirectory`. Tells CYCoreData the name of the `*.xcdatamodeld` to use and assumes it is located in the main bundle
+/** Configures the file name for the .sqlite saved in the `NSCachesDirectory`. Tells CYCoreData the name of the `*.xcdatamodeld` to use and assumes it is located in the main bundle
  *
  * @param dataBaseFileName `NSString` of the database file name that will get saved in the cache directory
  * @param withModelFileName `NSString` of the .xcdatamodeld in the bundle
@@ -39,12 +39,7 @@
 + (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName;
 
 
-// NOTE: updateOrCreateObjectInContext by default searches the dictionary passedin for
-// the key @"id" and fetches the`NSManagedObject`(User) by propertyKey @"uid". To change this use
-// [configureModelUniqueIdentifier:ofDataType:withJSONSearchString:] mentioned above.
-
-
-/** Sets the keys and type of the unique indexer for `NSManagedObjects`. This key is used to fetch unique `NSEntity` in the database.
+/** Sets the keys for and type of unique indexer for `NSManagedObjects`. This key is used to fetch unique `NSEntity` in the database.
  *
  * @param uniquePropertyKey `NSString` for the unique property key if the NSManagedObject; example @"uid"
  * @param uniqueObjectValueType `UniqueObjectValueType` type of value the uniquePropertyKey is
@@ -98,7 +93,7 @@
 + (NSManagedObjectContext *)readContext;
 
 
-/** Returns a brand `NSManagedObjectContext` of spawned off of the [CYCoreData readContext]. To update the database, fetch the `NSEntityDescriptions` from this context, create or modify as you see fit. When finished, immediately call either `[temporaryWriteContext saveSynchronously]` or `[temporaryWriteContext saveAsynchronously]`. This ensures that the changes will be pushed up to the readContext, then written to disk.
+/** Returns a brand `NSManagedObjectContext` of spawned off of the [CYCoreData readContext]. To update the database, fetch the `NSEntityDescriptions` from this context, create or modify as you see fit. When finished, immediately call either `[temporaryWriteContext saveSynchronously]` or `[temporaryWriteContext saveAsynchronously]`. This ensures that the changes will be pushed up to the [CYCoreData readContext], then written to disk.
  *
  * @return `NSManagedObjectContext` of [CYCoreData liason].readContext
  * @warning It is not wise to change or save to this context directly. ONLY READ
@@ -106,23 +101,23 @@
 + (NSManagedObjectContext *)temporaryWriteContext;
 
 
-/** Calls a sychronous(blocking) action to the top `NSManagedObjectContext` to write the changes to disk.
+/** Calls a sychronous(performBlockAndWait) action to the top `NSManagedObjectContext` to write the changes to disk.
  *
  * @example Call when app terminates or goes in to background.
  */
 + (void)saveSynchronously;
 
 
-/** Calls a Asychronous(nonblocking) action to the top `NSManagedObjectContext` to write the changes to disk.
+/** Calls a Asychronous(performBlock) action to the top `NSManagedObjectContext` to write the changes to disk.
  *
  * @example Call when ever sychronous behavior is not desired.
  */
 + (void)saveAsynchronously;
 
 
-/** For readContext `performBlockAndWait` pass `YES`. For readContext `performBlock` pass `NO`.
+/** For topLevelContext `performBlockAndWait` pass `YES`. For topLevelContext `performBlock` pass `NO`.
  *
- * @param andWait `BOOL` for identify call to context `performBlock` or `performBlockAndWait`
+ * @param andWait `BOOL` for identify call to topLevelContext `performBlock` or `performBlockAndWait`
  */
 + (void)saveContextAndWait:(BOOL)andWait;
 
