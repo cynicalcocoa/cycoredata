@@ -52,11 +52,6 @@
 		D2D5ED0C192258E800D6C44C /* FetchAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECFB192258E800D6C44C /* FetchAllViewController.m */; };
 		D2D5ED0D192258E800D6C44C /* FetchWithPredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ECFE192258E800D6C44C /* FetchWithPredicateViewController.m */; };
 		D2D5ED0E192258E800D6C44C /* OverloadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D5ED01192258E800D6C44C /* OverloadExampleViewController.m */; };
-		D2D735341924E3B60062AD37 /* CYCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7352B1924E3B60062AD37 /* CYCoreData.m */; };
-		D2D735351924E3B60062AD37 /* CYFixtureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7352D1924E3B60062AD37 /* CYFixtureHelper.m */; };
-		D2D735361924E3B60062AD37 /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7352F1924E3B60062AD37 /* NSDate+Util.m */; };
-		D2D735371924E3B60062AD37 /* NSManagedObject+CYCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D735311924E3B60062AD37 /* NSManagedObject+CYCoreData.m */; };
-		D2D735381924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D735331924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,16 +111,6 @@
 		D2D5ECFE192258E800D6C44C /* FetchWithPredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchWithPredicateViewController.m; sourceTree = "<group>"; };
 		D2D5ED00192258E800D6C44C /* OverloadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverloadExampleViewController.h; sourceTree = "<group>"; };
 		D2D5ED01192258E800D6C44C /* OverloadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverloadExampleViewController.m; sourceTree = "<group>"; };
-		D2D7352A1924E3B60062AD37 /* CYCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCoreData.h; sourceTree = "<group>"; };
-		D2D7352B1924E3B60062AD37 /* CYCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCoreData.m; sourceTree = "<group>"; };
-		D2D7352C1924E3B60062AD37 /* CYFixtureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFixtureHelper.h; sourceTree = "<group>"; };
-		D2D7352D1924E3B60062AD37 /* CYFixtureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFixtureHelper.m; sourceTree = "<group>"; };
-		D2D7352E1924E3B60062AD37 /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
-		D2D7352F1924E3B60062AD37 /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
-		D2D735301924E3B60062AD37 /* NSManagedObject+CYCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+CYCoreData.h"; sourceTree = "<group>"; };
-		D2D735311924E3B60062AD37 /* NSManagedObject+CYCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+CYCoreData.m"; sourceTree = "<group>"; };
-		D2D735321924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+CYCoreData.h"; sourceTree = "<group>"; };
-		D2D735331924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+CYCoreData.m"; sourceTree = "<group>"; };
 		F690727A584F411AAAD9EF99 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -206,7 +191,6 @@
 		D2D5ECA91922558600D6C44C /* CYCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				D2D735291924E3B60062AD37 /* Classes */,
 				D2D5ECF0192258E800D6C44C /* RootViewController.h */,
 				D2D5ECF1192258E800D6C44C /* RootViewController.m */,
 				D2D5ECDF192258E800D6C44C /* afnetworking */,
@@ -350,24 +334,6 @@
 				D2D5ED01192258E800D6C44C /* OverloadExampleViewController.m */,
 			);
 			path = write;
-			sourceTree = "<group>";
-		};
-		D2D735291924E3B60062AD37 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D2D7352A1924E3B60062AD37 /* CYCoreData.h */,
-				D2D7352B1924E3B60062AD37 /* CYCoreData.m */,
-				D2D7352C1924E3B60062AD37 /* CYFixtureHelper.h */,
-				D2D7352D1924E3B60062AD37 /* CYFixtureHelper.m */,
-				D2D7352E1924E3B60062AD37 /* NSDate+Util.h */,
-				D2D7352F1924E3B60062AD37 /* NSDate+Util.m */,
-				D2D735301924E3B60062AD37 /* NSManagedObject+CYCoreData.h */,
-				D2D735311924E3B60062AD37 /* NSManagedObject+CYCoreData.m */,
-				D2D735321924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.h */,
-				D2D735331924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.m */,
-			);
-			name = Classes;
-			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,7 +498,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D735381924E3B60062AD37 /* NSManagedObjectContext+CYCoreData.m in Sources */,
 				D2D5ED0D192258E800D6C44C /* FetchWithPredicateViewController.m in Sources */,
 				D2D5ED08192258E800D6C44C /* Listing.m in Sources */,
 				D2D5ED06192258E800D6C44C /* Listing+Util.m in Sources */,
@@ -543,14 +508,10 @@
 				D2D5ED04192258E800D6C44C /* Listing+API.m in Sources */,
 				D2D5ECB41922558600D6C44C /* AppDelegate.m in Sources */,
 				D2D5ECB01922558600D6C44C /* main.m in Sources */,
-				D2D735371924E3B60062AD37 /* NSManagedObject+CYCoreData.m in Sources */,
 				D2D5ED0B192258E800D6C44C /* CYActivityIndicator.m in Sources */,
 				D2D5ED03192258E800D6C44C /* ExampleModel.xcdatamodeld in Sources */,
 				D2D5ED02192258E800D6C44C /* RedditListingResponseSerializer.m in Sources */,
-				D2D735361924E3B60062AD37 /* NSDate+Util.m in Sources */,
 				D2D5ED0E192258E800D6C44C /* OverloadExampleViewController.m in Sources */,
-				D2D735341924E3B60062AD37 /* CYCoreData.m in Sources */,
-				D2D735351924E3B60062AD37 /* CYFixtureHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

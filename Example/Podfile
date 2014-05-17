@@ -1,4 +1,4 @@
 pod 'AFNetworking', '~> 2.2'
-
+pod 'CYCoreData', :path => '../'
 
 podspec :path => "../CYCoreData.podspec"
