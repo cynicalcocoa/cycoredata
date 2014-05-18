@@ -339,6 +339,32 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/setKeyValue:fromKey:inDictionary:forManagedObjectValueType:</TokenIdentifier>
+			<Abstract type="html">dictionary will be searched for keyValue of object value type. If found, the property will be saved.</Abstract>
+			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>
+			
+			<Declaration>- (void)setKeyValue:(NSString *)keyValue fromKey:(NSString *)key inDictionary:(NSDictionary *)dictionary forManagedObjectValueType:(UniqueObjectValueType)type</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyValue</Name>
+					<Abstract type="html">NSString value of the NSManagedObject self</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">NSString value to search the dictionary for</Abstract>
+				</Parameter><Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary to search</Abstract>
+				</Parameter><Parameter>
+					<Name>type</Name>
+					<Abstract type="html">UniqueObjectValueType object value type of the NSManagedObject property</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setKeyValue:fromKey:inDictionary:forManagedObjectValueType:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObject/fetchObjectsInContext:sortedBy:withPredicate:</TokenIdentifier>
 			<Abstract type="html">Returns specifically fetched NSEntityDescriptions of NSManagedObject with sortDescriptors and NSPredicate of subclass that calls it from the NSManagedObjectContext passed.</Abstract>
 			<DeclaredIn>NSManagedObject+CYCoreData.h</DeclaredIn>

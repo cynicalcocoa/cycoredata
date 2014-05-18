@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="no"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
-    <id>https://github.com/cynicalcocoa/cycoredata/cynicalcocoa/cynicalcocoa.atom/20140517140227</id>
+    <id>https://github.com/cynicalcocoa/cycoredata/cynicalcocoa/cynicalcocoa.atom/20140518102524</id>
     <title type="text">CYCoreData Documentation</title>
     <rights>Copyright © 2014 cynicalcocoa. All rights reserved.</rights>
     <link rel="self" href="https://github.com/cynicalcocoa/cycoredata/cynicalcocoa/cynicalcocoa.atom"></link>
     <docset:publisherName>cynicalcocoa</docset:publisherName>
     <docset:publisherID>com.cynicalcocoa.documentation</docset:publisherID>
-    <updated>2014-05-17T14:02:27-04:00</updated>
+    <updated>2014-05-18T10:25:24-04:00</updated>
     <entry>
-        <id>tag:github.com,2014-05-17:com.cynicalcocoa.CYCoreData/1.0.0</id>
+        <id>tag:github.com,2014-05-18:com.cynicalcocoa.CYCoreData/1.0.0</id>
         <title type="text">CYCoreData Documentation</title>
-        <updated>2014-05-17T14:02:27-04:00</updated>
+        <updated>2014-05-18T10:25:24-04:00</updated>
         <content type="text">CYCoreData Documentation (v1.0.0)</content>
-        <link rel="enclosure" type="application/octet-stream" href="https:/github.com/cynicalcocoa/cycoredata/cynicalcocoa/com.cynicalcocoa.CYCoreData-1.0.xar" length="84844"></link>
+        <link rel="enclosure" type="application/octet-stream" href="https:/github.com/cynicalcocoa/cycoredata/cynicalcocoa/com.cynicalcocoa.CYCoreData-1.0.xar" length="86785"></link>
         <docset:identifier>com.cynicalcocoa.CYCoreData</docset:identifier>
         <docset:version>1.0.0</docset:version>
         <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>

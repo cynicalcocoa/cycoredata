@@ -195,6 +195,14 @@ typedef struct UniqueIdentiferStruct {
 
 
 
+/** `dictionary` will be searched for `keyValue` of object value `type`. If found, the property will be saved.
+ *
+ * @param keyValue `NSString` value of the `NSManagedObject` self
+ * @param key `NSString` value to search the `dictionary` for
+ * @param dictionary `NSDictionary` to search
+ * @param type `UniqueObjectValueType` object value type of the `NSManagedObject` property
+ */
+- (void)setKeyValue:(NSString *)keyValue fromKey:(NSString *)key inDictionary:(NSDictionary *)dictionary forManagedObjectValueType:(UniqueObjectValueType)type;
 
 
 
