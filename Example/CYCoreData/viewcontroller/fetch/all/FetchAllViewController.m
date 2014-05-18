@@ -29,7 +29,7 @@
     _tableView                                              = [[UITableView alloc] initWithFrame:CGRectMake(0,
                                                                                                             0,
                                                                                                             self.view.bounds.size.width,
-                                                                                                            self.view.bounds.size.height)];
+                                                                                                            self.view.bounds.size.height-64)];
     _tableView.backgroundColor                              = [UIColor colorWithWhite:.1f alpha:1.f];
     _tableView.separatorStyle                               = UITableViewCellSeparatorStyleNone;
     _tableView.delegate = self;

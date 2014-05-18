@@ -193,10 +193,10 @@
 			children = (
 				D2D5ECF0192258E800D6C44C /* RootViewController.h */,
 				D2D5ECF1192258E800D6C44C /* RootViewController.m */,
+				D2D5ECF7192258E800D6C44C /* viewcontroller */,
 				D2D5ECDF192258E800D6C44C /* afnetworking */,
 				D2D5ECE2192258E800D6C44C /* coredata */,
 				D2D5ECF2192258E800D6C44C /* ui */,
-				D2D5ECF7192258E800D6C44C /* viewcontroller */,
 				D2D5ECAA1922558600D6C44C /* Supporting Files */,
 			);
 			path = CYCoreData;
