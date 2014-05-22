@@ -71,22 +71,33 @@ static dispatch_once_t _once_token                                  = 0;
 #pragma mark - class
 + (void)reset {
     NSAssert([CYCoreData liason], @"Can't reset CYCoreData until configured. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
-    for (NSPersistentStore *store in _liason.persistentStoreCoordinator.persistentStores) {
-        [_liason.persistentStoreCoordinator removePersistentStore:store error:nil];
-    }
+    
+    [_liason.readContext performBlockAndWait:^{
+        [_liason.readContext reset];
+        _liason.readContext                                         = nil;
+    }];
+    
+    [_liason.writeToDiskContext performBlockAndWait:^{
+        [_liason.writeToDiskContext reset];
+        _liason.writeToDiskContext                                  = nil;
+    }];
+    
     NSError *error                                                  = nil;
+    for (NSPersistentStore *store in _liason.persistentStoreCoordinator.persistentStores) {
+        [_liason.persistentStoreCoordinator  removePersistentStore:store error:&error];
+        if (error) {
+            NSLog(@"Unresolved error removing store from persistentStoreCoordinator url file : %@, %@", store, error);
+        }
+    }
+    
     if ([[NSFileManager defaultManager] fileExistsAtPath:[_liason storeURL].path]) {
         if (![[NSFileManager defaultManager] removeItemAtPath:[_liason storeURL].path error:&error]) {
             NSLog(@"Unresolved error removing store url file : %@, %@", error, [error userInfo]);
             abort();
-        } 
+        }
     }
-
     _liason.managedObjectModel                                      = nil;
     _liason.persistentStoreCoordinator                              = nil;
-    _liason.readContext                                             = nil;
-    _liason.writeToDiskContext                                      = nil;
-    
     _once_token                                                     = 0;
     _liason                                                         = nil;
 }
