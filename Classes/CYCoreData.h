@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "CYFixtureHelper.h"
 #import "NSManagedObject+CYCoreData.h"
 #import "NSManagedObjectContext+CYCoreData.h"
 
