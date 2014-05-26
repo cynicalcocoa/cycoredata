@@ -11,25 +11,6 @@
 @implementation CYFixtureHelper
 
 + (NSDictionary *)dictionaryFromFixtureByName:(NSString *)fileName {
-    
-//    NSString *staticLibraryBundlePath                       = [[NSBundle mainBundle] pathForResource:@"CaptureMedia-Assets" ofType:@"bundle"];
-//    NSBundle *staticLibraryBundle                           = [NSBundle bundleWithPath:staticLibraryBundlePath];
-//    NSString *filePath                                      = [staticLibraryBundle pathForResource:fileName ofType:@"json"];
-//    
-//    NSData *testData                                        = [NSData dataWithContentsOfFile:filePath];
-//    NSDictionary *jsonInfo;
-//    
-//    if (testData) {
-//        NSError *error;
-//        id json = [NSJSONSerialization JSONObjectWithData:testData options:NSJSONReadingMutableLeaves error:&error];
-//        if (!error) {
-//            jsonInfo = (NSDictionary *)json;
-//        } else {
-//            DDLogError(@"error loading fixture: %@", [error userInfo]);
-//        }
-//    }
-//    
-//    return jsonInfo;
     return [CYFixtureHelper dictionaryFromFixtureByName:fileName inBundle:nil];
 }
 
