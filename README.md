@@ -14,7 +14,7 @@ The example project demonstrates the best practices for using CYCoreData with a 
 CYCoreData is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-     pod 'CYCoreData', '~> 0.1.0'
+     pod 'CYCoreData', '~> 0.1.1'
 
 ## Documentation
 For more see [http://cynicalcocoa.github.io/cycoredata/](http://cynicalcocoa.github.io/cycoredata/)
