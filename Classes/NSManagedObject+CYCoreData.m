@@ -53,6 +53,7 @@ static NSString *UniquePropertyKey              = @"uid";
 }
 
 + (instancetype)updateOrCreateObjectInContext:(NSManagedObjectContext *)context withDictionary:(NSDictionary *)dictionary {
+    NSAssert(dictionary != nil, @"updateOrCreateObjectInContext:withDictionary:  -------- NSDictionary must not be nil");
     NSManagedObject *entity                     = nil;
     id jsonproperty                             = [dictionary valueForKey:JsonPropertyKey];
     switch (UniqueValueType) {
