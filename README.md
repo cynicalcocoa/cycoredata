@@ -14,7 +14,7 @@ The example project demonstrates the best practices for using CYCoreData with a 
 CYCoreData is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-     pod 'CYCoreData', '~> 0.1.1'
+     pod 'CYCoreData', '~> 0.1.2'
 
 ## Documentation
 For more see [http://cynicalcocoa.github.io/cycoredata/](http://cynicalcocoa.github.io/cycoredata/)
@@ -22,19 +22,18 @@ For more see [http://cynicalcocoa.github.io/cycoredata/](http://cynicalcocoa.git
 
 ## Usage
 
-#### Configure file names
-In the appDelegate, `didFinishLaunchingWithOptions:` method, configure the database file name _(the sqlite file coredata saves to the `NSCachesDirectory`)_, and model file name _(the `**.xcdatamodeld` file name)_.
-
-```
-[CYCoreData configureDataBaseFileName:@"example_database" andModelFileName:@"ExampleModel"];
-
-// or if your model file is in another bundle other than [NSBundle mainBundle];
-// [CYCoreData configureDataBaseFileName:@"example_database" andModelFileName:@"ExampleModel" inBundleName:@"AssetsBundle"];
-```
-_Optional: If the unique identifier for the model objects is not an int, and/or does not stick to the uid convention, configure immediately after._
+#### Create and configure
+_Optional: If the unique identifier for the model objects is not an int, and/or does not stick to the uid convention, configure immediately._
 
 ```
 [CYCoreData configureModelUniqueIdentifier:@"uid" ofDataType:UniqueObjectValueTypeString withJSONSearchString:@"id"];
+```
+
+_The example app uses a subclass of CYCoreData in this manner so that a singleton instance can be used to access data anywhere._
+
+```
+CYCoreData *cyCoreData = [[CYCoreData alloc] initWithSqliteFileName:@"example_database" withModelFileName:@"ExampleModel"];
+[cyCoreData createStoreAndManagedObjectModel];
 ```
 
 ### Save / Reset
@@ -42,19 +41,19 @@ _Optional: If the unique identifier for the model objects is not an int, and/or 
 **Synchronously** means the context that writes the changes to disk will use the blocking `performBlockAndWait`
 
 ```
-[[CYCoreData tempContext] saveSynchronously];
+[[cyCoreData tempContext] saveSynchronously];
 ```
 
 **Asynchronously** means the context that writes the changes to disk will use the nonblocking `performBlock` and will return immediately
 
 ```
-[[CYCoreData tempContext] saveAsynchronously];
+[[cyCoreData tempContext] saveAsynchronously];
 ```
 
 **Reset** will clear the entire database. Back at square one. No need to configure again.
 
 ```
-[CYCoreData reset]
+[cyCoreData reset]
 ```
 
 
@@ -62,7 +61,7 @@ _Optional: If the unique identifier for the model objects is not an int, and/or 
 When writing to the database, create a new temporary context.<br/> 
 
 ```
-NSManagedObjectContext *tempContext = [CYCoreData temporaryWriteContext];
+NSManagedObjectContext *tempContext = [cyCoreData temporaryWriteContext];
 ```
 Create or update your data next. 
 
@@ -83,7 +82,7 @@ Then immediately call the `tempContext` save method.<br/>
 
 
 ### Read example
-After ```[tempContext saveAsynchronously];``` is called, feel free to read your data from the `[CYCoreData readContext]`. Use the read ```NSManagedObject+CYCoreData``` category methods for efficiency.
+After ```[tempContext saveAsynchronously];``` is called, feel free to read your data from the `[cyCoreData readContext]`. Use the read ```NSManagedObject+CYCoreData``` category methods for efficiency.
 
 ```
 NSManagedObjectContext *readContext = [CYCoreData readContext];

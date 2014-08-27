@@ -140,41 +140,41 @@
     XCTAssertEqual((int)10, (int)count, @"There should be 10 records with numComments greater than to 10");
 }
 
-//- (void)testfetchObjectsWithEntityNameWithSortDescriptorsAndPredicateAndPageNumber {
-//    [self createNumListings:20];
-//    
-//    NSDate *distF                                   = [NSDate distantFuture];
-//    Listing *l                                      = [_tempContext insertNewObjectWithEntityName:[Listing entityName]];
-//    l.uid                                           = @"SearchForMe";
-//    l.createdUtc                                    = distF;
-//    l.numComments                                   = [NSNumber numberWithInteger:21];
-//    [_tempContext saveSynchronously];
-//    
-//    NSPredicate *predicate                          = [NSPredicate predicateWithFormat:@"self.numComments >= %@", [NSNumber numberWithInteger:10]];
-//    NSSortDescriptor *sortDescriptor                = [NSSortDescriptor sortDescriptorWithKey:@"createdUtc" ascending:YES];
-//    
-//    NSArray *page1                                  = [[ExampleCYData readContext] fetchObjectsWithEntityName:[Listing entityName]
-//                                                                                              byPageNumber:1
-//                                                                                        withObjectsPerPage:4
-//                                                                                              andPredicate:predicate
-//                                                                                       withSortDescriptors:@[sortDescriptor]];
-//    NSArray *page2                                  = [[ExampleCYData readContext] fetchObjectsWithEntityName:[Listing entityName]
-//                                                                                              byPageNumber:2
-//                                                                                        withObjectsPerPage:4
-//                                                                                              andPredicate:predicate
-//                                                                                       withSortDescriptors:@[sortDescriptor]];
-//    NSArray *page3                                  = [[ExampleCYData readContext] fetchObjectsWithEntityName:[Listing entityName]
-//                                                                                              byPageNumber:3
-//                                                                                        withObjectsPerPage:4
-//                                                                                              andPredicate:predicate
-//                                                                                       withSortDescriptors:@[sortDescriptor]];
-//    XCTAssertEqual((int)4, (int)[page1 count], @"There should be 4 records in page 1");
-//    XCTAssertEqual((int)4, (int)[page2 count], @"There should be 4 records in page 2");
-//    XCTAssertEqual((int)3, (int)[page3 count], @"There should be 3 record in page 2");
-//
-//    Listing *lastListing                            = [page3 lastObject];
-//    XCTAssertEqualObjects(distF, lastListing.createdUtc, @"The most recent listing should have the same date");
-//}
+- (void)testfetchObjectsWithEntityNameWithSortDescriptorsAndPredicateAndPageNumber {
+    [self createNumListings:20];
+    
+    NSDate *distF                                   = [NSDate distantFuture];
+    Listing *l                                      = [_tempContext insertNewObjectWithEntityName:[Listing entityName]];
+    l.uid                                           = @"SearchForMe";
+    l.createdUtc                                    = distF;
+    l.numComments                                   = [NSNumber numberWithInteger:21];
+    [_tempContext saveSynchronously];
+    
+    NSPredicate *predicate                          = [NSPredicate predicateWithFormat:@"self.numComments >= %@", [NSNumber numberWithInteger:10]];
+    NSSortDescriptor *sortDescriptor                = [NSSortDescriptor sortDescriptorWithKey:@"createdUtc" ascending:YES];
+    
+    NSArray *page1                                  = [[ExampleCYData readContext] fetchObjectsWithEntityName:[Listing entityName]
+                                                                                              byPageNumber:1
+                                                                                        withObjectsPerPage:4
+                                                                                              andPredicate:predicate
+                                                                                       withSortDescriptors:@[sortDescriptor]];
+    NSArray *page2                                  = [[ExampleCYData readContext] fetchObjectsWithEntityName:[Listing entityName]
+                                                                                              byPageNumber:2
+                                                                                        withObjectsPerPage:4
+                                                                                              andPredicate:predicate
+                                                                                       withSortDescriptors:@[sortDescriptor]];
+    NSArray *page3                                  = [[ExampleCYData readContext] fetchObjectsWithEntityName:[Listing entityName]
+                                                                                              byPageNumber:3
+                                                                                        withObjectsPerPage:4
+                                                                                              andPredicate:predicate
+                                                                                       withSortDescriptors:@[sortDescriptor]];
+    XCTAssertEqual((int)4, (int)[page1 count], @"There should be 4 records in page 1");
+    XCTAssertEqual((int)4, (int)[page2 count], @"There should be 4 records in page 2");
+    XCTAssertEqual((int)3, (int)[page3 count], @"There should be 3 record in page 2");
+
+    Listing *lastListing                            = [page3 lastObject];
+    XCTAssertEqualObjects(distF, lastListing.createdUtc, @"The most recent listing should have the same date");
+}
 
 
 
@@ -196,28 +196,28 @@
     XCTAssertEqual((int)0, (int)count, @"There should be 0 Listings in the db");
 }
 
-//- (void)testDeleteAllObjectsWithEntityNameWithSortDescriptorsAndPredicate {
-//    [self createNumListings:20];
-//    
-//    NSDate *distF                                   = [NSDate distantFuture];
-//    Listing *l                                      = [_tempContext insertNewObjectWithEntityName:[Listing entityName]];
-//    l.uid                                           = @"SearchForMe";
-//    l.createdUtc                                    = distF;
-//    l.numComments                                   = [NSNumber numberWithInteger:21];
-//    [_tempContext saveSynchronously];
-//    
-//    NSUInteger count                                = [[ExampleCYData readContext] fetchCountWithEntityName:[Listing entityName] andPredicate:nil];
-//    XCTAssertEqual((int)21, (int)count, @"There should be 21 Listings in the db");
-//
-//    NSPredicate *predicate                          = [NSPredicate predicateWithFormat:@"self.numComments >= %@", [NSNumber numberWithInteger:10]];
-//    NSSortDescriptor *sortDescriptor                = [NSSortDescriptor sortDescriptorWithKey:@"createdUtc" ascending:YES];
-//    
-//    [_tempContext deleteObjectsWithEntityName:[Listing entityName] sortDescriptors:@[sortDescriptor] andPredicate:predicate];
-//    [_tempContext saveSynchronously];
-//
-//    count                                           = [[ExampleCYData readContext] fetchCountWithEntityName:[Listing entityName] andPredicate:nil];
-//    XCTAssertEqual((int)10, (int)count, @"There should be 10 Listings in the db");
-//}
+- (void)testDeleteAllObjectsWithEntityNameWithSortDescriptorsAndPredicate {
+    [self createNumListings:20];
+    
+    NSDate *distF                                   = [NSDate distantFuture];
+    Listing *l                                      = [_tempContext insertNewObjectWithEntityName:[Listing entityName]];
+    l.uid                                           = @"SearchForMe";
+    l.createdUtc                                    = distF;
+    l.numComments                                   = [NSNumber numberWithInteger:21];
+    [_tempContext saveSynchronously];
+    
+    NSUInteger count                                = [[ExampleCYData readContext] fetchCountWithEntityName:[Listing entityName] andPredicate:nil];
+    XCTAssertEqual((int)21, (int)count, @"There should be 21 Listings in the db");
+
+    NSPredicate *predicate                          = [NSPredicate predicateWithFormat:@"self.numComments >= %@", [NSNumber numberWithInteger:10]];
+    NSSortDescriptor *sortDescriptor                = [NSSortDescriptor sortDescriptorWithKey:@"createdUtc" ascending:YES];
+    
+    [_tempContext deleteObjectsWithEntityName:[Listing entityName] sortDescriptors:@[sortDescriptor] andPredicate:predicate];
+    [_tempContext saveSynchronously];
+
+    count                                           = [[ExampleCYData readContext] fetchCountWithEntityName:[Listing entityName] andPredicate:nil];
+    XCTAssertEqual((int)10, (int)count, @"There should be 10 Listings in the db");
+}
 
 
 @end
