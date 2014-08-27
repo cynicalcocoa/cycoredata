@@ -14,17 +14,19 @@ static ExampleCYData *_liason                                       = nil;
 static dispatch_once_t _once_token                                  = 0;
 
 + (instancetype)liason {
-    
     if (_liason == nil) {
         dispatch_once(&_once_token, ^{
             // Optional;
             // If the unique identifier for the model objects in not a int, and/or does not stick to the uid convention, configure immediately after.
             [ExampleCYData configureModelUniqueIdentifier:@"uid" ofDataType:UniqueObjectValueTypeString withJSONSearchString:@"id"];
-            
             _liason                                                 = [[ExampleCYData alloc] initWithSqliteFileName:@"example_database"
                                                                                                withModelFileName:@"ExampleModel"];
 #if TEST==1
-//            [_liason setIsTest:YES];
+//            Leave this commented for now. Setting the persistant store type NSInMemoryStoreType does
+//            caused a EXC_BAD_ACCESS for arm64 and armv6s.
+//            NSSQLiteStoreType does not so we will just clear it after we test
+//
+//            [(ExampleCYData *)_liason setIsTest:YES];
 #endif
             [_liason createStoreAndManagedObjectModel];
         });

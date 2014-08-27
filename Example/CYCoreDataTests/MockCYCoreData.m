@@ -30,7 +30,13 @@ static dispatch_once_t _once_token                                  = 0;
             
             _liason                                                 = [[self.class alloc] initWithSqliteFileName:@"test_database"
                                                                                                withModelFileName:@"ExampleModel"];
+     
+//            Leave this commented for now. Setting the persistant store type NSInMemoryStoreType does
+//            caused a EXC_BAD_ACCESS for arm64 and armv6s.   
+//            NSSQLiteStoreType does not so we will just clear it after we test
+//
 //            [(MockCYCoreData *)_liason setIsTest:YES];
+
             [_liason createStoreAndManagedObjectModel];
         });
     }
