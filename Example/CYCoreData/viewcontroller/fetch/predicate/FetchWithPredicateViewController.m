@@ -7,7 +7,7 @@
 //
 
 #import "FetchWithPredicateViewController.h"
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 #import "Listing+Read.h"
 #import "Listing+API.h"
 #import <AFNetworking.h>
@@ -59,7 +59,7 @@
 
 - (void)fetchWithPredicate {
     __weak typeof(self) weakSelf                            = self;
-    NSManagedObjectContext *readContext                     = [CYCoreData readContext];
+    NSManagedObjectContext *readContext                     = [ExampleCYData readContext];
     [readContext performBlockAndWait:^{
         weakSelf.listings                                   = [Listing fetchListingsWithCommentsOver:200 withContext:readContext];
         [weakSelf.tableView reloadData];

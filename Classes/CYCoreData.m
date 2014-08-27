@@ -8,49 +8,64 @@
 
 #import "CYCoreData.h"
 
-static NSString *DataBaseFile                                       = nil;
-static NSString *ModelFile                                          = nil;
-static NSString *BundleName                                         = nil;
-static BOOL isTEST                                                  = NO;
-
 @interface CYCoreData ()
 
 @property(nonatomic, strong) NSManagedObjectModel *managedObjectModel;
 @property(nonatomic, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property(nonatomic, strong) NSManagedObjectContext *readContext;
 @property(nonatomic, strong) NSManagedObjectContext *writeToDiskContext;
 
 @end
 
 @implementation CYCoreData
 
-static CYCoreData *_liason                                          = nil;
+#pragma mark - class convience methods
+static id _liason                                                   = nil;
 static dispatch_once_t _once_token                                  = 0;
 
 + (instancetype)liason {
-    NSAssert(DataBaseFile, @"Can't start up CYCoreData without DataBaseFile name. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
-    NSAssert(ModelFile, @"Can't start up CYCoreData without ModelFile name. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
-
     if (_liason == nil) {
         dispatch_once(&_once_token, ^{
-            _liason                                                 = [[CYCoreData alloc] init];
+            // Optional;
+            // If the unique identifier for the model objects in not a int, and/or does not stick to the uid convention, configure immediately after.
+            [self.class configureModelUniqueIdentifier:@"uid" ofDataType:UniqueObjectValueTypeString withJSONSearchString:@"id"];
+            _liason                                                 = [[self.class alloc] initWithSqliteFileName:@"example_database" withModelFileName:@"ExampleModel"];
+            [_liason createStoreAndManagedObjectModel];
         });
     }
     return _liason;
 }
 
-#pragma mark - config
-+ (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName inBundleName:(NSString *)bundleName {
-    DataBaseFile                                                    = dataBaseFileName;
-    ModelFile                                                       = modelFileName;
-    BundleName                                                      = bundleName;
++ (void)reset {
+    NSAssert([self.class liason], @"Can't reset CYCoreData until configured. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
+    
+    [[self.class liason] reset];
+    _once_token                                                     = 0;
+    _liason                                                         = nil;
 }
 
-+ (void)configureSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName {
-    DataBaseFile                                                    = dataBaseFileName;
-    ModelFile                                                       = modelFileName;
-    BundleName                                                      = nil;
++ (NSManagedObjectContext *)readContext {
+    return [[self.class liason] readContext];
 }
+
++ (NSManagedObjectContext *)temporaryWriteContext {
+    return [[self.class liason] temporaryWriteContext];
+}
+
++ (void)saveSynchronously {
+    return [[self.class liason] saveSynchronously];
+}
+
++ (void)saveAsynchronously {
+    return [[self.class liason] saveAsynchronously];
+}
+
++ (void)saveContextAndWait:(BOOL)shouldWait {
+    return [[self.class liason] saveContextAndWait:shouldWait];
+}
+
+
+
+#pragma mark - config
 
 + (void)configureModelUniqueIdentifier:(NSString *)uniquePropertyKey
                             ofDataType:(UniqueObjectValueType)uniqueObjectValueType
@@ -64,68 +79,63 @@ static dispatch_once_t _once_token                                  = 0;
     [NSManagedObject configureUniqueIdentifier:uniqueIdentiferStruct];
 }
 
-+ (void)setTesting:(BOOL)isTesting {
-    isTEST                                                          = isTesting;
-}
+
 
 #pragma mark - class
-+ (void)reset {
-    NSAssert([CYCoreData liason], @"Can't reset CYCoreData until configured. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
-    
-    [_liason.readContext performBlockAndWait:^{
-        [_liason.readContext reset];
-        _liason.readContext                                         = nil;
+- (void)reset {
+
+    [self.readContext performBlockAndWait:^{
+        [self.readContext reset];
+        self.readContext                                         = nil;
     }];
     
-    [_liason.writeToDiskContext performBlockAndWait:^{
-        [_liason.writeToDiskContext reset];
-        _liason.writeToDiskContext                                  = nil;
+    [self.writeToDiskContext performBlockAndWait:^{
+        [self.writeToDiskContext reset];
+        self.writeToDiskContext                                  = nil;
     }];
     
     NSError *error                                                  = nil;
-    for (NSPersistentStore *store in _liason.persistentStoreCoordinator.persistentStores) {
-        [_liason.persistentStoreCoordinator  removePersistentStore:store error:&error];
+    for (NSPersistentStore *store in self.persistentStoreCoordinator.persistentStores) {
+        [self.persistentStoreCoordinator  removePersistentStore:store error:&error];
         if (error) {
             NSLog(@"Unresolved error removing store from persistentStoreCoordinator url file : %@, %@", store, error);
         }
     }
     
-    if ([[NSFileManager defaultManager] fileExistsAtPath:[_liason storeURL].path]) {
-        if (![[NSFileManager defaultManager] removeItemAtPath:[_liason storeURL].path error:&error]) {
+    if ([[NSFileManager defaultManager] fileExistsAtPath:[self storeURL].path]) {
+        if (![[NSFileManager defaultManager] removeItemAtPath:[self storeURL].path error:&error]) {
             NSLog(@"Unresolved error removing store url file : %@, %@", error, [error userInfo]);
             abort();
         }
     }
-    _liason.managedObjectModel                                      = nil;
-    _liason.persistentStoreCoordinator                              = nil;
-    _once_token                                                     = 0;
-    _liason                                                         = nil;
+    self.managedObjectModel                                      = nil;
+    self.persistentStoreCoordinator                              = nil;
 }
 
-+ (NSManagedObjectContext *)readContext {
-    return [[CYCoreData liason] readContext];
+- (void)saveSynchronously {
+    return [self saveContextAndWait:YES];
 }
 
-+ (NSManagedObjectContext *)temporaryWriteContext {
-    return [[CYCoreData liason] temporaryWriteContext];
-}
-
-+ (void)saveSynchronously {
-    return [[CYCoreData liason] saveContextAndWait:YES];
-}
-
-+ (void)saveAsynchronously {
-    return [[CYCoreData liason] saveContextAndWait:NO];
-}
-
-+ (void)saveContextAndWait:(BOOL)andWait {
-    return [[CYCoreData liason] saveContextAndWait:andWait];
+- (void)saveAsynchronously {
+    return [self saveContextAndWait:NO];
 }
 
 #pragma mark - private
-- (id)init {
+- (id)initWithSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName inBundleName:(NSString *)bundleName {
     if (self= [super init]) {
-        [self createStoreAndManagedObjectModel];
+        NSAssert(dataBaseFileName, @"Can't start up CYCoreData without DataBaseFile name. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
+        NSAssert(modelFileName, @"Can't start up CYCoreData without ModelFile name. Use [configureDataBaseFileName:andModelFileName:inBundle:]");
+        
+        self.dataBaseFile                                       = dataBaseFileName;
+        self.modelFile                                          = modelFileName;
+        self.bundleName                                         = bundleName;
+
+    }
+    return self;
+}
+
+- (id)initWithSqliteFileName:(NSString *)dataBaseFileName withModelFileName:(NSString *)modelFileName  {
+    if (self= [self initWithSqliteFileName:dataBaseFileName withModelFileName:modelFileName inBundleName:nil]) {
     }
     return self;
 }
@@ -137,7 +147,7 @@ static dispatch_once_t _once_token                                  = 0;
 
 - (void)saveContextAndWait:(BOOL)andWait {
     if (!_readContext) return;
-    
+   
     if ([_readContext hasChanges]) {
         [_readContext performBlockAndWait:^{
             NSError *error                                          = nil;
@@ -221,22 +231,22 @@ static dispatch_once_t _once_token                                  = 0;
 
 #pragma mark - string helpers
 - (NSString *)modelFileName {
-    return [NSString stringWithFormat:@"%@", ModelFile];
+    return [NSString stringWithFormat:@"%@", self.modelFile];
 }
 
 - (NSURL *)storeURL {
     NSURL *cachesDirectoryURL                                       = [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
-    return [cachesDirectoryURL URLByAppendingPathComponent:DataBaseFile];
+    return [cachesDirectoryURL URLByAppendingPathComponent:self.dataBaseFile];
 }
 
 - (NSString*)storeType {
-    return (isTEST) ? NSInMemoryStoreType : NSSQLiteStoreType;
+    return (self.isTest) ? NSInMemoryStoreType : NSSQLiteStoreType;
 }
 
 - (NSBundle *)bundleWithModelFile {
     NSBundle *dataFileBundle;
-    if (BundleName.length > 0) {
-        NSString *staticLibraryBundlePath                           = [[NSBundle mainBundle] pathForResource:BundleName ofType:@"bundle"];
+    if (self.bundleName.length > 0) {
+        NSString *staticLibraryBundlePath                           = [[NSBundle mainBundle] pathForResource:self.bundleName ofType:@"bundle"];
         dataFileBundle                                              = [NSBundle bundleWithPath:staticLibraryBundlePath];
     } else {
         dataFileBundle                                              = [NSBundle mainBundle];

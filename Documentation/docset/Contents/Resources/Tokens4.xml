@@ -13,30 +13,6 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/saveSynchronously</TokenIdentifier>
-			<Abstract type="html">Calls a sychronous(performBlockAndWait) action to the top parent NSManagedObjectContext to write the changes to disk. Changes written to a temporaryWriteContext are immediately avaible through the readContext.</Abstract>
-			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
-			
-			<Declaration>- (void)saveSynchronously</Declaration>
-			
-			
-			<Anchor>//api/name/saveSynchronously</Anchor>
-            <NodeRef refid="4"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/saveAsynchronously</TokenIdentifier>
-			<Abstract type="html">Calls a asychronous(performBlock) action to the top parent NSManagedObjectContext to write the changes to disk. Changes written to a temporaryWriteContext are immediately avaible through the readContext.</Abstract>
-			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>
-			
-			<Declaration>- (void)saveAsynchronously</Declaration>
-			
-			
-			<Anchor>//api/name/saveAsynchronously</Anchor>
-            <NodeRef refid="4"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/NSManagedObjectContext/insertNewObjectWithEntityName:</TokenIdentifier>
 			<Abstract type="html">Returns a new NSEntityDescription of entityName in itself.</Abstract>
 			<DeclaredIn>NSManagedObjectContext+CYCoreData.h</DeclaredIn>

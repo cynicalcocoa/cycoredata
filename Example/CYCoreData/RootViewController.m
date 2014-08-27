@@ -12,6 +12,7 @@
 #import "OverloadExampleViewController.h"
 #import "CYCoreData.h"
 #import "Listing+API.h"
+#import "ExampleCYData.h"
 
 @interface RootViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -129,7 +130,7 @@
         OverloadExampleViewController *overloadExampleViewController = [[OverloadExampleViewController alloc] init];
         [self.navigationController pushViewController:overloadExampleViewController animated:YES];
     } else {
-        [CYCoreData reset];
+        [ExampleCYData reset];
     }
     [self.tableView reloadData];
 }

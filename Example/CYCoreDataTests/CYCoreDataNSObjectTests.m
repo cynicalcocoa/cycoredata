@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 #import "Listing+Util.h"
 #import "CYFixtureHelper.h"
 #import "NSDate+Util.h"
@@ -34,13 +34,8 @@
 
 - (void)setUp {
     [super setUp];
-    // Configure the database file name (the sqlite file coredata will create), and model file name (the model the sqlite database with use, **.xcdatamodeld).
-    [CYCoreData configureSqliteFileName:@"example_database" withModelFileName:@"ExampleModel"];
-    
-    // Optional;
-    // If the unique identifier for the model objects in not a int, and/or does not stick to the uid convention, configure immediately after.
-    [CYCoreData configureModelUniqueIdentifier:@"uid" ofDataType:UniqueObjectValueTypeString withJSONSearchString:@"id"];
-    _tempContext                                    = [CYCoreData temporaryWriteContext];
+
+    _tempContext                                    = [ExampleCYData temporaryWriteContext];
 
     
     NSDictionary *listings                          = [CYFixtureHelper dictionaryFromFixtureByName:@"listing"];
@@ -49,9 +44,9 @@
 }
 
 - (void)tearDown {
+    [ExampleCYData reset];
     _tempContext                                    = nil;
     _listingsArray                                  = nil;
-    [CYCoreData reset];
     [super tearDown];
 }
 
@@ -86,13 +81,13 @@
     [self createNumListings:20];
     [_tempContext saveSynchronously];
     
-    NSUInteger count                                = [Listing fetchCountInContext:[CYCoreData readContext] withPredicate:nil];
+    NSUInteger count                                = [Listing fetchCountInContext:[ExampleCYData readContext] withPredicate:nil];
     XCTAssertEqual((int)20, (int)count, @"There should be 20 Listings in the db");
     
     [Listing deleteAllObjectsInContext:_tempContext];
     [_tempContext saveSynchronously];
     
-    count                                           = [Listing fetchCountInContext:[CYCoreData readContext] withPredicate:nil];
+    count                                           = [Listing fetchCountInContext:[ExampleCYData readContext] withPredicate:nil];
     XCTAssertEqual((int)0, (int)count, @"There should be 0 Listings in the db");
 }
 
@@ -106,7 +101,7 @@
     l.numComments                                   = [NSNumber numberWithInteger:21];
     [_tempContext saveSynchronously];
     
-    NSUInteger count                                = [Listing fetchCountInContext:[CYCoreData readContext] withPredicate:nil];
+    NSUInteger count                                = [Listing fetchCountInContext:[ExampleCYData readContext] withPredicate:nil];
     XCTAssertEqual((int)21, (int)count, @"There should be 21 Listings in the db");
     
     NSPredicate *predicate                          = [NSPredicate predicateWithFormat:@"self.numComments < %@ || self.uid == %@", [NSNumber numberWithInteger:10], @"SearchForMe"];
@@ -115,7 +110,7 @@
     [Listing deleteObjectsInContext:_tempContext sortedBy:@[sortDescriptor] withPredicate:predicate];
     [_tempContext saveSynchronously];
     
-    count                                           = [Listing fetchCountInContext:[CYCoreData readContext] withPredicate:nil];
+    count                                           = [Listing fetchCountInContext:[ExampleCYData readContext] withPredicate:nil];
     XCTAssertEqual((int)10, (int)count, @"There should be 10 Listings in the db");
 }
 
@@ -279,15 +274,15 @@
 
     NSSortDescriptor *sortDescriptor                = [NSSortDescriptor sortDescriptorWithKey:@"createdUtc" ascending:NO];
 
-    NSArray *page1                                  = [Listing fetchObjectsInContext:[CYCoreData readContext]
+    NSArray *page1                                  = [Listing fetchObjectsInContext:[ExampleCYData readContext]
                                                                         byPageNumber:1
                                                                   withObjectsPerPage:4
                                                                  withSortDescriptors:@[sortDescriptor]];
-    NSArray *page2                                  = [Listing fetchObjectsInContext:[CYCoreData readContext]
+    NSArray *page2                                  = [Listing fetchObjectsInContext:[ExampleCYData readContext]
                                                                         byPageNumber:2
                                                                   withObjectsPerPage:4
                                                                  withSortDescriptors:@[sortDescriptor]];
-    NSArray *page3                                  = [Listing fetchObjectsInContext:[CYCoreData readContext]
+    NSArray *page3                                  = [Listing fetchObjectsInContext:[ExampleCYData readContext]
                                                                         byPageNumber:3
                                                                   withObjectsPerPage:4
                                                                  withSortDescriptors:@[sortDescriptor]];
@@ -310,17 +305,17 @@
     NSPredicate *predicate                          = [NSPredicate predicateWithFormat:@"self.numComments >= %@", [NSNumber numberWithInteger:10]];
     NSSortDescriptor *sortDescriptor                = [NSSortDescriptor sortDescriptorWithKey:@"createdUtc" ascending:YES];
     
-    NSArray *page1                                  = [Listing fetchObjectsInContext:[CYCoreData readContext]
+    NSArray *page1                                  = [Listing fetchObjectsInContext:[ExampleCYData readContext]
                                                                         byPageNumber:1
                                                                   withObjectsPerPage:4
                                                                         andPredicate:predicate
                                                                  withSortDescriptors:@[sortDescriptor]];
-    NSArray *page2                                  = [Listing fetchObjectsInContext:[CYCoreData readContext]
+    NSArray *page2                                  = [Listing fetchObjectsInContext:[ExampleCYData readContext]
                                                                         byPageNumber:2
                                                                   withObjectsPerPage:4
                                                                         andPredicate:predicate
                                                                  withSortDescriptors:@[sortDescriptor]];
-    NSArray *page3                                  = [Listing fetchObjectsInContext:[CYCoreData readContext]
+    NSArray *page3                                  = [Listing fetchObjectsInContext:[ExampleCYData readContext]
                                                                         byPageNumber:3
                                                                   withObjectsPerPage:4
                                                                         andPredicate:predicate

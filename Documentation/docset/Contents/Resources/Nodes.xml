@@ -51,6 +51,12 @@
                     <Anchor>tasks</Anchor>
                 </Node>
                 
+                <Node type="section">
+                    <Path>Classes/CYCoreData.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
                 
                 <Node type="section">
                     <Path>Classes/CYCoreData.html</Path>
@@ -58,6 +64,12 @@
                     <Anchor>class_methods</Anchor>
                 </Node>
                 
+                
+                <Node type="section">
+                    <Path>Classes/CYCoreData.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
                 
             </Subnodes>
             

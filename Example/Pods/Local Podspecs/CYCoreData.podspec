@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.license           = 'MIT'
   s.author            = { "Scott Jones" => "hatebyte@gmail.com" }
   s.source            = { :git => "https://github.com/cynicalcocoa/cycoredata.git", :tag => "0.1.1" }
-
-  s.platform      = :ios, 6.0
+  s.documentation_url = 'http://cynicalcocoa.github.io/cycoredata/'
+  s.platform          = :ios, 6.0
   s.ios.deployment_target = 6.0
-  s.requires_arc  = true
+  s.requires_arc      = true
 
-  s.source_files  = 'Classes'
-  s.resources    = 'Assets/*.png'
+  s.source_files      = 'Classes'
+  s.resources         = 'Assets/*.png'
 
-  s.frameworks    = 'CoreData'
+  s.frameworks        = 'CoreData'
 end
