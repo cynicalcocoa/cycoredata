@@ -1,4 +1,4 @@
 Documentation set was installed to Xcode!
 
 Path: /Users/scott/Library/Developer/Shared/Documentation/DocSets/com.cynicalcocoa.CYCoreData.docset
-Time: 2014-08-27 03:11:57 +0000
+Time: 2014-08-27 18:00:57 +0000
