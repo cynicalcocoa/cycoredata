@@ -9,13 +9,13 @@
 #import "Listing+API.h"
 #import <AFNetworking.h>
 #import "RedditListingResponseSerializer.h"
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 
 @implementation Listing (API)
 
 + (AFHTTPRequestOperation * )getRedditListingsWithComplete:(completeBlock)completeBlock failure:(failBlock)failBlock {
     
-    NSManagedObjectContext *tempContext                         = [CYCoreData temporaryWriteContext];
+    NSManagedObjectContext *tempContext                         = [ExampleCYData temporaryWriteContext];
     RedditListingResponseSerializer *responseSerializer         = [RedditListingResponseSerializer serializerWithTempContext:tempContext];
 
     NSURLRequest * request                                      = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://reddit.com/.json"]];

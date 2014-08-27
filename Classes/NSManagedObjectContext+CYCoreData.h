@@ -16,20 +16,6 @@
 /// @name Write
 ///-------------------------
 
-/** Calls a sychronous(performBlockAndWait) action to the top parent `NSManagedObjectContext` to write the changes to disk. Changes written to a `temporaryWriteContext` are immediately avaible through the `readContext`.
- * 
- * @warning Only call from an `NSManagedObjectContext` returned from `[CYCoreData temporaryWriteContext]`.
- */
-- (void)saveSynchronously;
-
-
-/** Calls a asychronous(performBlock) action to the top parent `NSManagedObjectContext` to write the changes to disk. Changes written to a `temporaryWriteContext` are immediately avaible through the `readContext`.
- *
- * @warning Only call from an `NSManagedObjectContext` returned from `[CYCoreData temporaryWriteContext]`.
- */
-- (void)saveAsynchronously;
-
-
 /** Returns a new `NSEntityDescription` of `entityName` in itself.
  *
  * @param entityName `NSString` of the entity name

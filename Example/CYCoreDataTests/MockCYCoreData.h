@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 hatebyte. All rights reserved.
 //
 
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 
 #pragma clang diagnostic ignored "-Wincomplete-implementation"
 
 static BOOL IsTestingBundleName                                       = NO;
 
-@interface MockCYCoreData : CYCoreData
+@interface MockCYCoreData : ExampleCYData
 
 @property(nonatomic, strong, readonly) NSManagedObjectModel *managedObjectModel;
 @property(nonatomic, strong, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;

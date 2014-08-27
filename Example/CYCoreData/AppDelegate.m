@@ -8,19 +8,12 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 #import "AFNetworkActivityIndicatorManager.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    // Configure the database file name (the sqlite file coredata will create), and model file name (the model the sqlite database with use, **.xcdatamodeld).
-    [CYCoreData configureSqliteFileName:@"example_database" withModelFileName:@"ExampleModel"];
-    
-    // Optional;
-    // If the unique identifier for the model objects in not a int, and/or does not stick to the uid convention, configure immediately after.
-    [CYCoreData configureModelUniqueIdentifier:@"uid" ofDataType:UniqueObjectValueTypeString withJSONSearchString:@"id"];
     
     RootViewController *viewController                                      = [[RootViewController alloc] init];
     self.navigationController                                               = [[UINavigationController alloc] initWithRootViewController:viewController];

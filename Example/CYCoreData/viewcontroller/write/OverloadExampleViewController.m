@@ -8,7 +8,7 @@
 
 
 #import "OverloadExampleViewController.h"
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 #import "CYActivityIndicator.h"
 #import "Listing+Read.h"
 #import "Listing+Write.h"
@@ -74,11 +74,11 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [CYCoreData reset]; // If we don't clear it here, we will drag down the rest of the application with 10s of thousands of records
+    [ExampleCYData reset]; // If we don't clear it here, we will drag down the rest of the application with 10s of thousands of records
 }
 
 - (void)readDataBase {
-    NSInteger count                                             = [Listing fetchCountInContext:[CYCoreData readContext] withPredicate:nil];
+    NSInteger count                                             = [Listing fetchCountInContext:[ExampleCYData readContext] withPredicate:nil];
     [self setText:[NSString stringWithFormat:@"%ld submissions in database", (long)count]];
 }
 
@@ -178,17 +178,17 @@
 
 - (void)createAndFetchMassiveListings:(BOOL)onMain {
     [self setText:@""];
-    self.mainThreadContext                                      = [CYCoreData readContext];
+    self.mainThreadContext                                      = [ExampleCYData readContext];
     self.temporarybutton.enabled                                = NO;
     self.mainbutton.enabled                                     = NO;
     
     NSManagedObjectContext *context;
     UIButton *tempbutton;
     if (onMain) {
-        context                                                 = [CYCoreData readContext];
+        context                                                 = [ExampleCYData readContext];
         tempbutton                                              = self.temporarybutton;
     } else {
-        context                                                 = [CYCoreData temporaryWriteContext];
+        context                                                 = [ExampleCYData temporaryWriteContext];
         tempbutton                                              = self.mainbutton;
     }
     

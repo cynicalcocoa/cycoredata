@@ -7,7 +7,7 @@
 //
 
 #import "FetchAllViewController.h"
-#import "CYCoreData.h"
+#import "ExampleCYData.h"
 #import "Listing+API.h"
 #import "Listing+Read.h"
 #import <AFNetworking.h>
@@ -58,7 +58,7 @@
 
 - (void)fetchAll {
     __weak typeof(self) weakSelf                            = self;
-    NSManagedObjectContext *readContext                     = [CYCoreData readContext];
+    NSManagedObjectContext *readContext                     = [ExampleCYData readContext];
     [readContext performBlockAndWait:^{
         weakSelf.listings                                   = [Listing fetchMostRecentWithContext:readContext];
         [weakSelf.tableView reloadData];

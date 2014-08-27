@@ -14,22 +14,7 @@
 /**************************************************************************************
  WRITE
  **************************************************************************************/
-- (void)saveSynchronously {
-    [self saveAndWait:YES];
-}
 
-- (void)saveAsynchronously {
-    [self saveAndWait:NO];
-}
-
-- (void)saveAndWait:(BOOL)wait {
-    NSError *error                                              = nil;
-    [self save:&error];
-    if (error) {
-        NSLog(@"Error saving tempContext: %@", error);
-    }
-    [CYCoreData saveContextAndWait:wait];
-}
 
 - (id)insertNewObjectWithEntityName:(NSString *)entityName {
     return [NSEntityDescription insertNewObjectForEntityForName:entityName inManagedObjectContext:self];
