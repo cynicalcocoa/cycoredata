@@ -235,7 +235,7 @@ static dispatch_once_t _once_token                                  = 0;
 }
 
 - (NSURL *)storeURL {
-    NSURL *cachesDirectoryURL                                       = [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
+    NSURL *cachesDirectoryURL                                       = [[[NSFileManager defaultManager] URLsForDirectory:NSLibraryDirectory inDomains:NSUserDomainMask] lastObject];
     return [cachesDirectoryURL URLByAppendingPathComponent:self.dataBaseFile];
 }
 
