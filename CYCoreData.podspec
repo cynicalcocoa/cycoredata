@@ -6,12 +6,12 @@
 #
 Pod::Spec.new do |s|
   s.name              = "CYCoreData"
-  s.version           = "0.1.2"
+  s.version           = "0.1.3"
   s.summary           = "A coredata wrapper with simple rules that make multithreaded reading and writing much more pleasurable.(AND EASY)" 
   s.homepage          = "https://github.com/cynicalcocoa/cycoredata.git"
   s.license           = 'MIT'
   s.author            = { "Scott Jones" => "hatebyte@gmail.com" }
-  s.source            = { :git => "https://github.com/cynicalcocoa/cycoredata.git", :tag => "0.1.2" }
+  s.source            = { :git => "https://github.com/cynicalcocoa/cycoredata.git", :tag => "0.1.3" }
   s.documentation_url = 'http://cynicalcocoa.github.io/cycoredata/'
   s.platform          = :ios, 7.0
   s.ios.deployment_target = 7.0

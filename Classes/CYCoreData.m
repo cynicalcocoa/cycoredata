@@ -8,6 +8,8 @@
 
 #import "CYCoreData.h"
 
+static NSString *DBPATH                                             = @"com.cynicalcocoa.cycoredata";
+
 @interface CYCoreData ()
 
 @property(nonatomic, strong) NSManagedObjectModel *managedObjectModel;
@@ -235,7 +237,20 @@ static dispatch_once_t _once_token                                  = 0;
 }
 
 - (NSURL *)storeURL {
-    NSURL *cachesDirectoryURL                                       = [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
+    NSURL *cachesDirectoryURL                                       = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    
+    @synchronized(self) {
+        cachesDirectoryURL                                          = [cachesDirectoryURL URLByAppendingPathComponent:DBPATH];
+        NSError * error                                             = nil;
+        [[NSFileManager defaultManager] createDirectoryAtPath:cachesDirectoryURL.path
+                                  withIntermediateDirectories:YES
+                                                   attributes:nil
+                                                        error:&error];
+        if (error != nil) {
+            NSAssert(false, @"Error creating directory for database in location : %@", cachesDirectoryURL.absoluteString);
+        }
+    }
+
     return [cachesDirectoryURL URLByAppendingPathComponent:self.dataBaseFile];
 }
 
